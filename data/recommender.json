@@ -55,6 +55,9 @@
     "Figma AI": {"tasks": ["design"], "traits": ["easy", "free-friendly"]},
     "Gamma": {"tasks": ["design"], "traits": ["easy", "free-friendly"]},
     "Notion AI": {"tasks": ["writing", "study"], "traits": ["easy", "free-friendly"]},
-    "Grammarly": {"tasks": ["writing"], "traits": ["easy", "free-friendly"]}
+    "Grammarly": {"tasks": ["writing"], "traits": ["easy", "free-friendly"]},
+    "Jan": {"tasks": ["writing", "research", "coding", "local"], "traits": ["open-source", "easy", "privacy"]},
+    "AnythingLLM": {"tasks": ["writing", "research", "study", "local"], "traits": ["open-source", "easy", "privacy", "control"]},
+    "LocalAI": {"tasks": ["coding", "local"], "traits": ["open-source", "privacy", "control"]}
   }
 }
