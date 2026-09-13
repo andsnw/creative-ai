@@ -57,6 +57,7 @@ def merge(batch_path: Path):
     batch_names = set()
     batch_urls = set()
     added = []
+    skipped_aliases = []
 
     for row in batch:
         validate_row(row)
@@ -74,14 +75,16 @@ def merge(batch_path: Path):
                 raise ValueError(f"Batch conflicts with maintained row for {row[0]}")
             continue
         if url_key in existing_urls:
-            raise ValueError(
-                f"Official URL already belongs to {existing_urls[url_key]}: {row[5]}"
-            )
+            skipped_aliases.append((row[0], existing_urls[url_key]))
+            continue
 
         tools.append(row)
         existing_names[name_key] = row
         existing_urls[url_key] = row[0]
         added.append(row[0])
+
+    for alias, canonical in skipped_aliases:
+        print(f"Skipped alias {alias!r}; official URL is already maintained as {canonical!r}.")
 
     if not added:
         print("Catalog batch already applied; no changes needed.")
