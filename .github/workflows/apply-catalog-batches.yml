@@ -1,0 +1,43 @@
+name: Apply catalog batches
+
+on:
+  push:
+    branches:
+      - "feat/catalog-expansion-*"
+    paths:
+      - "data/catalog-batches/**"
+      - "scripts/merge_catalog_batch.py"
+      - ".github/workflows/apply-catalog-batches.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  apply:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Merge reviewed catalog batches
+        run: |
+          for batch in data/catalog-batches/*.json; do
+            python scripts/merge_catalog_batch.py "$batch"
+          done
+          python scripts/validate_tools.py
+      - name: Commit generated maintained data
+        run: |
+          if git diff --quiet -- data/tools.json data/tool-lifecycle.json; then
+            echo "No generated catalog changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/tools.json data/tool-lifecycle.json
+          git commit -m "chore: apply reviewed catalog batches"
+          git push origin "HEAD:${{ github.ref_name }}"
