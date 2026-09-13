@@ -57,6 +57,7 @@ def merge(batch_path: Path):
     batch_names = set()
     batch_urls = set()
     added = []
+    skipped_existing = []
     skipped_aliases = []
 
     for row in batch:
@@ -71,8 +72,7 @@ def merge(batch_path: Path):
         batch_urls.add(url_key)
 
         if name_key in existing_names:
-            if existing_names[name_key] != row:
-                raise ValueError(f"Batch conflicts with maintained row for {row[0]}")
+            skipped_existing.append(row[0])
             continue
         if url_key in existing_urls:
             skipped_aliases.append((row[0], existing_urls[url_key]))
@@ -83,6 +83,8 @@ def merge(batch_path: Path):
         existing_urls[url_key] = row[0]
         added.append(row[0])
 
+    for name in skipped_existing:
+        print(f"Skipped {name!r}; a maintained row with that name already exists.")
     for alias, canonical in skipped_aliases:
         print(f"Skipped alias {alias!r}; official URL is already maintained as {canonical!r}.")
 
