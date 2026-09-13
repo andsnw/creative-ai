@@ -64,6 +64,31 @@
         "sourceUrl": "https://support.n8n.io/section/n8n-self-hosted-faq-uly57w0tlb2uq2l0yn1byx9o",
         "verifiedAt": "2026-09-13"
       }
+    ],
+    "Ollama": [
+      {
+        "id": "developer-api",
+        "value": "available",
+        "label": {"en": "Local and cloud API", "ar": "واجهة API محلية وسحابية"},
+        "sourceUrl": "https://docs.ollama.com/api/introduction",
+        "verifiedAt": "2026-09-13"
+      },
+      {
+        "id": "local-runtime",
+        "value": "available",
+        "label": {"en": "Local model runtime", "ar": "تشغيل النماذج محليًا"},
+        "sourceUrl": "https://docs.ollama.com/",
+        "verifiedAt": "2026-09-13"
+      }
+    ],
+    "Open WebUI": [
+      {
+        "id": "self-hosting",
+        "value": "available",
+        "label": {"en": "Self-hosting", "ar": "استضافة ذاتية"},
+        "sourceUrl": "https://docs.openwebui.com/",
+        "verifiedAt": "2026-09-13"
+      }
     ]
   }
 }
