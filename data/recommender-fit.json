@@ -134,5 +134,17 @@
   "Grammarly": {
     "w": {"writing": 4.2},
     "fit": {"en": "A focused writing assistant for grammar, tone and polishing professional English text.", "ar": "مساعد كتابة متخصص في القواعد والنبرة وصقل النصوص الإنجليزية الاحترافية."}
+  },
+  "Jan": {
+    "w": {"writing": 3.0, "research": 3.1, "coding": 3.3, "local": 4.7},
+    "fit": {"en": "A local-first desktop option for users who want an open assistant with model choice and strong privacy control.", "ar": "خيار مكتبي محلي أولًا لمن يريد مساعدًا مفتوحًا مع حرية اختيار النماذج وتحكم قوي بالخصوصية."}
+  },
+  "AnythingLLM": {
+    "w": {"writing": 3.2, "research": 3.8, "study": 4.3, "local": 4.9},
+    "fit": {"en": "A strong private workspace for local document chat, knowledge bases and agent workflows on your own device or server.", "ar": "مساحة عمل قوية وخاصة للمحادثة مع المستندات وقواعد المعرفة والوكلاء على جهازك أو خادمك."}
+  },
+  "LocalAI": {
+    "w": {"coding": 3.9, "local": 5.0},
+    "fit": {"en": "A developer-focused local runtime when you want compatible AI APIs backed by infrastructure you control.", "ar": "تشغيل محلي موجه للمطورين عندما تريد واجهات AI متوافقة ومدعومة ببنية تحتية تتحكم بها."}
   }
 }
