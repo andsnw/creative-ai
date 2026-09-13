@@ -8,9 +8,9 @@ def load_json(path):
     return json.loads((ROOT / path).read_text(encoding="utf-8"))
 
 
-def test_catalog_has_at_least_120_tools_and_valid_rows():
+def test_catalog_has_at_least_200_tools_and_valid_rows():
     tools = load_json("data/tools.json")
-    assert len(tools) >= 120
+    assert len(tools) >= 200
     assert all(isinstance(row, list) and len(row) == 6 for row in tools)
     assert all(all(isinstance(value, str) and value.strip() for value in row) for row in tools)
     assert all(row[5].startswith(("http://", "https://")) for row in tools)
