@@ -89,6 +89,92 @@
         "sourceUrl": "https://docs.openwebui.com/",
         "verifiedAt": "2026-09-13"
       }
+    ],
+    "DeepSeek": [
+      {
+        "id": "developer-api",
+        "value": "available",
+        "label": {"en": "Developer API", "ar": "واجهة API للمطورين"},
+        "sourceUrl": "https://api-docs.deepseek.com/quick_start/pricing/",
+        "verifiedAt": "2026-09-13"
+      }
+    ],
+    "Ideogram": [
+      {
+        "id": "developer-api",
+        "value": "available",
+        "label": {"en": "Developer API", "ar": "واجهة API للمطورين"},
+        "sourceUrl": "https://ideogram.ai/pricing/",
+        "verifiedAt": "2026-09-13"
+      }
+    ],
+    "HeyGen": [
+      {
+        "id": "developer-api",
+        "value": "available",
+        "label": {"en": "Video API", "ar": "واجهة API للفيديو"},
+        "sourceUrl": "https://www.heygen.com/api-pricing",
+        "verifiedAt": "2026-09-13"
+      }
+    ],
+    "Activepieces": [
+      {
+        "id": "self-hosting",
+        "value": "available",
+        "label": {"en": "Self-hosting", "ar": "استضافة ذاتية"},
+        "sourceUrl": "https://www.activepieces.com/solutions/open-source-developers",
+        "verifiedAt": "2026-09-13"
+      }
+    ],
+    "Dify": [
+      {
+        "id": "self-hosting",
+        "value": "available",
+        "label": {"en": "Community self-hosting", "ar": "استضافة ذاتية لإصدار المجتمع"},
+        "sourceUrl": "https://dify.ai/pricing/dify-enterprise",
+        "verifiedAt": "2026-09-13"
+      }
+    ],
+    "Jan": [
+      {
+        "id": "local-runtime",
+        "value": "available",
+        "label": {"en": "Local-first runtime", "ar": "تشغيل محلي أولًا"},
+        "sourceUrl": "https://www.jan.ai/",
+        "verifiedAt": "2026-09-13"
+      }
+    ],
+    "AnythingLLM": [
+      {
+        "id": "developer-api",
+        "value": "available",
+        "label": {"en": "Developer API", "ar": "واجهة API للمطورين"},
+        "sourceUrl": "https://anythingllm.com/",
+        "verifiedAt": "2026-09-13"
+      },
+      {
+        "id": "self-hosting",
+        "value": "available",
+        "label": {"en": "Self-hosting", "ar": "استضافة ذاتية"},
+        "sourceUrl": "https://anythingllm.com/",
+        "verifiedAt": "2026-09-13"
+      }
+    ],
+    "LocalAI": [
+      {
+        "id": "developer-api",
+        "value": "available",
+        "label": {"en": "OpenAI-compatible API", "ar": "واجهة API متوافقة مع OpenAI"},
+        "sourceUrl": "https://localai.io/docs/index.html",
+        "verifiedAt": "2026-09-13"
+      },
+      {
+        "id": "self-hosting",
+        "value": "available",
+        "label": {"en": "Self-hosted runtime", "ar": "تشغيل باستضافة ذاتية"},
+        "sourceUrl": "https://localai.io/docs/index.html",
+        "verifiedAt": "2026-09-13"
+      }
     ]
   }
 }
