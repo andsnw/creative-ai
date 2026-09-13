@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Category — Creative AI</title>
+  <meta name="description" content="Explore a maintained Creative AI tool category with transparent availability and capability views.">
+  <link rel="stylesheet" href="styles/design-system.css">
+  <link rel="stylesheet" href="styles/discovery-hub.css">
+</head>
+<body>
+<main class="wrap discovery-page category-detail-page">
+  <header class="top">
+    <a class="brand" href="./"><span class="brand-mark">&lt;/&gt;</span><span>Creative AI</span></a>
+    <nav class="nav" aria-label="Primary"><a href="tools.html" id="navTools">Tools</a><a href="categories.html" aria-current="page" id="navCategories">Categories</a><a href="new.html" id="navNew">New</a><a href="updates.html" id="navUpdates">Updates</a><a href="submit.html" id="navSubmit">Submit</a></nav>
+    <div class="actions"><a class="btn github" href="https://github.com/nael5x/creative-ai" target="_blank" rel="noopener noreferrer">GitHub ↗</a><button class="lang" id="lang" type="button">العربية</button></div>
+  </header>
+
+  <section class="category-detail-hero">
+    <a class="category-back" id="back" href="categories.html">← All categories</a>
+    <div class="eyebrow" id="eyebrow">CATEGORY</div>
+    <h1 id="title">Loading category…</h1>
+    <p id="intro">Loading maintained catalog data…</p>
+    <div class="category-actions"><a class="btn primary" id="databaseLink" href="tools.html">Browse in database →</a><a class="btn" id="finderLink" href="recommend.html?lang=en">Guided finder</a><a class="btn" id="compareLink" href="compare.html?lang=en">Compare tools</a></div>
+  </section>
+
+  <section class="category-metrics" id="metrics" aria-label="Category summary"></section>
+
+  <section class="section category-tools-section">
+    <div class="section-head"><div><div class="eyebrow" id="allEyebrow">CATALOG</div><h2 id="allTitle">All tools in this category</h2><p id="allIntro">Maintained catalog entries, shown without popularity ranking.</p></div></div>
+    <div class="category-tool-grid" id="allTools"><div class="empty">Loading tools…</div></div>
+  </section>
+
+  <section class="section category-subsets" id="subsetsSection">
+    <div class="section-head"><div><div class="eyebrow" id="viewsEyebrow">USEFUL VIEWS</div><h2 id="viewsTitle">Narrow this category by what matters.</h2><p id="viewsIntro">Verified API and self-hosting views only use checked official sources. Local/private fit uses maintained recommender metadata.</p></div></div>
+    <div class="subset-grid" id="subsetGrid"></div>
+  </section>
+
+  <section class="category-method">
+    <div><div class="eyebrow" id="methodEyebrow">METHOD</div><h2 id="methodTitle">Transparent category data</h2></div>
+    <p id="methodText">Creative AI does not rank tools by fake votes or inferred popularity. Category membership comes from the maintained catalog; verified capability badges come only from checked official sources. Missing facts stay unknown.</p>
+  </section>
+</main>
+<script>
+const copy={
+  en:{back:"← All categories",eyebrow:"CATEGORY",intro:(name,count)=>`Explore ${count} maintained ${name} tool${count===1?"":"s"}, with availability, local/private fit and officially verified capability context where available.`,database:"Browse in database →",finder:"Guided finder",compare:"Compare tools",allEyebrow:"CATALOG",allTitle:"All tools in this category",allIntro:"Maintained catalog entries, shown without popularity ranking.",viewsEyebrow:"USEFUL VIEWS",viewsTitle:"Narrow this category by what matters.",viewsIntro:"Verified API and self-hosting views only use checked official sources. Local/private fit uses maintained recommender metadata.",methodEyebrow:"METHOD",methodTitle:"Transparent category data",methodText:"Creative AI does not rank tools by fake votes or inferred popularity. Category membership comes from the maintained catalog; verified capability badges come only from checked official sources. Missing facts stay unknown.",tools:"Tools",categories:"Categories",newLabel:"New",updates:"Updates",submit:"Submit",total:"Total tools",free:"Free-friendly",open:"Open source",local:"Local / private fit",verified:"Verified capabilities",best:"Best for",details:"View details",badgeApi:"Verified API",badgeSelf:"Self-hosted",badgeLocal:"Local fit",subsetFree:"Free-friendly",subsetFreeText:"Tools whose maintained availability includes free access or open source.",subsetOpen:"Open source",subsetOpenText:"Tools marked open source in the maintained catalog.",subsetLocal:"Local / private fit",subsetLocalText:"Tools whose maintained recommender profile includes local use or privacy control.",subsetVerified:"Officially verified capabilities",subsetVerifiedText:"Tools with a checked official source for API or self-hosting.",emptySubset:"No matching tools in this category yet.",missing:"Category not found",missingText:"This category is not present in the maintained Creative AI catalog.",showInDatabase:"Open filtered database →"},
+  ar:{back:"كل التصنيفات →",eyebrow:"تصنيف",intro:(name,count)=>`استكشف ${count} أداة مصانة ضمن ${name} مع معلومات التوفر، والملاءمة للتشغيل المحلي/الخصوصية، والخصائص الموثقة رسميًا عند توفرها.`,database:"افتح في قاعدة الأدوات ←",finder:"مساعد الاختيار",compare:"قارن الأدوات",allEyebrow:"الدليل",allTitle:"كل الأدوات ضمن هذا التصنيف",allIntro:"عناصر من الدليل المصان بدون ترتيب شعبية.",viewsEyebrow:"عروض مفيدة",viewsTitle:"ضيّق هذا التصنيف حسب ما يهمك.",viewsIntro:"عروض API والاستضافة الذاتية تعتمد فقط على مصادر رسمية تم التحقق منها. الملاءمة المحلية/الخصوصية تعتمد على بيانات التوصية المصانة.",methodEyebrow:"المنهج",methodTitle:"بيانات تصنيف شفافة",methodText:"Creative AI لا يرتب الأدوات بأصوات وهمية أو شعبية مستنتجة. الانتماء للتصنيف يأتي من الدليل المصان، وشارات الخصائص الموثقة تأتي فقط من مصادر رسمية تم التحقق منها. المعلومات غير المتوفرة تبقى غير معروفة.",tools:"الأدوات",categories:"التصنيفات",newLabel:"جديد",updates:"التحديثات",submit:"اقترح أداة",total:"إجمالي الأدوات",free:"مناسب للبدء مجانًا",open:"مفتوح المصدر",local:"محلي / خصوصية",verified:"خصائص موثقة",best:"مناسبة لـ",details:"عرض التفاصيل",badgeApi:"API موثقة",badgeSelf:"استضافة ذاتية",badgeLocal:"محلي",subsetFree:"مناسب للبدء مجانًا",subsetFreeText:"أدوات يشمل توفرها المصان وصولًا مجانيًا أو مفتوح المصدر.",subsetOpen:"مفتوح المصدر",subsetOpenText:"أدوات معلّمة كمفتوحة المصدر في الدليل المصان.",subsetLocal:"محلي / مناسب للخصوصية",subsetLocalText:"أدوات تتضمن ملفات توصيتها المصانة تشغيلًا محليًا أو تحكمًا بالخصوصية.",subsetVerified:"خصائص موثقة رسميًا",subsetVerifiedText:"أدوات لديها مصدر رسمي تم التحقق منه لـ API أو الاستضافة الذاتية.",emptySubset:"لا توجد أدوات مطابقة ضمن هذا التصنيف حاليًا.",missing:"التصنيف غير موجود",missingText:"هذا التصنيف غير موجود في دليل Creative AI المصان.",showInDatabase:"افتح قاعدة الأدوات المفلترة ←"}
+};
+const categoryAr={"Writing & research":"الكتابة والبحث","Writing & coding":"الكتابة والبرمجة","Research & Google":"بحث وخدمات Google","Research":"بحث","Learn from your files":"التعلم من الملفات","Images":"صور","Images & design":"صور وتصميم","Design":"تصميم","Video":"فيديو","Voice & audio":"صوت","Music":"موسيقى","Coding":"برمجة","Web UI":"واجهات ويب","Web apps":"تطبيقات ويب","Build & deploy":"بناء ونشر","Automation":"أتمتة","Local models":"نماذج محلية","Local AI UI":"واجهة AI محلية","Image workflows":"تدفقات صور","Models & datasets":"نماذج وبيانات","AI development":"تطوير AI","Visual AI builder":"بناء AI مرئي","Product design":"تصميم منتجات","Presentations":"عروض","Knowledge work":"إدارة معرفة","Writing":"كتابة"};
+const params=new URLSearchParams(location.search);let lang=params.get("lang")==="ar"?"ar":"en",requestedCategory=params.get("category")||"",catalog=[],config=null,fitMeta={},verified={tools:{}};const $=id=>document.getElementById(id),esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[c]));
+function validTool(row){return Array.isArray(row)&&row.length===6&&row.every(v=>typeof v==="string"&&v.trim())&&/^https?:\/\//.test(row[5])}
+function label(cat){return lang==="ar"?(categoryAr[cat]||cat):cat}
+function profile(name){return config?.profiles?.[name]||null}
+function facts(name){return Array.isArray(verified?.tools?.[name])?verified.tools[name]:[]}
+function fit(name){return fitMeta?.[name]?.fit?.[lang]||""}
+function isFree(row){return /free|open source/i.test(row[4])}
+function isOpen(row){return row[4]==="Open source"}
+function hasApi(name){return facts(name).some(f=>["developer-api","inference-api"].includes(f?.id)&&f?.value==="available")}
+function hasSelfHost(name){return facts(name).some(f=>f?.id==="self-hosting"&&f?.value==="available")}
+function hasVerified(name){return hasApi(name)||hasSelfHost(name)}
+function isLocalFit(name){const p=profile(name);return !!p&&(p.tasks?.includes("local")||p.traits?.includes("privacy"))}
+function faviconUrl(row){try{return new URL(row[5]).origin+"/favicon.ico"}catch{return ""}}
+function initials(name){return name.split(/\s+/).slice(0,2).map(x=>x[0]||"").join("").toUpperCase()}
+function availabilityLabel(value){if(lang==="en")return value;return value==="Open source"?"مفتوح المصدر":value==="Free"?"مجاني":value==="Paid"?"مدفوع":value==="Free / Paid"?"مجاني / مدفوع":value==="Free tier / Paid"?"خطة مجانية / مدفوع":value}
+function categoryRows(){return catalog.filter(row=>row[1]===requestedCategory).sort((a,b)=>a[0].localeCompare(b[0]))}
+function badgeMarkup(row,t){const badges=[];if(hasApi(row[0]))badges.push(`<span class="cap-badge verified">${esc(t.badgeApi)}</span>`);if(hasSelfHost(row[0]))badges.push(`<span class="cap-badge verified">${esc(t.badgeSelf)}</span>`);if(isLocalFit(row[0]))badges.push(`<span class="cap-badge local">${esc(t.badgeLocal)}</span>`);return badges.join("")}
+function toolCard(row){const t=copy[lang],icon=faviconUrl(row),fallback=initials(row[0]),text=fit(row[0])||row[3],url=`tool.html?tool=${encodeURIComponent(row[0])}&lang=${lang}`;return `<article class="category-tool-card"><div class="category-tool-head"><span class="tool-logo" aria-hidden="true">${icon?`<img src="${esc(icon)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.hidden=true;this.nextElementSibling.hidden=false"><span class="tool-logo-fallback" hidden>${esc(fallback)}</span>`:`<span class="tool-logo-fallback">${esc(fallback)}</span>`}</span><div><h3>${esc(row[0])}</h3><div class="mini-tags"><span class="mini-tag ${isOpen(row)?"open":""}">${esc(availabilityLabel(row[4]))}</span></div></div></div><div class="cap-badges">${badgeMarkup(row,t)}</div><p><b>${esc(t.best)}:</b> ${esc(text)}</p><a class="category-tool-link" href="${esc(url)}">${esc(t.details)} →</a></article>`}
+function subsetCard(id,title,text,rows){const t=copy[lang],items=rows.slice(0,4).map(r=>`<a href="tool.html?tool=${encodeURIComponent(r[0])}&lang=${lang}">${esc(r[0])}</a>`).join("");return `<article class="subset-card" data-subset="${id}"><div class="subset-count">${rows.length}</div><h3>${esc(title)}</h3><p>${esc(text)}</p><div class="subset-tools">${items||`<span>${esc(t.emptySubset)}</span>`}</div></article>`}
+function render(){const t=copy[lang],rows=categoryRows();if(!requestedCategory||!rows.length){$("title").textContent=t.missing;$("intro").textContent=t.missingText;$("metrics").innerHTML="";$("allTools").innerHTML=`<div class="empty">${esc(t.missingText)}</div>`;$("subsetsSection").hidden=true;document.title=`${t.missing} — Creative AI`;return}$("subsetsSection").hidden=false;const free=rows.filter(isFree),open=rows.filter(isOpen),local=rows.filter(r=>isLocalFit(r[0])),verifiedRows=rows.filter(r=>hasVerified(r[0]));document.title=`${label(requestedCategory)} — Creative AI`;$("title").textContent=label(requestedCategory);$("intro").textContent=t.intro(label(requestedCategory),rows.length);$("metrics").innerHTML=[[t.total,rows.length],[t.free,free.length],[t.open,open.length],[t.local,local.length],[t.verified,verifiedRows.length]].map(([k,v])=>`<article class="metric-card"><strong>${v}</strong><span>${esc(k)}</span></article>`).join("");$("allTools").innerHTML=rows.map(toolCard).join("");$("subsetGrid").innerHTML=subsetCard("free",t.subsetFree,t.subsetFreeText,free)+subsetCard("open",t.subsetOpen,t.subsetOpenText,open)+subsetCard("local",t.subsetLocal,t.subsetLocalText,local)+subsetCard("verified",t.subsetVerified,t.subsetVerifiedText,verifiedRows);const db=`tools.html?category=${encodeURIComponent(requestedCategory)}&lang=${lang}`;$("databaseLink").href=db}
+function apply(){const t=copy[lang];document.documentElement.lang=lang;document.documentElement.dir=lang==="ar"?"rtl":"ltr";document.body.classList.toggle("rtl",lang==="ar");$("lang").textContent=lang==="en"?"العربية":"English";$("back").textContent=t.back;$("eyebrow").textContent=t.eyebrow;$("databaseLink").textContent=t.database;$("finderLink").textContent=t.finder;$("compareLink").textContent=t.compare;$("allEyebrow").textContent=t.allEyebrow;$("allTitle").textContent=t.allTitle;$("allIntro").textContent=t.allIntro;$("viewsEyebrow").textContent=t.viewsEyebrow;$("viewsTitle").textContent=t.viewsTitle;$("viewsIntro").textContent=t.viewsIntro;$("methodEyebrow").textContent=t.methodEyebrow;$("methodTitle").textContent=t.methodTitle;$("methodText").textContent=t.methodText;$("navTools").textContent=t.tools;$("navCategories").textContent=t.categories;$("navNew").textContent=t.newLabel;$("navUpdates").textContent=t.updates;$("navSubmit").textContent=t.submit;const q=`?lang=${lang}`;$("back").href=`categories.html${q}`;$("navTools").href=`tools.html${q}`;$("navCategories").href=`categories.html${q}`;$("navNew").href=`new.html${q}`;$("navUpdates").href=`updates.html${q}`;$("navSubmit").href=`submit.html${q}`;$("finderLink").href=`recommend.html${q}`;$("compareLink").href=`compare.html${q}`;history.replaceState({},"",`category.html?category=${encodeURIComponent(requestedCategory)}&lang=${lang}`);render()}
+$("lang").onclick=()=>{lang=lang==="en"?"ar":"en";apply()};
+Promise.all([fetch("data/tools.json",{cache:"no-store"}),fetch("data/recommender.json",{cache:"no-store"}),fetch("data/recommender-fit.json",{cache:"no-store"}),fetch("data/verified-facts.json",{cache:"no-store"})]).then(async([a,b,c,d])=>{if(!a.ok||!b.ok||!c.ok||!d.ok)throw new Error("load failed");catalog=(await a.json()).filter(validTool);config=await b.json();fitMeta=await c.json();verified=await d.json();apply()}).catch(()=>{$("allTools").innerHTML='<div class="empty">Unable to load category data.</div>'});
+apply();
+</script>
+</body></html>
