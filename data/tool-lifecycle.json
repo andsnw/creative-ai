@@ -37,6 +37,25 @@
     "Figma AI": {"firstTrackedAt": "2026-09-12T22:54:28Z", "event": "baseline_import"},
     "Gamma": {"firstTrackedAt": "2026-09-12T22:54:28Z", "event": "baseline_import"},
     "Notion AI": {"firstTrackedAt": "2026-09-12T22:54:28Z", "event": "baseline_import"},
-    "Grammarly": {"firstTrackedAt": "2026-09-12T22:54:28Z", "event": "baseline_import"}
+    "Grammarly": {"firstTrackedAt": "2026-09-12T22:54:28Z", "event": "baseline_import"},
+    "Microsoft Copilot": {"firstTrackedAt": "2026-09-13T14:15:07Z", "event": "added"},
+    "DeepSeek": {"firstTrackedAt": "2026-09-13T14:15:07Z", "event": "added"},
+    "Poe": {"firstTrackedAt": "2026-09-13T14:15:07Z", "event": "added"},
+    "Ideogram": {"firstTrackedAt": "2026-09-13T14:15:07Z", "event": "added"},
+    "Leonardo AI": {"firstTrackedAt": "2026-09-13T14:15:07Z", "event": "added"},
+    "Krea": {"firstTrackedAt": "2026-09-13T14:15:07Z", "event": "added"},
+    "HeyGen": {"firstTrackedAt": "2026-09-13T14:15:07Z", "event": "added"},
+    "Synthesia": {"firstTrackedAt": "2026-09-13T14:15:07Z", "event": "added"},
+    "Descript": {"firstTrackedAt": "2026-09-13T14:15:07Z", "event": "added"},
+    "Murf": {"firstTrackedAt": "2026-09-13T14:15:07Z", "event": "added"},
+    "Activepieces": {"firstTrackedAt": "2026-09-13T14:15:07Z", "event": "added"},
+    "Pipedream": {"firstTrackedAt": "2026-09-13T14:15:07Z", "event": "added"},
+    "Dify": {"firstTrackedAt": "2026-09-13T14:15:07Z", "event": "added"},
+    "Jan": {"firstTrackedAt": "2026-09-13T14:15:07Z", "event": "added"},
+    "AnythingLLM": {"firstTrackedAt": "2026-09-13T14:15:07Z", "event": "added"},
+    "LocalAI": {"firstTrackedAt": "2026-09-13T14:15:07Z", "event": "added"},
+    "Cline": {"firstTrackedAt": "2026-09-13T14:15:07Z", "event": "added"},
+    "Continue": {"firstTrackedAt": "2026-09-13T14:15:07Z", "event": "added"},
+    "CrewAI": {"firstTrackedAt": "2026-09-13T14:15:07Z", "event": "added"}
   }
 }
