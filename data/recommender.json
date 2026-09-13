@@ -58,6 +58,9 @@
     "Grammarly": {"tasks": ["writing"], "traits": ["easy", "free-friendly"]},
     "Jan": {"tasks": ["writing", "research", "coding", "local"], "traits": ["open-source", "easy", "privacy"]},
     "AnythingLLM": {"tasks": ["writing", "research", "study", "local"], "traits": ["open-source", "easy", "privacy", "control"]},
-    "LocalAI": {"tasks": ["coding", "local"], "traits": ["open-source", "privacy", "control"]}
+    "LocalAI": {"tasks": ["coding", "local"], "traits": ["open-source", "privacy", "control"]},
+    "GPT4All": {"tasks": ["writing", "research", "coding", "local"], "traits": ["open-source", "easy", "privacy"]},
+    "llama.cpp": {"tasks": ["coding", "local"], "traits": ["open-source", "privacy", "control"]},
+    "LibreChat": {"tasks": ["writing", "research", "coding", "local"], "traits": ["open-source", "privacy", "control"]}
   }
 }
