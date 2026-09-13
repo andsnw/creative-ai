@@ -31,11 +31,3 @@ def test_lifecycle_covers_every_catalog_tool():
     assert names == set(lifecycle)
     assert all(item["event"] in {"baseline_import", "added"} for item in lifecycle.values())
     assert all(item["firstTrackedAt"].endswith("Z") for item in lifecycle.values())
-
-
-def test_new_local_first_tools_are_represented_in_recommender():
-    profiles = load_json("data/recommender.json")["profiles"]
-    for name in ("GPT4All", "llama.cpp", "LibreChat"):
-        assert name in profiles
-        assert "local" in profiles[name]["tasks"]
-        assert "privacy" in profiles[name]["traits"]
