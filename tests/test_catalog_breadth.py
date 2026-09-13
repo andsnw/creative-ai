@@ -8,9 +8,9 @@ def load_json(path):
     return json.loads((ROOT / path).read_text(encoding="utf-8"))
 
 
-def test_catalog_has_at_least_200_tools_and_valid_rows():
+def test_catalog_has_at_least_300_tools_and_valid_rows():
     tools = load_json("data/tools.json")
-    assert len(tools) >= 200
+    assert len(tools) >= 300
     assert all(isinstance(row, list) and len(row) == 6 for row in tools)
     assert all(all(isinstance(value, str) and value.strip() for value in row) for row in tools)
     assert all(row[5].startswith(("http://", "https://")) for row in tools)
@@ -31,3 +31,14 @@ def test_lifecycle_covers_every_catalog_tool():
     assert names == set(lifecycle)
     assert all(item["event"] in {"baseline_import", "added"} for item in lifecycle.values())
     assert all(item["firstTrackedAt"].endswith("Z") for item in lifecycle.values())
+
+
+def test_catalog_batches_are_reviewable_six_field_rows():
+    batch_dir = ROOT / "data" / "catalog-batches"
+    batches = list(batch_dir.glob("*.json"))
+    assert batches
+    for batch_path in batches:
+        rows = load_json(batch_path.relative_to(ROOT))
+        assert rows
+        assert all(isinstance(row, list) and len(row) == 6 for row in rows)
+        assert all(all(isinstance(value, str) and value.strip() for value in row) for row in rows)
