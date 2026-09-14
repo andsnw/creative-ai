@@ -52,17 +52,34 @@ def main() -> None:
     reviewed_at = changes["reviewedAt"]
     quality_records = quality.setdefault("tools", [])
     removed = 0
+    already_removed = 0
     updated = 0
 
-    def locate(name: str) -> int:
+    def locate(name: str) -> int | None:
         for index, row in enumerate(catalog):
             if row[0] == name:
                 return index
-        raise SystemExit(f"round-2 audit references unknown catalog tool: {name}")
+        return None
+
+    def quality_record(name: str) -> dict | None:
+        for record in quality_records:
+            if record.get("name") == name:
+                return record
+        return None
 
     for item in changes.get("remove", []):
         name = item["name"]
         index = locate(name)
+        if index is None:
+            existing = quality_record(name)
+            if not existing or existing.get("decision") != "rejected":
+                raise SystemExit(
+                    f"round-2 audit tool is absent from catalog without a rejected quality record: {name}"
+                )
+            # Idempotent reruns are expected after the workflow has already applied a reviewed removal.
+            already_removed += 1
+            continue
+
         row = catalog.pop(index)
         lifecycle.get("tools", {}).pop(name, None)
         verified.get("tools", {}).pop(name, None)
@@ -88,6 +105,8 @@ def main() -> None:
         if not valid_url(new_url):
             raise SystemExit(f"invalid round-2 URL for {name}: {new_url}")
         index = locate(name)
+        if index is None:
+            raise SystemExit(f"round-2 update references unknown catalog tool: {name}")
         catalog[index][5] = new_url
         upsert_quality(
             quality_records,
@@ -113,7 +132,10 @@ def main() -> None:
 
     quality_records.sort(key=lambda item: (item.get("decision") != "accepted", item.get("name", "").casefold()))
     quality["lastAuditRound2At"] = reviewed_at
-    quality["lastAuditRound2Summary"] = {"removed": removed, "updated": updated}
+    quality["lastAuditRound2Summary"] = {
+        "removed": len(changes.get("remove", [])),
+        "updated": len(changes.get("update", [])),
+    }
 
     dump("catalog", catalog)
     dump("lifecycle", lifecycle)
@@ -122,7 +144,10 @@ def main() -> None:
     dump("fit", fit)
     dump("quality", quality)
 
-    print(f"Applied second-pass catalog fixes: removed={removed} updated={updated}")
+    print(
+        "Applied second-pass catalog fixes: "
+        f"removed_now={removed} already_removed={already_removed} updated={updated}"
+    )
     print(f"Catalog now contains {len(catalog)} entries")
 
 
