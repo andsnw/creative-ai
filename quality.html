@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Catalog Quality — Creative AI</title>
+  <meta name="description" content="Browse Creative AI tools that have been manually reviewed against official first-party sources.">
+  <link rel="stylesheet" href="styles/design-system.css">
+  <link rel="stylesheet" href="styles/catalog.css">
+  <link rel="stylesheet" href="styles/discovery-hub.css">
+</head>
+<body>
+<main class="wrap discovery-page">
+  <header class="top">
+    <a class="brand" href="./"><span class="brand-mark">&lt;/&gt;</span><span>Creative AI</span></a>
+    <nav class="nav" aria-label="Primary"><a href="tools.html" id="navTools">Tools</a><a href="categories.html" id="navCategories">Categories</a><a href="new.html" id="navNew">New</a><a href="quality.html" aria-current="page" id="navQuality">Quality</a><a href="submit.html" id="navSubmit">Submit</a></nav>
+    <div class="actions"><a class="btn github" href="https://github.com/nael5x/creative-ai" target="_blank" rel="noopener noreferrer">GitHub ↗</a><button class="lang" id="lang" type="button">العربية</button></div>
+  </header>
+
+  <section class="category-detail-hero">
+    <div class="eyebrow" id="eyebrow">OFFICIAL-SOURCE REVIEW</div>
+    <h1 id="title">A smaller list you can trust more.</h1>
+    <p id="intro">These tools were manually checked against first-party product pages, documentation or official source repositories. The rest of the catalog stays searchable while it is re-audited under the stricter quality policy.</p>
+    <div class="category-actions"><a class="btn primary" id="browseReviewed" href="tools.html?view=reviewed">Browse reviewed tools</a><a class="btn" id="policyLink" href="https://github.com/nael5x/creative-ai/blob/main/docs/CATALOG_QUALITY_POLICY.md" target="_blank" rel="noopener noreferrer">Read quality policy ↗</a></div>
+  </section>
+
+  <section class="category-metrics" aria-label="Quality metrics">
+    <div class="metric-card"><strong id="reviewedCount">—</strong><span id="reviewedLabel">Reviewed</span></div>
+    <div class="metric-card"><strong id="pendingCount">—</strong><span id="pendingLabel">Pending audit</span></div>
+    <div class="metric-card"><strong id="evidenceCount">—</strong><span id="evidenceLabel">Official evidence links</span></div>
+    <div class="metric-card"><strong id="coverageCount">—</strong><span id="coverageLabel">Catalog coverage</span></div>
+    <div class="metric-card"><strong id="reviewDate">—</strong><span id="reviewDateLabel">Latest review date</span></div>
+  </section>
+
+  <section class="category-tools-section">
+    <div class="discovery-toolbar">
+      <input id="search" type="search" autocomplete="off" placeholder="Search reviewed tools…">
+      <select id="category"><option value="all">All categories</option></select>
+    </div>
+    <div class="catalog-meta"><span id="resultCount">Loading reviewed tools…</span><span id="methodNote">Reviewed means first-party evidence checked; it is not a popularity ranking or paid placement.</span></div>
+    <div class="category-tool-grid" id="grid"></div>
+  </section>
+
+  <section class="category-method">
+    <div><div class="eyebrow" id="methodEyebrow">HOW THIS WORKS</div><h2 id="methodTitle">Trust before scale.</h2></div>
+    <p id="methodBody">Creative AI keeps the full maintained directory available for discovery, but a reviewed badge is earned only after checking an official source and confirming concrete user value. Legacy entries that have not been re-reviewed are labeled pending audit rather than being presented as verified. Tools that fail the policy are corrected or removed instead of being kept to preserve a large catalog number.</p>
+  </section>
+</main>
+<script>
+const copy={
+ en:{eyebrow:"OFFICIAL-SOURCE REVIEW",title:"A smaller list you can trust more.",intro:"These tools were manually checked against first-party product pages, documentation or official source repositories. The rest of the catalog stays searchable while it is re-audited under the stricter quality policy.",browse:"Browse reviewed tools",policy:"Read quality policy ↗",reviewed:"Reviewed",pending:"Pending audit",evidence:"Official evidence links",coverage:"Catalog coverage",latest:"Latest review date",search:"Search reviewed tools…",allCategories:"All categories",count:n=>`${n} reviewed tool${n===1?"":"s"}`,method:"Reviewed means first-party evidence checked; it is not a popularity ranking or paid placement.",methodEyebrow:"HOW THIS WORKS",methodTitle:"Trust before scale.",methodBody:"Creative AI keeps the full maintained directory available for discovery, but a reviewed badge is earned only after checking an official source and confirming concrete user value. Legacy entries that have not been re-reviewed are labeled pending audit rather than being presented as verified. Tools that fail the policy are corrected or removed instead of being kept to preserve a large catalog number.",details:"View details",source:"Official evidence ↗",tools:"Tools",categories:"Categories",new:"New",quality:"Quality",submit:"Submit",empty:"No reviewed tools match this search."},
+ ar:{eyebrow:"مراجعة بمصادر رسمية",title:"قائمة أصغر، لكن الثقة فيها أعلى.",intro:"هذه الأدوات تمت مراجعتها يدويًا بالاعتماد على صفحات المنتج أو التوثيق أو المستودعات الرسمية. يبقى باقي الدليل قابلًا للبحث أثناء إعادة تدقيقه وفق سياسة الجودة الأشد.",browse:"استعرض الأدوات المراجَعة",policy:"اقرأ سياسة الجودة ↗",reviewed:"تمت مراجعتها",pending:"بانتظار التدقيق",evidence:"روابط أدلة رسمية",coverage:"تغطية الدليل",latest:"آخر تاريخ مراجعة",search:"ابحث في الأدوات المراجَعة…",allCategories:"كل التصنيفات",count:n=>`${n} أداة تمت مراجعتها`,method:"تمت المراجعة = تم فحص مصدر رسمي؛ هذا ليس ترتيب شعبية ولا ظهورًا مدفوعًا.",methodEyebrow:"كيف تعمل",methodTitle:"الثقة قبل الحجم.",methodBody:"Creative AI يبقي الدليل الكامل متاحًا للاستكشاف، لكن شارة المراجعة لا تظهر إلا بعد التحقق من مصدر رسمي ومن قيمة واضحة للمستخدم. الإدخالات القديمة التي لم تُراجع بعد تظهر كقيد التدقيق بدل تقديمها كموثقة. الأدوات التي تفشل السياسة يتم تصحيحها أو حذفها بدل الاحتفاظ بها فقط من أجل رقم أكبر.",details:"عرض التفاصيل",source:"الدليل الرسمي ↗",tools:"الأدوات",categories:"التصنيفات",new:"الجديد",quality:"الجودة",submit:"اقترح",empty:"لا توجد أدوات مراجَعة تطابق البحث."}
+};
+let lang=new URLSearchParams(location.search).get("lang")==="ar"?"ar":"en",catalog=[],quality=[],query="",category="all";const $=id=>document.getElementById(id),esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[c]));
+function rowMap(){return new Map(catalog.map(row=>[row[0],row]))}
+function render(){const t=copy[lang],map=rowMap(),reviewed=quality.filter(x=>x.decision==="accepted"&&map.has(x.name)),categories=[...new Set(reviewed.map(x=>map.get(x.name)[1]))].sort();$("category").innerHTML=`<option value="all">${esc(t.allCategories)}</option>`+categories.map(x=>`<option value="${esc(x)}">${esc(x)}</option>`).join("");$("category").value=category;const filtered=reviewed.filter(x=>{const row=map.get(x.name),hay=[x.name,row[1],row[2],row[3],x.userValue].join(" ").toLowerCase();return hay.includes(query.toLowerCase())&&(category==="all"||row[1]===category)});$("resultCount").textContent=t.count(filtered.length);$("grid").innerHTML=filtered.length?filtered.map(item=>{const row=map.get(item.name),detail=`tool.html?tool=${encodeURIComponent(item.name)}&lang=${lang}`,evidence=item.evidenceUrls?.[0]||item.officialUrl;return `<article class="category-tool-card"><div class="category-tool-head"><div><h3>${esc(item.name)}</h3><div class="mini-tags"><span class="mini-tag">${esc(row[1])}</span><span class="cap-badge verified">${esc(t.reviewed)}</span></div></div></div><p>${esc(item.userValue)}</p><div class="subset-tools"><a href="${esc(evidence)}" target="_blank" rel="noopener noreferrer">${esc(t.source)}</a></div><a class="category-tool-link" href="${esc(detail)}">${esc(t.details)} →</a></article>`}).join(""):`<div class="submit-panel">${esc(t.empty)}</div>`;const evidenceTotal=reviewed.reduce((n,x)=>n+(x.evidenceUrls?.length||0),0),pending=Math.max(0,catalog.length-reviewed.length),latest=reviewed.map(x=>x.reviewedAt).sort().at(-1)||"—";$("reviewedCount").textContent=reviewed.length;$("pendingCount").textContent=pending;$("evidenceCount").textContent=evidenceTotal;$("coverageCount").textContent=catalog.length?Math.round(reviewed.length/catalog.length*100)+"%":"—";$("reviewDate").textContent=latest}
+function apply(){const t=copy[lang];document.documentElement.lang=lang;document.documentElement.dir=lang==="ar"?"rtl":"ltr";document.body.classList.toggle("rtl",lang==="ar");$("lang").textContent=lang==="en"?"العربية":"English";$("eyebrow").textContent=t.eyebrow;$("title").textContent=t.title;$("intro").textContent=t.intro;$("browseReviewed").textContent=t.browse;$("policyLink").textContent=t.policy;$("reviewedLabel").textContent=t.reviewed;$("pendingLabel").textContent=t.pending;$("evidenceLabel").textContent=t.evidence;$("coverageLabel").textContent=t.coverage;$("reviewDateLabel").textContent=t.latest;$("search").placeholder=t.search;$("methodNote").textContent=t.method;$("methodEyebrow").textContent=t.methodEyebrow;$("methodTitle").textContent=t.methodTitle;$("methodBody").textContent=t.methodBody;$("navTools").textContent=t.tools;$("navCategories").textContent=t.categories;$("navNew").textContent=t.new;$("navQuality").textContent=t.quality;$("navSubmit").textContent=t.submit;const q=lang==="ar"?"?lang=ar":"";$("navTools").href="tools.html"+q;$("navCategories").href="categories.html"+q;$("navNew").href="new.html"+q;$("navQuality").href="quality.html"+q;$("navSubmit").href="submit.html"+q;$("browseReviewed").href=`tools.html?view=reviewed${lang==="ar"?"&lang=ar":""}`;history.replaceState({},"",lang==="ar"?"quality.html?lang=ar":"quality.html");render()}
+$("lang").onclick=()=>{lang=lang==="en"?"ar":"en";apply()};$("search").oninput=e=>{query=e.target.value;render()};$("category").onchange=e=>{category=e.target.value;render()};
+Promise.all([fetch("data/tools.json",{cache:"no-store"}),fetch("data/catalog-quality.json",{cache:"no-store"})]).then(async([a,b])=>{if(!a.ok||!b.ok)throw new Error("load failed");catalog=await a.json();quality=(await b.json()).tools||[];apply()}).catch(()=>{$("grid").innerHTML='<div class="submit-panel">Unable to load catalog quality data.</div>'});
+apply();
+</script>
+</body></html>
