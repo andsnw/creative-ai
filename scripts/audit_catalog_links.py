@@ -35,6 +35,7 @@ class Result:
     status: int | None
     final_url: str | None
     ok: bool
+    transient_failure: bool
     redirect_host_changed: bool
     flags: list[str]
     error: str | None
@@ -60,6 +61,7 @@ def fetch_one(row: list[str], timeout: float) -> Result:
     final_url: str | None = None
     body = b""
     error: str | None = None
+    transient_failure = False
     try:
         with urlopen(req, timeout=timeout, context=context) as response:
             status = getattr(response, "status", None) or response.getcode()
@@ -73,22 +75,37 @@ def fetch_one(row: list[str], timeout: float) -> Result:
         except Exception:
             body = b""
         # Redirects and most 4xx responses show that a product server is reachable. Only explicit
-        # not-found/gone responses are treated as broken without additional evidence.
+        # not-found/gone responses and server failures are treated as broken without more evidence.
         if exc.code in {404, 410} or exc.code >= 500:
             error = f"HTTP {exc.code}"
     except (URLError, TimeoutError, ssl.SSLError, OSError) as exc:
+        # DNS, TLS and timeout failures can be bot/network specific. Preserve the diagnostic and
+        # surface the URL for manual review, but do not call the product dead from this signal alone.
         error = f"{type(exc).__name__}: {exc}"
+        transient_failure = True
     except Exception as exc:  # defensive: this is a reporting utility
         error = f"{type(exc).__name__}: {exc}"
 
     text = unescape(body.decode("utf-8", errors="ignore"))
     compact = re.sub(r"\s+", " ", text)[:120_000]
     flags = [label for label, pattern in SUSPICIOUS_PATTERNS.items() if pattern.search(compact)]
+    if transient_failure:
+        flags.append("transient-network-error")
     changed = bool(final_url and registrable_hint(url) != registrable_hint(final_url))
     if changed:
         flags.append("cross-domain-redirect")
-    ok = error is None and (status is None or status < 500)
-    return Result(name, url, status, final_url, ok, changed, sorted(set(flags)), error)
+    ok = transient_failure or (error is None and (status is None or status < 500))
+    return Result(
+        name,
+        url,
+        status,
+        final_url,
+        ok,
+        transient_failure,
+        changed,
+        sorted(set(flags)),
+        error,
+    )
 
 
 def main() -> None:
