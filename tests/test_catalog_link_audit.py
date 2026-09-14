@@ -7,12 +7,13 @@ METHOD = Path("docs/CATALOG_AUDIT_METHOD.md").read_text(encoding="utf-8")
 
 
 class CatalogLinkAuditTests(unittest.TestCase):
-    def test_audit_flags_parked_and_shutdown_pages(self):
+    def test_audit_flags_parked_and_explicit_shutdown_pages(self):
         self.assertIn("parked-domain", SCRIPT)
         self.assertIn("domain (?:is )?for sale", SCRIPT)
         self.assertIn("shutdown", SCRIPT)
-        self.assertIn("farewell", SCRIPT)
         self.assertIn("discontinued", SCRIPT)
+        self.assertIn("no longer (?:available|accessible)", SCRIPT)
+        self.assertNotIn("|farewell", SCRIPT)
 
     def test_audit_flags_cross_domain_redirects(self):
         self.assertIn("cross-domain-redirect", SCRIPT)
