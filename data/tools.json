@@ -37,7 +37,7 @@
     "AI notebook grounded in your own sources.",
     "For studying PDFs, notes and links without mixing in unrelated web context.",
     "Free tier / Paid",
-    "https://notebooklm.google/"
+    "https://notebook.google/"
   ],
   [
     "Midjourney",
@@ -69,7 +69,7 @@
     "Generative video, editing and visual effects.",
     "For turning prompts or images into short creative video shots.",
     "Free tier / Paid",
-    "https://runwayml.com/"
+    "https://runway.com/"
   ],
   [
     "Pika",
@@ -133,7 +133,7 @@
     "Generates React interfaces from descriptions.",
     "For rapidly prototyping web pages and UI components.",
     "Free tier / Paid",
-    "https://v0.dev/"
+    "https://v0.app/"
   ],
   [
     "Lovable",
@@ -261,7 +261,7 @@
     "Writing and knowledge tools inside Notion.",
     "For drafting, summarizing and organizing team or personal notes.",
     "Free tier / Paid",
-    "https://www.notion.so/product/ai"
+    "https://www.notion.com/product/ai"
   ],
   [
     "Grammarly",
@@ -685,7 +685,7 @@
     "AI image enhancement and upscaling tool for adding detail and increasing resolution.",
     "For creators who need to refine or enlarge generated and photographed visuals.",
     "Paid",
-    "https://magnific.ai/"
+    "https://www.magnific.com/"
   ],
   [
     "Sora",
@@ -701,7 +701,7 @@
     "Generative video and image platform for text-to-video and image-to-video creation.",
     "For creators experimenting with cinematic motion and prompt-driven clips.",
     "Free tier / Paid",
-    "https://klingai.com/"
+    "https://kling.ai/"
   ],
   [
     "Hailuo AI",
@@ -765,7 +765,7 @@
     "AI meeting assistant for recording, transcription and automatic meeting summaries.",
     "For people who want meeting notes with minimal manual setup after calls.",
     "Free tier / Paid",
-    "https://fathom.video/"
+    "https://www.fathom.ai/"
   ],
   [
     "tl;dv",
@@ -1192,14 +1192,6 @@
     "https://openhands.dev/"
   ],
   [
-    "Roo Code",
-    "Coding",
-    "Open-source coding agent that works inside the editor with configurable models and modes.",
-    "For developers who want agentic coding with an open, customizable extension workflow.",
-    "Open source",
-    "https://roocode.com/"
-  ],
-  [
     "Kilo Code",
     "Coding",
     "Open-source agentic engineering platform across IDE, CLI and cloud workflows.",
@@ -1309,15 +1301,7 @@
     "AI website builder and component library for generating sitemaps, wireframes and web designs.",
     "For designers and agencies planning marketing sites before implementation.",
     "Free tier / Paid",
-    "https://www.relume.io/"
-  ],
-  [
-    "Dora AI",
-    "Web UI",
-    "AI-assisted visual website builder for animated and expressive web experiences.",
-    "For creators who want highly visual sites without hand-coding every interaction.",
-    "Free tier / Paid",
-    "https://www.dora.run/ai"
+    "https://www.relume.ai/"
   ],
   [
     "Uizard",
@@ -1357,7 +1341,7 @@
     "AI website builder with small-business content and site generation workflows.",
     "For quickly launching a simple service-business website from a short description.",
     "Free tier / Paid",
-    "https://durable.co/"
+    "https://durable.com/"
   ],
   [
     "10Web",
@@ -1373,7 +1357,7 @@
     "AI image creation and editing workspace for generated visual content.",
     "For experimenting with image generation, editing and design ideas in a browser workspace.",
     "Free tier / Paid",
-    "https://playground.com/"
+    "https://playgroundai.com/"
   ],
   [
     "OpenArt",
@@ -1453,7 +1437,7 @@
     "AI filmmaking workspace for developing stories, shots and generated video sequences.",
     "For creators planning and producing narrative video with AI-assisted preproduction and generation.",
     "Free tier / Paid",
-    "https://ltx.studio/"
+    "https://ltx.io/studio"
   ],
   [
     "PixVerse",
@@ -1637,7 +1621,7 @@
     "Meeting management workspace with AI notes, agendas and follow-up workflows.",
     "For teams that want meetings, action items and collaborative notes in one place.",
     "Free tier / Paid",
-    "https://fellow.app/"
+    "https://fellow.ai/"
   ],
   [
     "MeetGeek",
@@ -1757,7 +1741,7 @@
     "AI capabilities across monday.com for work management, automation and content tasks.",
     "For teams that want AI actions embedded in existing monday.com boards and workflows.",
     "Paid",
-    "https://monday.com/ai"
+    "https://monday.com/"
   ],
   [
     "Airtable AI",
@@ -2261,7 +2245,7 @@
     "AI contract drafting and review assistant designed to work with legal documents and Microsoft Word.",
     "For transactional lawyers who want contract suggestions and review support inside drafting workflows.",
     "Paid",
-    "https://www.spellbook.legal/"
+    "https://spellbook.com/"
   ],
   [
     "Luminance",
@@ -2357,7 +2341,7 @@
     "AI recruiting automation platform for sourcing, screening and hiring workflow tasks.",
     "For recruiting teams delegating repetitive candidate-search and coordination work to AI agents.",
     "Paid",
-    "https://www.tezi.ai/"
+    "https://app.tezi.ai/"
   ],
   [
     "Juicebox",
@@ -2525,7 +2509,7 @@
     "AI-assisted content editor integrated with SE Ranking SEO research.",
     "For teams drafting and optimizing pages with competitive search data.",
     "Paid",
-    "https://seranking.com/content-marketing.html"
+    "https://seranking.com/content-editor.html"
   ],
   [
     "RankIQ",
@@ -2541,7 +2525,7 @@
     "AI writing and SEO tool for content generation, keyword research and optimization.",
     "For marketers who want lightweight search research and drafting in one workspace.",
     "Paid",
-    "https://www.growthbarseo.com/"
+    "https://www.seoptimer.com/growthbar/"
   ],
   [
     "Buffer AI Assistant",
@@ -2813,7 +2797,7 @@
     "Clinical insights platform that surfaces diagnoses and documentation opportunities from patient data.",
     "For hospitals improving clinical documentation and care-team visibility.",
     "Paid",
-    "https://www.withregard.com/"
+    "https://regard.com/"
   ],
   [
     "Notable",
@@ -3309,7 +3293,7 @@
     "AI presentation assistant for creating and editing slides inside Google Slides and PowerPoint.",
     "For users who want AI drafting without leaving familiar presentation software.",
     "Paid",
-    "https://www.plusdocs.com/plus-ai-for-google-slides"
+    "https://plusai.com/google-slides-ai"
   ],
   [
     "SlidesAI.io",
@@ -3349,7 +3333,7 @@
     "Remote recording platform with AI transcription, editing and repurposing tools.",
     "For podcasts, interviews and video teams recording high-quality remote conversations.",
     "Free tier / Paid",
-    "https://riverside.fm/"
+    "https://riverside.com/"
   ],
   [
     "Klap",
@@ -3413,7 +3397,7 @@
     "AI voice generation platform for professional narration and enterprise content.",
     "For teams producing consistent voiceovers for training, product and marketing media.",
     "Paid",
-    "https://wellsaidlabs.com/"
+    "https://www.wellsaid.io/"
   ],
   [
     "LOVO",
@@ -3741,7 +3725,7 @@
     "Enterprise visual platform for building AI workflows and applications with connected data.",
     "For teams assembling internal AI tools without developing every component from scratch.",
     "Paid",
-    "https://www.stack-ai.com/"
+    "https://www.stackai.com/"
   ],
   [
     "VectorShift",
@@ -3797,7 +3781,7 @@
     "AI knowledge tool for summarizing online content and organizing what you learn.",
     "For people who want to turn articles, videos and documents into a searchable personal knowledge base.",
     "Free tier / Paid",
-    "https://www.getrecall.ai/"
+    "https://www.recall.it/"
   ],
   [
     "Logically",
@@ -3965,7 +3949,7 @@
     "OpenAI coding agent and developer workflow for editing, understanding and completing software tasks.",
     "For developers delegating implementation and repository work to a model designed for coding tasks.",
     "Paid",
-    "https://developers.openai.com/codex/"
+    "https://openai.com/codex/"
   ],
   [
     "NovelAI",
@@ -4328,14 +4312,6 @@
     "https://fliki.ai/"
   ],
   [
-    "Hour One",
-    "Video",
-    "AI avatar video generator for business presentations, training and communications.",
-    "For teams producing presenter-style video content without traditional recording sessions.",
-    "Paid",
-    "https://hourone.ai/"
-  ],
-  [
     "AI Studios",
     "Video",
     "AI avatar and text-to-video platform from DeepBrain AI for presenter-led content.",
@@ -4613,7 +4589,7 @@
     "Knowledge platform with AI search and assistance across company information.",
     "For teams that need answers grounded in internal documentation and trusted knowledge sources.",
     "Paid",
-    "https://www.getguru.com/ai"
+    "https://www.getguru.com/"
   ],
   [
     "Persado",
@@ -4845,7 +4821,7 @@
     "AI knowledge-work platform for analyzing large document collections and complex information tasks.",
     "For finance, legal and research teams working through large sets of source documents.",
     "Paid",
-    "https://www.hebbia.ai/"
+    "https://www.hebbia.com/"
   ],
   [
     "Ocrolus",

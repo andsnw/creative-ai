@@ -178,6 +178,16 @@
       "decision": "accepted"
     },
     {
+      "name": "Durable",
+      "officialUrl": "https://durable.com/",
+      "evidenceUrls": [
+        "https://durable.com/"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "Active AI business and website builder on Durable's current canonical domain.",
+      "decision": "accepted"
+    },
+    {
       "name": "ElevenLabs",
       "officialUrl": "https://elevenlabs.io/",
       "evidenceUrls": [
@@ -195,6 +205,26 @@
       ],
       "reviewedAt": "2026-09-14",
       "userValue": "F5's runtime AI security product built from the acquired CalypsoAI technology.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Fathom",
+      "officialUrl": "https://www.fathom.ai/",
+      "evidenceUrls": [
+        "https://www.fathom.ai/"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "Active AI meeting assistant on Fathom's current canonical domain.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Fellow",
+      "officialUrl": "https://fellow.ai/",
+      "evidenceUrls": [
+        "https://fellow.ai/"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "Active AI meeting workspace on Fellow's current canonical domain.",
       "decision": "accepted"
     },
     {
@@ -259,6 +289,37 @@
       "decision": "accepted"
     },
     {
+      "name": "GrowthBar",
+      "officialUrl": "https://www.seoptimer.com/growthbar/",
+      "evidenceUrls": [
+        "https://www.seoptimer.com/growthbar/"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "GrowthBar remains available under SEOptimer after acquisition; the catalog now points at the current first-party product page.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Guru",
+      "officialUrl": "https://www.getguru.com/",
+      "evidenceUrls": [
+        "https://www.getguru.com/",
+        "https://www.getguru.com/features/ai-agent-center"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "Active enterprise knowledge and AI search platform; the former /ai URL was stale.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Hebbia",
+      "officialUrl": "https://www.hebbia.com/",
+      "evidenceUrls": [
+        "https://www.hebbia.com/"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "Active AI knowledge-work platform on Hebbia's current canonical domain.",
+      "decision": "accepted"
+    },
+    {
       "name": "Help Scout AI",
       "officialUrl": "https://docs.helpscout.com/article/1513-use-ai-assist",
       "evidenceUrls": [
@@ -320,6 +381,16 @@
       "decision": "accepted"
     },
     {
+      "name": "Kling AI",
+      "officialUrl": "https://kling.ai/",
+      "evidenceUrls": [
+        "https://kling.ai/"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "Active generative video product on Kling AI's current canonical domain.",
+      "decision": "accepted"
+    },
+    {
       "name": "LangChain",
       "officialUrl": "https://www.langchain.com/",
       "evidenceUrls": [
@@ -349,6 +420,26 @@
       ],
       "reviewedAt": "2026-09-14",
       "userValue": "Research and writing workspace that combines AI assistance with references, annotations and citations.",
+      "decision": "accepted"
+    },
+    {
+      "name": "LTX Studio",
+      "officialUrl": "https://ltx.io/studio",
+      "evidenceUrls": [
+        "https://ltx.io/studio/platform/ai-video-generator"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "Active AI video creation studio on LTX's current first-party product domain.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Magnific",
+      "officialUrl": "https://www.magnific.com/",
+      "evidenceUrls": [
+        "https://www.magnific.com/"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "Active AI image enhancement product on Magnific's current canonical domain.",
       "decision": "accepted"
     },
     {
@@ -383,6 +474,17 @@
       "decision": "accepted"
     },
     {
+      "name": "monday AI",
+      "officialUrl": "https://monday.com/",
+      "evidenceUrls": [
+        "https://monday.com/",
+        "https://support.monday.com/hc/en-us/articles/115005305649-Get-started-with-monday-AI-work-platform"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "monday.com is now positioned as an AI work platform with AI assistants, workflows and app-building capabilities; the old /ai URL was stale.",
+      "decision": "accepted"
+    },
+    {
       "name": "Munch Studio",
       "officialUrl": "https://www.munchstudio.com/",
       "evidenceUrls": [
@@ -400,6 +502,26 @@
       ],
       "reviewedAt": "2026-09-14",
       "userValue": "Workflow automation platform with self-hosting for connecting apps, APIs and AI steps.",
+      "decision": "accepted"
+    },
+    {
+      "name": "NotebookLM",
+      "officialUrl": "https://notebook.google/",
+      "evidenceUrls": [
+        "https://notebook.google/"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "Google's active NotebookLM product on its current canonical notebook.google domain.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Notion AI",
+      "officialUrl": "https://www.notion.com/product/ai",
+      "evidenceUrls": [
+        "https://www.notion.com/product/ai"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "Active Notion AI product page on Notion's current canonical domain.",
       "decision": "accepted"
     },
     {
@@ -424,6 +546,17 @@
       "decision": "accepted"
     },
     {
+      "name": "OpenAI Codex",
+      "officialUrl": "https://openai.com/codex/",
+      "evidenceUrls": [
+        "https://openai.com/codex/",
+        "https://help.openai.com/en/collections/14937394-codex"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "OpenAI's active coding agent for writing, reviewing and shipping code, now presented as Codex in ChatGPT.",
+      "decision": "accepted"
+    },
+    {
       "name": "Perplexity",
       "officialUrl": "https://www.perplexity.ai/",
       "evidenceUrls": [
@@ -431,6 +564,27 @@
       ],
       "reviewedAt": "2026-09-14",
       "userValue": "Web research and answer engine with source citations for checking claims quickly.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Playground AI",
+      "officialUrl": "https://playgroundai.com/",
+      "evidenceUrls": [
+        "https://playgroundai.com/",
+        "https://playgroundai.com/design/whats-new"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "Active AI design and image creation product with current 2026 product updates.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Plus AI",
+      "officialUrl": "https://plusai.com/google-slides-ai",
+      "evidenceUrls": [
+        "https://plusai.com/google-slides-ai"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "Active AI presentation assistant on Plus AI's current canonical product domain.",
       "decision": "accepted"
     },
     {
@@ -444,6 +598,37 @@
       "decision": "accepted"
     },
     {
+      "name": "Recall",
+      "officialUrl": "https://www.recall.it/",
+      "evidenceUrls": [
+        "https://www.recall.it/"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "Active personal knowledge and summarization product on Recall's current canonical domain.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Regard",
+      "officialUrl": "https://regard.com/",
+      "evidenceUrls": [
+        "https://regard.com/",
+        "https://regard.com/solutions/clinical-notes"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "Active clinical AI diagnosis and documentation platform on Regard's current canonical domain.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Relume",
+      "officialUrl": "https://www.relume.ai/",
+      "evidenceUrls": [
+        "https://www.relume.ai/"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "Active AI website design and publishing platform on Relume's current canonical domain.",
+      "decision": "accepted"
+    },
+    {
       "name": "Replit",
       "officialUrl": "https://replit.com/",
       "evidenceUrls": [
@@ -451,6 +636,16 @@
       ],
       "reviewedAt": "2026-09-14",
       "userValue": "AI app-building workspace that can generate, run and publish software from one environment.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Riverside",
+      "officialUrl": "https://riverside.com/",
+      "evidenceUrls": [
+        "https://riverside.com/"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "Active recording and AI editing platform on Riverside's current canonical domain.",
       "decision": "accepted"
     },
     {
@@ -465,12 +660,22 @@
     },
     {
       "name": "Runway",
-      "officialUrl": "https://runwayml.com/",
+      "officialUrl": "https://runway.com/",
       "evidenceUrls": [
-        "https://docs.dev.runwayml.com/"
+        "https://runway.com/"
       ],
       "reviewedAt": "2026-09-14",
-      "userValue": "Generative video and creative editing platform with developer access.",
+      "userValue": "Active generative video and creative AI platform on Runway's current canonical domain.",
+      "decision": "accepted"
+    },
+    {
+      "name": "SE Ranking Content Editor",
+      "officialUrl": "https://seranking.com/content-editor.html",
+      "evidenceUrls": [
+        "https://seranking.com/content-editor.html"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "Active AI-based content creation and optimization editor; the prior content-marketing URL was stale.",
       "decision": "accepted"
     },
     {
@@ -496,6 +701,17 @@
       "decision": "accepted"
     },
     {
+      "name": "Spellbook",
+      "officialUrl": "https://spellbook.com/",
+      "evidenceUrls": [
+        "https://spellbook.com/",
+        "https://spellbook.com/legal/privacy-policy"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "Active AI legal drafting and contract platform on Spellbook's current canonical domain.",
+      "decision": "accepted"
+    },
+    {
       "name": "Sprout Social AI",
       "officialUrl": "https://sproutsocial.com/ai/",
       "evidenceUrls": [
@@ -517,6 +733,16 @@
       "decision": "accepted"
     },
     {
+      "name": "Stack AI",
+      "officialUrl": "https://www.stackai.com/",
+      "evidenceUrls": [
+        "https://www.stackai.com/"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "Active enterprise AI workflow platform on Stack AI's current canonical domain.",
+      "decision": "accepted"
+    },
+    {
       "name": "Telex",
       "officialUrl": "https://telex.automattic.ai/",
       "evidenceUrls": [
@@ -525,6 +751,17 @@
       ],
       "reviewedAt": "2026-09-14",
       "userValue": "AI-assisted WordPress code generation from the team and technology behind CodeWP, now under Automattic.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Tezi",
+      "officialUrl": "https://app.tezi.ai/",
+      "evidenceUrls": [
+        "https://app.tezi.ai/",
+        "https://help.tezi.ai/for-candidates/5MJQyfNxL9dYJifaLgmzoS/candidate-faqs/5MJQyfNxLc6KYdkJcb47d5"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "Active AI recruiting platform; the app entry point and current first-party help documentation confirm Tezi and its Max recruiting agent remain active.",
       "decision": "accepted"
     },
     {
@@ -560,6 +797,16 @@
       "decision": "accepted"
     },
     {
+      "name": "v0",
+      "officialUrl": "https://v0.app/",
+      "evidenceUrls": [
+        "https://v0.app/"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "Active AI web interface and app builder on v0's current canonical domain.",
+      "decision": "accepted"
+    },
+    {
       "name": "VEED AI",
       "officialUrl": "https://www.veed.io/tools/ai-video",
       "evidenceUrls": [
@@ -568,6 +815,16 @@
       ],
       "reviewedAt": "2026-09-14",
       "userValue": "AI video creation and editing toolkit with generation, avatars, voice, subtitles and production workflows.",
+      "decision": "accepted"
+    },
+    {
+      "name": "WellSaid Labs",
+      "officialUrl": "https://www.wellsaid.io/",
+      "evidenceUrls": [
+        "https://www.wellsaid.io/"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "Active AI voice platform on WellSaid's current canonical domain.",
       "decision": "accepted"
     },
     {
@@ -638,6 +895,17 @@
       "reason": "Removed because the standalone Common Sense Machines product is no longer reachable after its 2026 acquisition; the catalog should not point users to a discontinued standalone service."
     },
     {
+      "name": "Dora AI",
+      "officialUrl": "https://www.dora.run/ai",
+      "evidenceUrls": [
+        "https://www.dora.run/signup/ai/waitlist"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "Removed from active discovery because Dora's first-party shutdown page states that Dora shut down on May 1, 2026.",
+      "decision": "rejected",
+      "reason": "Removed from active discovery because Dora's first-party shutdown page states that Dora shut down on May 1, 2026."
+    },
+    {
       "name": "Firebase Studio",
       "officialUrl": "https://firebase.studio/",
       "evidenceUrls": [
@@ -648,6 +916,18 @@
       "userValue": "Removed from new-tool discovery because Google has disabled new signup/workspace creation and is sunsetting Firebase Studio in favor of Google AI Studio and Antigravity.",
       "decision": "rejected",
       "reason": "Removed from new-tool discovery because Google has disabled new signup/workspace creation and is sunsetting Firebase Studio in favor of Google AI Studio and Antigravity."
+    },
+    {
+      "name": "Hour One",
+      "officialUrl": "https://hourone.ai/",
+      "evidenceUrls": [
+        "https://www.wix.com/press-room/home/post/wix-acquires-hour-one-to-expand-generative-ai-capabilities-and-accelerate-product-innovation",
+        "https://hourone.ai/"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "Removed from the active directory because Wix acquired Hour One and its team in 2025, while the maintained standalone product domain no longer provides a reliably reachable product entry point. This is an active-directory availability decision, not a claim that Hour One technology ceased to exist.",
+      "decision": "rejected",
+      "reason": "Removed from the active directory because Wix acquired Hour One and its team in 2025, while the maintained standalone product domain no longer provides a reliably reachable product entry point. This is an active-directory availability decision, not a claim that Hour One technology ceased to exist."
     },
     {
       "name": "PlayHT",
@@ -681,6 +961,18 @@
       "userValue": "Removed because the official site states that Replica Studios has signed off and is no longer an active product.",
       "decision": "rejected",
       "reason": "Removed because the official site states that Replica Studios has signed off and is no longer an active product."
+    },
+    {
+      "name": "Roo Code",
+      "officialUrl": "https://roocode.com/",
+      "evidenceUrls": [
+        "https://github.com/RooCodeInc/Roo-Code",
+        "https://github.com/RooCodeInc/Roo-Code/commits"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "Removed because the official Roo Code repository is archived and states that the Roo Code extension was shut down on May 15, 2026. Roomote is treated as a different product rather than a silent rename.",
+      "decision": "rejected",
+      "reason": "Removed because the official Roo Code repository is archived and states that the Roo Code extension was shut down on May 15, 2026. Roomote is treated as a different product rather than a silent rename."
     }
   ],
   "lastAuditFixesAt": "2026-09-14",
@@ -692,5 +984,10 @@
   },
   "unresolvedAuditMappings": [
     "Regard"
-  ]
+  ],
+  "lastAuditRound2At": "2026-09-14",
+  "lastAuditRound2Summary": {
+    "removed": 3,
+    "updated": 26
+  }
 }
