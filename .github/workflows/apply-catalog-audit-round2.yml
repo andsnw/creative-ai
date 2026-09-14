@@ -7,6 +7,7 @@ on:
     paths:
       - "data/catalog-audit-round2.json"
       - "scripts/apply_catalog_audit_round2.py"
+      - ".github/workflows/apply-catalog-audit-round2.yml"
 
 permissions:
   contents: write
@@ -38,4 +39,5 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/tools.json data/tool-lifecycle.json data/verified-facts.json data/recommender.json data/recommender-fit.json data/catalog-quality.json
           git commit -m "data: apply second-pass catalog audit fixes"
+          git pull --rebase origin audit/legacy-catalog-completion
           git push origin HEAD:audit/legacy-catalog-completion
