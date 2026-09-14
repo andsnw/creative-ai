@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "requiredFields": [
+    "name",
+    "officialUrl",
+    "evidenceUrls",
+    "reviewedAt",
+    "userValue",
+    "decision"
+  ],
+  "decisionValues": ["accepted", "rejected"],
+  "policy": "docs/CATALOG_QUALITY_POLICY.md"
+}
