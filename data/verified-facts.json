@@ -6,7 +6,10 @@
       {
         "id": "developer-api",
         "value": "available",
-        "label": {"en": "Developer API", "ar": "واجهة API للمطورين"},
+        "label": {
+          "en": "Developer API",
+          "ar": "واجهة API للمطورين"
+        },
         "sourceUrl": "https://platform.openai.com/docs/models",
         "verifiedAt": "2026-09-13"
       }
@@ -15,7 +18,10 @@
       {
         "id": "developer-api",
         "value": "available",
-        "label": {"en": "Developer API", "ar": "واجهة API للمطورين"},
+        "label": {
+          "en": "Developer API",
+          "ar": "واجهة API للمطورين"
+        },
         "sourceUrl": "https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/prompt-templates-and-variables",
         "verifiedAt": "2026-09-13"
       }
@@ -24,7 +30,10 @@
       {
         "id": "developer-api",
         "value": "available",
-        "label": {"en": "Developer API", "ar": "واجهة API للمطورين"},
+        "label": {
+          "en": "Developer API",
+          "ar": "واجهة API للمطورين"
+        },
         "sourceUrl": "https://ai.google.dev/gemini-api/docs/get-started",
         "verifiedAt": "2026-09-13"
       }
@@ -33,7 +42,10 @@
       {
         "id": "developer-api",
         "value": "available",
-        "label": {"en": "Developer API", "ar": "واجهة API للمطورين"},
+        "label": {
+          "en": "Developer API",
+          "ar": "واجهة API للمطورين"
+        },
         "sourceUrl": "https://elevenlabs.io/docs/api-reference/introduction",
         "verifiedAt": "2026-09-13"
       }
@@ -42,7 +54,10 @@
       {
         "id": "developer-api",
         "value": "available",
-        "label": {"en": "Developer API", "ar": "واجهة API للمطورين"},
+        "label": {
+          "en": "Developer API",
+          "ar": "واجهة API للمطورين"
+        },
         "sourceUrl": "https://docs.dev.runwayml.com/",
         "verifiedAt": "2026-09-13"
       }
@@ -51,7 +66,10 @@
       {
         "id": "inference-api",
         "value": "available",
-        "label": {"en": "Inference API", "ar": "واجهة Inference API"},
+        "label": {
+          "en": "Inference API",
+          "ar": "واجهة Inference API"
+        },
         "sourceUrl": "https://huggingface.co/docs/inference-endpoints/api_reference",
         "verifiedAt": "2026-09-13"
       }
@@ -60,7 +78,10 @@
       {
         "id": "self-hosting",
         "value": "available",
-        "label": {"en": "Self-hosting", "ar": "استضافة ذاتية"},
+        "label": {
+          "en": "Self-hosting",
+          "ar": "استضافة ذاتية"
+        },
         "sourceUrl": "https://support.n8n.io/section/n8n-self-hosted-faq-uly57w0tlb2uq2l0yn1byx9o",
         "verifiedAt": "2026-09-13"
       }
@@ -69,14 +90,20 @@
       {
         "id": "developer-api",
         "value": "available",
-        "label": {"en": "Local and cloud API", "ar": "واجهة API محلية وسحابية"},
+        "label": {
+          "en": "Local and cloud API",
+          "ar": "واجهة API محلية وسحابية"
+        },
         "sourceUrl": "https://docs.ollama.com/api/introduction",
         "verifiedAt": "2026-09-13"
       },
       {
         "id": "local-runtime",
         "value": "available",
-        "label": {"en": "Local model runtime", "ar": "تشغيل النماذج محليًا"},
+        "label": {
+          "en": "Local model runtime",
+          "ar": "تشغيل النماذج محليًا"
+        },
         "sourceUrl": "https://docs.ollama.com/",
         "verifiedAt": "2026-09-13"
       }
@@ -85,7 +112,10 @@
       {
         "id": "self-hosting",
         "value": "available",
-        "label": {"en": "Self-hosting", "ar": "استضافة ذاتية"},
+        "label": {
+          "en": "Self-hosting",
+          "ar": "استضافة ذاتية"
+        },
         "sourceUrl": "https://docs.openwebui.com/",
         "verifiedAt": "2026-09-13"
       }
@@ -94,7 +124,10 @@
       {
         "id": "developer-api",
         "value": "available",
-        "label": {"en": "Developer API", "ar": "واجهة API للمطورين"},
+        "label": {
+          "en": "Developer API",
+          "ar": "واجهة API للمطورين"
+        },
         "sourceUrl": "https://api-docs.deepseek.com/quick_start/pricing/",
         "verifiedAt": "2026-09-13"
       }
@@ -103,7 +136,10 @@
       {
         "id": "developer-api",
         "value": "available",
-        "label": {"en": "Developer API", "ar": "واجهة API للمطورين"},
+        "label": {
+          "en": "Developer API",
+          "ar": "واجهة API للمطورين"
+        },
         "sourceUrl": "https://ideogram.ai/pricing/",
         "verifiedAt": "2026-09-13"
       }
@@ -112,7 +148,10 @@
       {
         "id": "developer-api",
         "value": "available",
-        "label": {"en": "Video API", "ar": "واجهة API للفيديو"},
+        "label": {
+          "en": "Video API",
+          "ar": "واجهة API للفيديو"
+        },
         "sourceUrl": "https://www.heygen.com/api-pricing",
         "verifiedAt": "2026-09-13"
       }
@@ -121,7 +160,10 @@
       {
         "id": "self-hosting",
         "value": "available",
-        "label": {"en": "Self-hosting", "ar": "استضافة ذاتية"},
+        "label": {
+          "en": "Self-hosting",
+          "ar": "استضافة ذاتية"
+        },
         "sourceUrl": "https://www.activepieces.com/solutions/open-source-developers",
         "verifiedAt": "2026-09-13"
       }
@@ -130,7 +172,10 @@
       {
         "id": "self-hosting",
         "value": "available",
-        "label": {"en": "Community self-hosting", "ar": "استضافة ذاتية لإصدار المجتمع"},
+        "label": {
+          "en": "Community self-hosting",
+          "ar": "استضافة ذاتية لإصدار المجتمع"
+        },
         "sourceUrl": "https://dify.ai/pricing/dify-enterprise",
         "verifiedAt": "2026-09-13"
       }
@@ -139,7 +184,10 @@
       {
         "id": "local-runtime",
         "value": "available",
-        "label": {"en": "Local-first runtime", "ar": "تشغيل محلي أولًا"},
+        "label": {
+          "en": "Local-first runtime",
+          "ar": "تشغيل محلي أولًا"
+        },
         "sourceUrl": "https://www.jan.ai/",
         "verifiedAt": "2026-09-13"
       }
@@ -148,14 +196,20 @@
       {
         "id": "developer-api",
         "value": "available",
-        "label": {"en": "Developer API", "ar": "واجهة API للمطورين"},
+        "label": {
+          "en": "Developer API",
+          "ar": "واجهة API للمطورين"
+        },
         "sourceUrl": "https://anythingllm.com/",
         "verifiedAt": "2026-09-13"
       },
       {
         "id": "self-hosting",
         "value": "available",
-        "label": {"en": "Self-hosting", "ar": "استضافة ذاتية"},
+        "label": {
+          "en": "Self-hosting",
+          "ar": "استضافة ذاتية"
+        },
         "sourceUrl": "https://anythingllm.com/",
         "verifiedAt": "2026-09-13"
       }
@@ -164,14 +218,20 @@
       {
         "id": "developer-api",
         "value": "available",
-        "label": {"en": "OpenAI-compatible API", "ar": "واجهة API متوافقة مع OpenAI"},
+        "label": {
+          "en": "OpenAI-compatible API",
+          "ar": "واجهة API متوافقة مع OpenAI"
+        },
         "sourceUrl": "https://localai.io/docs/index.html",
         "verifiedAt": "2026-09-13"
       },
       {
         "id": "self-hosting",
         "value": "available",
-        "label": {"en": "Self-hosted runtime", "ar": "تشغيل باستضافة ذاتية"},
+        "label": {
+          "en": "Self-hosted runtime",
+          "ar": "تشغيل باستضافة ذاتية"
+        },
         "sourceUrl": "https://localai.io/docs/index.html",
         "verifiedAt": "2026-09-13"
       }
