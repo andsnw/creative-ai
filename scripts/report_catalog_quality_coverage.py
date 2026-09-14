@@ -27,11 +27,19 @@ def build_report() -> dict:
     mismatched = []
 
     for row in catalog:
-        name = row[0]
-        url = row[5]
+        name, category, description, use_case, pricing, url = row
         review = accepted.get(name)
         if review is None:
-            pending.append({"name": name, "url": url, "category": row[1]})
+            pending.append(
+                {
+                    "name": name,
+                    "category": category,
+                    "description": description,
+                    "useCase": use_case,
+                    "pricing": pricing,
+                    "url": url,
+                }
+            )
             continue
 
         review_url = review.get("officialUrl", "")
