@@ -1,0 +1,43 @@
+name: Apply catalog quality review batch
+
+on:
+  push:
+    branches:
+      - audit/catalog-quality-completion
+    paths:
+      - "data/catalog-quality-review-batch.json"
+      - "scripts/apply_catalog_quality_review_batch.py"
+      - ".github/workflows/apply-catalog-quality-review-batch.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    if: github.actor != 'github-actions[bot]'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: audit/catalog-quality-completion
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Apply reviewed quality batch
+        run: python scripts/apply_catalog_quality_review_batch.py
+      - name: Validate catalog
+        run: python scripts/validate_tools.py
+      - name: Run unit tests
+        run: python -m unittest discover -s tests -p "test_*.py" -v
+      - name: Commit generated catalog and quality changes
+        run: |
+          if git diff --quiet; then
+            echo "No generated changes"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/tools.json data/tool-lifecycle.json data/verified-facts.json data/recommender.json data/recommender-fit.json data/catalog-quality.json
+          git commit -m "data: apply catalog quality review batch"
+          git pull --rebase origin audit/catalog-quality-completion
+          git push origin HEAD:audit/catalog-quality-completion
