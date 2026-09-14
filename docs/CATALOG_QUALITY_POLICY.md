@@ -24,21 +24,25 @@ Prefer, in order:
 
 Third-party directories may be used only for discovery. They are not sufficient evidence for acceptance by themselves.
 
-## Review record for future batches
+## Review record and enforcement
 
-Every future expansion batch should record, for each accepted tool:
+Accepted reviews are stored in `data/catalog-quality.json`. Every accepted review records:
 
 - canonical tool name;
-- official URL;
-- evidence URL(s);
-- UTC review date;
+- official URL exactly matching the maintained catalog;
+- one or more first-party evidence URLs;
+- review date;
 - one-sentence concrete user value;
-- reviewer decision (`accepted` or `rejected`) and, for rejections, a short reason.
+- reviewer decision.
 
-The batch should contain only accepted entries. Rejected candidates should stay in the review record so we do not repeatedly rediscover and reconsider the same low-quality entries without new evidence.
+The manifest also records `enforcedForAdditionsAtOrAfter`. Any catalog entry with a lifecycle `event=added` at or after that UTC timestamp must have an accepted quality review, otherwise `scripts/validate_tools.py` fails CI. This prevents future breadth batches from silently adding unreviewed tools.
+
+Rejected candidates should stay in review notes or audit records so the same low-quality entries are not repeatedly reconsidered without new evidence.
 
 ## Existing catalog audit
 
-The current catalog predates this strict gate. Existing entries should therefore be audited in batches. If a tool fails the policy, it should be removed or corrected rather than kept just to preserve the catalog count.
+The current catalog predates this strict gate. Existing entries should therefore be audited in batches. A tool not yet present in `data/catalog-quality.json` is **pending re-audit**; that state does not imply that the tool is unsafe or low quality. It only means the stricter review has not yet been completed.
+
+If an audited tool fails the policy, it should be removed or corrected rather than kept just to preserve the catalog count. Removal reasons should be recorded so the decision remains transparent.
 
 Catalog size is a secondary metric. Trustworthiness and usefulness are the primary requirements.
