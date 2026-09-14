@@ -72,9 +72,9 @@ def fetch_one(row: list[str], timeout: float) -> Result:
             body = exc.read(120_000)
         except Exception:
             body = b""
-        # 3xx and common anti-bot/auth responses prove that a server is reachable; they are review
-        # signals, not automatic evidence that the product is dead.
-        if not (300 <= exc.code < 400) and exc.code not in {401, 403, 405, 429}:
+        # Redirects and most 4xx responses show that a product server is reachable. Only explicit
+        # not-found/gone responses are treated as broken without additional evidence.
+        if exc.code in {404, 410} or exc.code >= 500:
             error = f"HTTP {exc.code}"
     except (URLError, TimeoutError, ssl.SSLError, OSError) as exc:
         error = f"{type(exc).__name__}: {exc}"
