@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T20:54:42.206551+00:00",
+  "updatedAt": "2026-09-14T05:04:23.028298+00:00",
   "items": [
     {
       "id": "tag:github.com,2008:Repository/658928958/v0.34.0",
@@ -602,6 +602,16 @@
       "why": "Useful for prototyping RAG and chatbot workflows."
     },
     {
+      "id": "tag:github.com,2008:Repository/599320067/v1.13.0.dev12",
+      "title": "v1.13.0.dev12",
+      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.13.0.dev12",
+      "publishedAt": "2026-09-14T00:42:43Z",
+      "source": "Langflow",
+      "kind": "Visual AI builder",
+      "purpose": "Create AI flows visually and connect components.",
+      "why": "Useful for testing AI application ideas faster."
+    },
+    {
       "id": "tag:github.com,2008:Repository/599320067/v1.13.0.dev11",
       "title": "v1.13.0.dev11",
       "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.13.0.dev11",
@@ -686,16 +696,6 @@
       "title": "v1.13.0.dev5",
       "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.13.0.dev5",
       "publishedAt": "2026-09-07T00:42:25Z",
-      "source": "Langflow",
-      "kind": "Visual AI builder",
-      "purpose": "Create AI flows visually and connect components.",
-      "why": "Useful for testing AI application ideas faster."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/599320067/v1.13.0.dev4",
-      "title": "v1.13.0.dev4",
-      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.13.0.dev4",
-      "publishedAt": "2026-09-06T00:43:22Z",
       "source": "Langflow",
       "kind": "Visual AI builder",
       "purpose": "Create AI flows visually and connect components.",
@@ -902,90 +902,10 @@
       "why": "Useful for search and Q&A over documents or databases."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1246350",
-      "title": "Visiby",
-      "url": "https://www.producthunt.com/products/visiby",
-      "publishedAt": "2026-09-13T13:51:43-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1248014",
-      "title": "Resurf",
-      "url": "https://www.producthunt.com/products/resurf-2",
-      "publishedAt": "2026-09-13T13:53:38-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1246919",
-      "title": "Epilude Notetaker",
-      "url": "https://www.producthunt.com/products/epilude",
-      "publishedAt": "2026-09-13T12:01:10-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1247092",
-      "title": "Cognition's SWE-2",
-      "url": "https://www.producthunt.com/products/cognition-s-swe-2",
-      "publishedAt": "2026-09-13T13:51:05-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1247126",
-      "title": "Kirokune",
-      "url": "https://www.producthunt.com/products/kirokune",
-      "publishedAt": "2026-09-13T12:03:12-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1242731",
-      "title": "Clipwise",
-      "url": "https://www.producthunt.com/products/clipwise-notion-web-clipper",
-      "publishedAt": "2026-09-13T13:51:43-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1245416",
-      "title": "Perplexity Hybrid Compute",
-      "url": "https://www.producthunt.com/products/perplexity-ai",
-      "publishedAt": "2026-09-13T13:53:41-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
       "id": "tag:www.producthunt.com,2005:Post/1222364",
       "title": "GhostWriter by MyHandler",
       "url": "https://www.producthunt.com/products/ghostwriter-by-myhandler",
-      "publishedAt": "2026-09-13T13:40:25-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1246822",
-      "title": "ScreenCursor",
-      "url": "https://www.producthunt.com/products/screencursor",
-      "publishedAt": "2026-09-13T13:48:49-07:00",
+      "publishedAt": "2026-09-13T21:53:09-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -995,7 +915,87 @@
       "id": "tag:www.producthunt.com,2005:Post/1246401",
       "title": "Neopress",
       "url": "https://www.producthunt.com/products/neopress",
-      "publishedAt": "2026-09-13T13:09:28-07:00",
+      "publishedAt": "2026-09-13T20:02:36-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1242731",
+      "title": "Clipwise",
+      "url": "https://www.producthunt.com/products/clipwise-notion-web-clipper",
+      "publishedAt": "2026-09-13T21:52:16-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1244857",
+      "title": "DemoTV",
+      "url": "https://www.producthunt.com/products/demotv",
+      "publishedAt": "2026-09-13T21:59:07-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1248014",
+      "title": "Resurf",
+      "url": "https://www.producthunt.com/products/resurf-2",
+      "publishedAt": "2026-09-13T22:00:56-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1246350",
+      "title": "Visiby",
+      "url": "https://www.producthunt.com/products/visiby",
+      "publishedAt": "2026-09-13T21:41:30-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1246822",
+      "title": "ScreenCursor",
+      "url": "https://www.producthunt.com/products/screencursor",
+      "publishedAt": "2026-09-13T21:52:07-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1247092",
+      "title": "Cognition's SWE-2",
+      "url": "https://www.producthunt.com/products/cognition-s-swe-2",
+      "publishedAt": "2026-09-13T21:41:49-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1245416",
+      "title": "Perplexity Hybrid Compute",
+      "url": "https://www.producthunt.com/products/perplexity-ai",
+      "publishedAt": "2026-09-13T22:01:40-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1246919",
+      "title": "Epilude Notetaker",
+      "url": "https://www.producthunt.com/products/epilude",
+      "publishedAt": "2026-09-13T21:52:36-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
