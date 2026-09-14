@@ -17,7 +17,14 @@ CATALOG_PATH = Path("data/tools.json")
 USER_AGENT = "CreativeAI-CatalogAudit/1.0 (+https://github.com/nael5x/creative-ai)"
 SUSPICIOUS_PATTERNS = {
     "parked-domain": re.compile(r"\b(domain (?:is )?for sale|buy this domain|premium domain|this domain may be for sale)\b", re.I),
-    "shutdown": re.compile(r"\b(farewell|shutting down|shut down|discontinued|sunset(?:ting)?|no longer available|service has ended)\b", re.I),
+    # Require lifecycle language rather than a bare word such as "shutdown". Active products often
+    # mention other services shutting down in comparison/FAQ copy, which must not condemn the product.
+    "shutdown": re.compile(
+        r"\b(?:we (?:are|'re) shutting down|will be shutting down|has shut down|have shut down|"
+        r"this (?:service|product|app) (?:is|has been) (?:discontinued|sunset)|"
+        r"service has ended|product has ended|no longer available to (?:new )?users|farewell)\b",
+        re.I,
+    ),
 }
 
 
@@ -65,8 +72,9 @@ def fetch_one(row: list[str], timeout: float) -> Result:
             body = exc.read(120_000)
         except Exception:
             body = b""
-        # 401/403/405/429 usually mean the site exists but blocks automated clients.
-        if exc.code not in {401, 403, 405, 429}:
+        # 3xx and common anti-bot/auth responses prove that a server is reachable; they are review
+        # signals, not automatic evidence that the product is dead.
+        if not (300 <= exc.code < 400) and exc.code not in {401, 403, 405, 429}:
             error = f"HTTP {exc.code}"
     except (URLError, TimeoutError, ssl.SSLError, OSError) as exc:
         error = f"{type(exc).__name__}: {exc}"
