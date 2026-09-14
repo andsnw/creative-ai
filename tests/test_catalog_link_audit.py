@@ -17,9 +17,9 @@ class CatalogLinkAuditTests(unittest.TestCase):
         self.assertIn("cross-domain-redirect", SCRIPT)
         self.assertIn("registrable_hint(url) != registrable_hint(final_url)", SCRIPT)
 
-    def test_bot_blocking_is_not_automatically_treated_as_dead(self):
-        for status in (401, 403, 405, 429):
-            self.assertIn(str(status), SCRIPT)
+    def test_client_errors_are_not_all_treated_as_dead(self):
+        self.assertIn("exc.code in {404, 410}", SCRIPT)
+        self.assertNotIn("400 <= exc.code < 500", SCRIPT)
 
     def test_audit_is_reporting_first_not_a_popularity_score(self):
         self.assertIn("A live URL is **not** proof that a tool is good", METHOD)
