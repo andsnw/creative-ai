@@ -1,0 +1,68 @@
+{
+  "batchId": "legacy-a-001",
+  "reviewedAt": "2026-09-14",
+  "accept": [
+    {
+      "name": "10Web",
+      "officialUrl": "https://10web.io/ai-website-builder/",
+      "evidenceUrls": ["https://10web.io/ai-website-builder/", "https://10web.io/blog/how-10webs-ai-website-generation-works/"],
+      "userValue": "AI-native website builder for generating, editing and publishing WordPress sites from prompts."
+    },
+    {
+      "name": "11x",
+      "officialUrl": "https://www.11x.ai/",
+      "evidenceUrls": ["https://www.11x.ai/", "https://docs.11x.ai/"],
+      "userValue": "AI go-to-market platform with autonomous outbound and inbound sales workers for prospecting, qualification and meeting booking."
+    },
+    {
+      "name": "Abnormal AI",
+      "officialUrl": "https://abnormal.ai/",
+      "evidenceUrls": ["https://abnormal.ai/platform/inbound-email-security"],
+      "userValue": "Behavioral AI security platform for detecting business email compromise, phishing and account-takeover threats."
+    },
+    {
+      "name": "Abridge",
+      "officialUrl": "https://www.abridge.com/",
+      "evidenceUrls": ["https://www.abridge.com/", "https://www.abridge.com/blog/clinical-ai-specialty-models"],
+      "userValue": "Clinical AI platform that turns patient conversations and chart context into documentation, decision support and follow-up workflows."
+    },
+    {
+      "name": "Ada",
+      "officialUrl": "https://www.ada.cx/",
+      "evidenceUrls": ["https://www.ada.cx/blog/agentic-ai-customer-service-updates-july-2026/"],
+      "userValue": "Enterprise agentic customer-service platform for automating resolutions and executing support workflows across channels."
+    },
+    {
+      "name": "Ada Health",
+      "officialUrl": "https://ada.com/",
+      "evidenceUrls": ["https://ada.com/help/how-do-i-start-a-symptom-assessment/"],
+      "userValue": "AI symptom-assessment product that guides users through structured health questions and produces possible-cause reports."
+    },
+    {
+      "name": "AdCreative.ai",
+      "officialUrl": "https://www.adcreative.ai/",
+      "evidenceUrls": ["https://www.adcreative.ai/"],
+      "userValue": "Generative advertising platform for producing and scoring ad creatives, copy, images and videos."
+    },
+    {
+      "name": "Adobe Express",
+      "officialUrl": "https://www.adobe.com/express/",
+      "evidenceUrls": ["https://www.adobe.com/express/", "https://helpx.adobe.com/express/web/ai-assistant/adobe-express-ai-assistant-overview.html"],
+      "userValue": "Adobe creative editor with first-class generative AI and an AI Assistant for creating and editing designs, images and video."
+    },
+    {
+      "name": "Adobe Podcast",
+      "officialUrl": "https://podcast.adobe.com/",
+      "evidenceUrls": ["https://podcast.adobe.com/en", "https://podcast.adobe.com/en/guides/whats-new-in-adobe-podcast-march-2026"],
+      "userValue": "Adobe's active AI audio suite for speech enhancement, recording and text-like editing of podcast and video audio."
+    },
+    {
+      "name": "AgentOps",
+      "officialUrl": "https://www.agentops.ai/",
+      "evidenceUrls": ["https://docs.agentops.ai/v2/introduction", "https://docs.agentops.ai/v2/quickstart"],
+      "userValue": "AI-agent observability platform for tracing, debugging and monitoring agent and LLM application behavior."
+    }
+  ],
+  "update": [],
+  "remove": []
+}
