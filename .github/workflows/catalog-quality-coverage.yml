@@ -1,0 +1,32 @@
+name: Catalog quality coverage
+
+on:
+  push:
+    branches:
+      - audit/catalog-quality-completion
+    paths:
+      - "data/tools.json"
+      - "data/catalog-quality.json"
+      - "scripts/report_catalog_quality_coverage.py"
+      - ".github/workflows/catalog-quality-coverage.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Build quality coverage report
+        run: python scripts/report_catalog_quality_coverage.py --output catalog-quality-coverage.json
+      - name: Upload coverage artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: catalog-quality-coverage
+          path: catalog-quality-coverage.json
+          if-no-files-found: error
