@@ -1,6 +1,7 @@
 {
   "schemaVersion": 1,
   "policy": "docs/CATALOG_QUALITY_POLICY.md",
+  "enforcedForAdditionsAtOrAfter": "2026-09-14T01:17:06Z",
   "note": "Only entries manually checked against first-party evidence appear here. Catalog entries not listed are pending re-audit under the stricter policy; pending does not mean unsafe or low quality.",
   "tools": [
     {"name":"ChatGPT","officialUrl":"https://chatgpt.com/","evidenceUrls":["https://platform.openai.com/docs/models"],"reviewedAt":"2026-09-14","userValue":"General-purpose assistant for writing, analysis, brainstorming, files and multimodal work.","decision":"accepted"},
