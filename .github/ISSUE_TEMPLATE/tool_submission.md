@@ -25,9 +25,10 @@ assignees: ""
 <!-- What specific task does this solve, and for whom? -->
 
 ## Official verification source(s)
-<!-- Official docs, product page, help center, or official source repository. Third-party directories are discovery inputs only and are not sufficient evidence by themselves. -->
+<!-- Use an official or clearly verifiable source. For acceptance, first-party evidence such as official docs, product pages, help centers, or official source repositories is required. Third-party directories are discovery inputs only and are not sufficient evidence by themselves. -->
 
 ## Quality checklist
+- [ ] I used an official or clearly verifiable source, with first-party evidence for acceptance.
 - [ ] The URL is the canonical official product/project URL.
 - [ ] The evidence is first-party (official docs/site/repository), not only a third-party directory.
 - [ ] AI is a real first-class capability of the product.
