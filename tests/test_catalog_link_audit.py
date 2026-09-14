@@ -22,6 +22,12 @@ class CatalogLinkAuditTests(unittest.TestCase):
         self.assertIn("exc.code in {404, 410}", SCRIPT)
         self.assertNotIn("400 <= exc.code < 500", SCRIPT)
 
+    def test_network_failures_are_review_signals_not_dead_products(self):
+        self.assertIn("transient-network-error", SCRIPT)
+        self.assertIn("transient_failure = True", SCRIPT)
+        self.assertIn("ok = transient_failure or", SCRIPT)
+        self.assertIn("DNS, TLS and timeout failures", SCRIPT)
+
     def test_unresolved_manual_mappings_are_never_applied(self):
         self.assertIn('item.get("status") == "unresolved"', FIXER)
         self.assertIn('item.get("userValue") == "PLACEHOLDER"', FIXER)
