@@ -17,12 +17,14 @@ CATALOG_PATH = Path("data/tools.json")
 USER_AGENT = "CreativeAI-CatalogAudit/1.0 (+https://github.com/nael5x/creative-ai)"
 SUSPICIOUS_PATTERNS = {
     "parked-domain": re.compile(r"\b(domain (?:is )?for sale|buy this domain|premium domain|this domain may be for sale)\b", re.I),
-    # Require lifecycle language rather than a bare word such as "shutdown". Active products often
-    # mention other services shutting down in comparison/FAQ copy, which must not condemn the product.
+    # Require explicit product-lifecycle language. Generic marketing phrases such as
+    # "bid farewell to busywork" are not evidence that the product itself is shutting down.
     "shutdown": re.compile(
         r"\b(?:we (?:are|'re) shutting down|will be shutting down|has shut down|have shut down|"
-        r"this (?:service|product|app) (?:is|has been) (?:discontinued|sunset)|"
-        r"service has ended|product has ended|no longer available to (?:new )?users|farewell)\b",
+        r"this (?:service|product|app|platform) (?:is|has been) (?:discontinued|sunset)|"
+        r"(?:the )?(?:service|product|app|platform) has ended|"
+        r"(?:the )?(?:service|product|app|platform) is no longer (?:available|accessible)|"
+        r"no longer available to (?:new )?users)\b",
         re.I,
     ),
 }
