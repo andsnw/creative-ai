@@ -4,6 +4,8 @@ import json
 from pathlib import Path
 from urllib.parse import urlparse
 
+# Second-pass changes are intentionally explicit and source-reviewed; this script never discovers
+# or guesses replacements on its own.
 ROOT = Path("data")
 PATHS = {
     "catalog": ROOT / "tools.json",
