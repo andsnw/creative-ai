@@ -2,6 +2,7 @@ from pathlib import Path
 import unittest
 
 SCRIPT = Path("scripts/audit_catalog_links.py").read_text(encoding="utf-8")
+FIXER = Path("scripts/apply_catalog_audit_fixes.py").read_text(encoding="utf-8")
 METHOD = Path("docs/CATALOG_AUDIT_METHOD.md").read_text(encoding="utf-8")
 
 
@@ -20,6 +21,11 @@ class CatalogLinkAuditTests(unittest.TestCase):
     def test_client_errors_are_not_all_treated_as_dead(self):
         self.assertIn("exc.code in {404, 410}", SCRIPT)
         self.assertNotIn("400 <= exc.code < 500", SCRIPT)
+
+    def test_unresolved_manual_mappings_are_never_applied(self):
+        self.assertIn('item.get("status") == "unresolved"', FIXER)
+        self.assertIn('item.get("userValue") == "PLACEHOLDER"', FIXER)
+        self.assertIn("UNRESOLVED audit mapping left unchanged", FIXER)
 
     def test_audit_is_reporting_first_not_a_popularity_score(self):
         self.assertIn("A live URL is **not** proof that a tool is good", METHOD)
