@@ -17,7 +17,16 @@ CATALOG_PATH = Path("data/tools.json")
 USER_AGENT = "CreativeAI-CatalogAudit/1.0 (+https://github.com/nael5x/creative-ai)"
 SUSPICIOUS_PATTERNS = {
     "parked-domain": re.compile(r"\b(domain (?:is )?for sale|buy this domain|premium domain|this domain may be for sale)\b", re.I),
-    "shutdown": re.compile(r"\b(farewell|shutting down|shut down|discontinued|sunset(?:ting)?|no longer available|service has ended)\b", re.I),
+    # Require explicit product-lifecycle language. Generic marketing phrases such as
+    # "bid farewell to busywork" are not evidence that the product itself is shutting down.
+    "shutdown": re.compile(
+        r"\b(?:we (?:are|'re) shutting down|will be shutting down|has shut down|have shut down|"
+        r"this (?:service|product|app|platform) (?:is|has been) (?:discontinued|sunset)|"
+        r"(?:the )?(?:service|product|app|platform) has ended|"
+        r"(?:the )?(?:service|product|app|platform) is no longer (?:available|accessible)|"
+        r"no longer available to (?:new )?users)\b",
+        re.I,
+    ),
 }
 
 
@@ -28,6 +37,7 @@ class Result:
     status: int | None
     final_url: str | None
     ok: bool
+    transient_failure: bool
     redirect_host_changed: bool
     flags: list[str]
     error: str | None
@@ -53,6 +63,7 @@ def fetch_one(row: list[str], timeout: float) -> Result:
     final_url: str | None = None
     body = b""
     error: str | None = None
+    transient_failure = False
     try:
         with urlopen(req, timeout=timeout, context=context) as response:
             status = getattr(response, "status", None) or response.getcode()
@@ -65,22 +76,38 @@ def fetch_one(row: list[str], timeout: float) -> Result:
             body = exc.read(120_000)
         except Exception:
             body = b""
-        # 401/403/405/429 usually mean the site exists but blocks automated clients.
-        if exc.code not in {401, 403, 405, 429}:
+        # Redirects and most 4xx responses show that a product server is reachable. Only explicit
+        # not-found/gone responses and server failures are treated as broken without more evidence.
+        if exc.code in {404, 410} or exc.code >= 500:
             error = f"HTTP {exc.code}"
     except (URLError, TimeoutError, ssl.SSLError, OSError) as exc:
+        # DNS, TLS and timeout failures can be bot/network specific. Preserve the diagnostic and
+        # surface the URL for manual review, but do not call the product dead from this signal alone.
         error = f"{type(exc).__name__}: {exc}"
+        transient_failure = True
     except Exception as exc:  # defensive: this is a reporting utility
         error = f"{type(exc).__name__}: {exc}"
 
     text = unescape(body.decode("utf-8", errors="ignore"))
     compact = re.sub(r"\s+", " ", text)[:120_000]
     flags = [label for label, pattern in SUSPICIOUS_PATTERNS.items() if pattern.search(compact)]
+    if transient_failure:
+        flags.append("transient-network-error")
     changed = bool(final_url and registrable_hint(url) != registrable_hint(final_url))
     if changed:
         flags.append("cross-domain-redirect")
-    ok = error is None and (status is None or status < 500)
-    return Result(name, url, status, final_url, ok, changed, sorted(set(flags)), error)
+    ok = transient_failure or (error is None and (status is None or status < 500))
+    return Result(
+        name,
+        url,
+        status,
+        final_url,
+        ok,
+        transient_failure,
+        changed,
+        sorted(set(flags)),
+        error,
+    )
 
 
 def main() -> None:

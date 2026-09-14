@@ -1,0 +1,205 @@
+{
+  "reviewedAt": "2026-09-14",
+  "remove": [
+    {
+      "name": "Dora AI",
+      "evidenceUrls": [
+        "https://www.dora.run/signup/ai/waitlist"
+      ],
+      "reason": "Removed from active discovery because Dora's first-party shutdown page states that Dora shut down on May 1, 2026."
+    },
+    {
+      "name": "Roo Code",
+      "evidenceUrls": [
+        "https://github.com/RooCodeInc/Roo-Code",
+        "https://github.com/RooCodeInc/Roo-Code/commits"
+      ],
+      "reason": "Removed because the official Roo Code repository is archived and states that the Roo Code extension was shut down on May 15, 2026. Roomote is treated as a different product rather than a silent rename."
+    },
+    {
+      "name": "Hour One",
+      "evidenceUrls": [
+        "https://www.wix.com/press-room/home/post/wix-acquires-hour-one-to-expand-generative-ai-capabilities-and-accelerate-product-innovation",
+        "https://hourone.ai/"
+      ],
+      "reason": "Removed from the active directory because Wix acquired Hour One and its team in 2025, while the maintained standalone product domain no longer provides a reliably reachable product entry point. This is an active-directory availability decision, not a claim that Hour One technology ceased to exist."
+    }
+  ],
+  "update": [
+    {
+      "name": "Durable",
+      "url": "https://durable.com/",
+      "evidenceUrls": ["https://durable.com/"],
+      "userValue": "Active AI business and website builder on Durable's current canonical domain."
+    },
+    {
+      "name": "Fathom",
+      "url": "https://www.fathom.ai/",
+      "evidenceUrls": ["https://www.fathom.ai/"],
+      "userValue": "Active AI meeting assistant on Fathom's current canonical domain."
+    },
+    {
+      "name": "Fellow",
+      "url": "https://fellow.ai/",
+      "evidenceUrls": ["https://fellow.ai/"],
+      "userValue": "Active AI meeting workspace on Fellow's current canonical domain."
+    },
+    {
+      "name": "GrowthBar",
+      "url": "https://www.seoptimer.com/growthbar/",
+      "evidenceUrls": ["https://www.seoptimer.com/growthbar/"],
+      "userValue": "GrowthBar remains available under SEOptimer after acquisition; the catalog now points at the current first-party product page."
+    },
+    {
+      "name": "Guru",
+      "url": "https://www.getguru.com/",
+      "evidenceUrls": ["https://www.getguru.com/", "https://www.getguru.com/features/ai-agent-center"],
+      "userValue": "Active enterprise knowledge and AI search platform; the former /ai URL was stale."
+    },
+    {
+      "name": "Hebbia",
+      "url": "https://www.hebbia.com/",
+      "evidenceUrls": ["https://www.hebbia.com/"],
+      "userValue": "Active AI knowledge-work platform on Hebbia's current canonical domain."
+    },
+    {
+      "name": "Kling AI",
+      "url": "https://kling.ai/",
+      "evidenceUrls": ["https://kling.ai/"],
+      "userValue": "Active generative video product on Kling AI's current canonical domain."
+    },
+    {
+      "name": "LTX Studio",
+      "url": "https://ltx.io/studio",
+      "evidenceUrls": ["https://ltx.io/studio/platform/ai-video-generator"],
+      "userValue": "Active AI video creation studio on LTX's current first-party product domain."
+    },
+    {
+      "name": "Magnific",
+      "url": "https://www.magnific.com/",
+      "evidenceUrls": ["https://www.magnific.com/"],
+      "userValue": "Active AI image enhancement product on Magnific's current canonical domain."
+    },
+    {
+      "name": "monday AI",
+      "url": "https://monday.com/",
+      "evidenceUrls": [
+        "https://monday.com/",
+        "https://support.monday.com/hc/en-us/articles/115005305649-Get-started-with-monday-AI-work-platform"
+      ],
+      "userValue": "monday.com is now positioned as an AI work platform with AI assistants, workflows and app-building capabilities; the old /ai URL was stale."
+    },
+    {
+      "name": "NotebookLM",
+      "url": "https://notebook.google/",
+      "evidenceUrls": ["https://notebook.google/"],
+      "userValue": "Google's active NotebookLM product on its current canonical notebook.google domain."
+    },
+    {
+      "name": "Notion AI",
+      "url": "https://www.notion.com/product/ai",
+      "evidenceUrls": ["https://www.notion.com/product/ai"],
+      "userValue": "Active Notion AI product page on Notion's current canonical domain."
+    },
+    {
+      "name": "OpenAI Codex",
+      "url": "https://openai.com/codex/",
+      "evidenceUrls": ["https://openai.com/codex/", "https://help.openai.com/en/collections/14937394-codex"],
+      "userValue": "OpenAI's active coding agent for writing, reviewing and shipping code, now presented as Codex in ChatGPT."
+    },
+    {
+      "name": "Playground AI",
+      "url": "https://playgroundai.com/",
+      "evidenceUrls": ["https://playgroundai.com/", "https://playgroundai.com/design/whats-new"],
+      "userValue": "Active AI design and image creation product with current 2026 product updates."
+    },
+    {
+      "name": "Plus AI",
+      "url": "https://plusai.com/google-slides-ai",
+      "evidenceUrls": ["https://plusai.com/google-slides-ai"],
+      "userValue": "Active AI presentation assistant on Plus AI's current canonical product domain."
+    },
+    {
+      "name": "Recall",
+      "url": "https://www.recall.it/",
+      "evidenceUrls": ["https://www.recall.it/"],
+      "userValue": "Active personal knowledge and summarization product on Recall's current canonical domain."
+    },
+    {
+      "name": "Regard",
+      "url": "https://regard.com/",
+      "evidenceUrls": ["https://regard.com/", "https://regard.com/solutions/clinical-notes"],
+      "userValue": "Active clinical AI diagnosis and documentation platform on Regard's current canonical domain."
+    },
+    {
+      "name": "Relume",
+      "url": "https://www.relume.ai/",
+      "evidenceUrls": ["https://www.relume.ai/"],
+      "userValue": "Active AI website design and publishing platform on Relume's current canonical domain."
+    },
+    {
+      "name": "Riverside",
+      "url": "https://riverside.com/",
+      "evidenceUrls": ["https://riverside.com/"],
+      "userValue": "Active recording and AI editing platform on Riverside's current canonical domain."
+    },
+    {
+      "name": "Runway",
+      "url": "https://runway.com/",
+      "evidenceUrls": ["https://runway.com/"],
+      "userValue": "Active generative video and creative AI platform on Runway's current canonical domain."
+    },
+    {
+      "name": "SE Ranking Content Editor",
+      "url": "https://seranking.com/content-editor.html",
+      "evidenceUrls": ["https://seranking.com/content-editor.html"],
+      "userValue": "Active AI-based content creation and optimization editor; the prior content-marketing URL was stale."
+    },
+    {
+      "name": "Spellbook",
+      "url": "https://spellbook.com/",
+      "evidenceUrls": ["https://spellbook.com/", "https://spellbook.com/legal/privacy-policy"],
+      "userValue": "Active AI legal drafting and contract platform on Spellbook's current canonical domain."
+    },
+    {
+      "name": "Stack AI",
+      "url": "https://www.stackai.com/",
+      "evidenceUrls": ["https://www.stackai.com/"],
+      "userValue": "Active enterprise AI workflow platform on Stack AI's current canonical domain."
+    },
+    {
+      "name": "Tezi",
+      "url": "https://app.tezi.ai/",
+      "evidenceUrls": ["https://app.tezi.ai/", "https://help.tezi.ai/for-candidates/5MJQyfNxL9dYJifaLgmzoS/candidate-faqs/5MJQyfNxLc6KYdkJcb47d5"],
+      "userValue": "Active AI recruiting platform; the app entry point and current first-party help documentation confirm Tezi and its Max recruiting agent remain active."
+    },
+    {
+      "name": "v0",
+      "url": "https://v0.app/",
+      "evidenceUrls": ["https://v0.app/"],
+      "userValue": "Active AI web interface and app builder on v0's current canonical domain."
+    },
+    {
+      "name": "WellSaid Labs",
+      "url": "https://www.wellsaid.io/",
+      "evidenceUrls": ["https://www.wellsaid.io/"],
+      "userValue": "Active AI voice platform on WellSaid's current canonical domain."
+    },
+    {
+      "name": "WriterZen",
+      "url": "https://writerzen.net/",
+      "evidenceUrls": ["https://writerzen.net/"],
+      "userValue": "Active SEO research, clustering and AI-assisted content platform; the prior shutdown flag was a false positive from page text, not a product shutdown notice."
+    },
+    {
+      "name": "Zenity",
+      "url": "https://zenity.io/",
+      "evidenceUrls": [
+        "https://zenity.io/",
+        "https://zenity.io/platform",
+        "https://zenity.io/blog/ai-security-decision-point"
+      ],
+      "userValue": "Active AI-agent security and governance platform; the audit timeout was a transient bot/network access failure rather than product unavailability."
+    }
+  ]
+}

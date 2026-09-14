@@ -1,0 +1,41 @@
+name: Apply catalog audit fixes
+
+on:
+  push:
+    branches:
+      - audit/legacy-catalog-completion
+    paths:
+      - "data/catalog-audit-fixes.json"
+      - "scripts/apply_catalog_audit_fixes.py"
+
+permissions:
+  contents: write
+
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    if: github.actor != 'github-actions[bot]'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: audit/legacy-catalog-completion
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Apply reviewed fixes
+        run: python scripts/apply_catalog_audit_fixes.py
+      - name: Validate catalog
+        run: python scripts/validate_tools.py
+      - name: Run unit tests
+        run: python -m unittest discover -s tests -p "test_*.py" -v
+      - name: Commit generated catalog changes
+        run: |
+          if git diff --quiet; then
+            echo "No generated changes"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/tools.json data/tool-lifecycle.json data/verified-facts.json data/recommender.json data/recommender-fit.json data/catalog-quality.json
+          git commit -m "data: apply reviewed catalog audit fixes"
+          git push origin HEAD:audit/legacy-catalog-completion

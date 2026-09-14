@@ -4,33 +4,1012 @@
   "enforcedForAdditionsAtOrAfter": "2026-09-14T01:17:06Z",
   "note": "Only entries manually checked against first-party evidence appear here. Catalog entries not listed are pending re-audit under the stricter policy; pending does not mean unsafe or low quality.",
   "tools": [
-    {"name":"ChatGPT","officialUrl":"https://chatgpt.com/","evidenceUrls":["https://platform.openai.com/docs/models"],"reviewedAt":"2026-09-14","userValue":"General-purpose assistant for writing, analysis, brainstorming, files and multimodal work.","decision":"accepted"},
-    {"name":"Claude","officialUrl":"https://claude.ai/","evidenceUrls":["https://www.anthropic.com/","https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/prompt-templates-and-variables"],"reviewedAt":"2026-09-14","userValue":"Strong assistant for long-context reasoning, writing, analysis and coding workflows.","decision":"accepted"},
-    {"name":"Gemini","officialUrl":"https://gemini.google.com/","evidenceUrls":["https://ai.google.dev/gemini-api/docs/get-started"],"reviewedAt":"2026-09-14","userValue":"Google-connected multimodal assistant for research, writing and productivity.","decision":"accepted"},
-    {"name":"Perplexity","officialUrl":"https://www.perplexity.ai/","evidenceUrls":["https://www.perplexity.ai/help-center/en/articles/10352155-what-is-perplexity"],"reviewedAt":"2026-09-14","userValue":"Web research and answer engine with source citations for checking claims quickly.","decision":"accepted"},
-    {"name":"Midjourney","officialUrl":"https://www.midjourney.com/","evidenceUrls":["https://docs.midjourney.com/hc/en-us/articles/33329261836941-Getting-Started-Guide"],"reviewedAt":"2026-09-14","userValue":"High-quality image and video generation for creative visual work.","decision":"accepted"},
-    {"name":"Adobe Firefly","officialUrl":"https://firefly.adobe.com/","evidenceUrls":["https://firefly.adobe.com/"],"reviewedAt":"2026-09-14","userValue":"Adobe's AI creative studio for image, video, audio and design workflows.","decision":"accepted"},
-    {"name":"Canva AI","officialUrl":"https://www.canva.com/ai-image-generator/","evidenceUrls":["https://www.canva.com/newsroom/news/magic-studio/"],"reviewedAt":"2026-09-14","userValue":"Accessible AI-assisted design and content creation inside Canva workflows.","decision":"accepted"},
-    {"name":"Runway","officialUrl":"https://runwayml.com/","evidenceUrls":["https://docs.dev.runwayml.com/"],"reviewedAt":"2026-09-14","userValue":"Generative video and creative editing platform with developer access.","decision":"accepted"},
-    {"name":"ElevenLabs","officialUrl":"https://elevenlabs.io/","evidenceUrls":["https://elevenlabs.io/docs/api-reference/introduction"],"reviewedAt":"2026-09-14","userValue":"Speech, voice and dubbing platform for narration and multilingual audio workflows.","decision":"accepted"},
-    {"name":"Cursor","officialUrl":"https://www.cursor.com/","evidenceUrls":["https://cursor.com/docs"],"reviewedAt":"2026-09-14","userValue":"AI coding agent and editor for understanding, changing, debugging and reviewing codebases.","decision":"accepted"},
-    {"name":"GitHub Copilot","officialUrl":"https://github.com/features/copilot","evidenceUrls":["https://docs.github.com/en/copilot/get-started/quickstart-copilot-app"],"reviewedAt":"2026-09-14","userValue":"AI coding assistant and agent integrated into GitHub and developer workflows.","decision":"accepted"},
-    {"name":"Replit","officialUrl":"https://replit.com/","evidenceUrls":["https://replit.com/products/agent"],"reviewedAt":"2026-09-14","userValue":"AI app-building workspace that can generate, run and publish software from one environment.","decision":"accepted"},
-    {"name":"n8n","officialUrl":"https://n8n.io/","evidenceUrls":["https://support.n8n.io/section/n8n-self-hosted-faq-uly57w0tlb2uq2l0yn1byx9o"],"reviewedAt":"2026-09-14","userValue":"Workflow automation platform with self-hosting for connecting apps, APIs and AI steps.","decision":"accepted"},
-    {"name":"Make","officialUrl":"https://www.make.com/","evidenceUrls":["https://www.make.com/en/ai-agents"],"reviewedAt":"2026-09-14","userValue":"Visual automation and AI-agent platform for multi-app business workflows.","decision":"accepted"},
-    {"name":"Zapier","officialUrl":"https://zapier.com/","evidenceUrls":["https://help.zapier.com/hc/en-us/articles/37518970271245-What-is-Zapier"],"reviewedAt":"2026-09-14","userValue":"AI-powered automation platform for connecting apps, data and business processes.","decision":"accepted"},
-    {"name":"Ollama","officialUrl":"https://ollama.com/","evidenceUrls":["https://docs.ollama.com/","https://docs.ollama.com/api/introduction"],"reviewedAt":"2026-09-14","userValue":"Local-first model runtime for running supported AI models on user-controlled hardware.","decision":"accepted"},
-    {"name":"Open WebUI","officialUrl":"https://openwebui.com/","evidenceUrls":["https://docs.openwebui.com/"],"reviewedAt":"2026-09-14","userValue":"Self-hostable web interface for local and remote AI models.","decision":"accepted"},
-    {"name":"Hugging Face","officialUrl":"https://huggingface.co/","evidenceUrls":["https://huggingface.co/docs/inference-endpoints/api_reference"],"reviewedAt":"2026-09-14","userValue":"Major hub for models, datasets, demos and inference workflows.","decision":"accepted"},
-    {"name":"LangChain","officialUrl":"https://www.langchain.com/","evidenceUrls":["https://www.langchain.com/langchain","https://reference.langchain.com/"],"reviewedAt":"2026-09-14","userValue":"Open-source framework for building agents and LLM applications across models and tools.","decision":"accepted"},
-    {"name":"Figma AI","officialUrl":"https://www.figma.com/","evidenceUrls":["https://help.figma.com/hc/en-us/articles/24039793359767-Get-started-with-Figma-AI"],"reviewedAt":"2026-09-14","userValue":"AI-assisted design, prototyping and product-design workflows inside Figma.","decision":"accepted"},
-    {"name":"Gamma","officialUrl":"https://gamma.app/","evidenceUrls":["https://gamma.app/products/presentations"],"reviewedAt":"2026-09-14","userValue":"AI-assisted presentations and visual documents generated from outlines or prompts.","decision":"accepted"},
-    {"name":"Grammarly","officialUrl":"https://www.grammarly.com/","evidenceUrls":["https://support.grammarly.com/hc/en-us/articles/14528857014285-Introducing-generative-AI-assistance"],"reviewedAt":"2026-09-14","userValue":"AI writing assistance for drafting, rewriting, tone and communication quality.","decision":"accepted"},
-    {"name":"HeyGen","officialUrl":"https://www.heygen.com/","evidenceUrls":["https://www.heygen.com/api-pricing"],"reviewedAt":"2026-09-14","userValue":"AI avatar video, voice and localization platform for presenter-style content.","decision":"accepted"},
-    {"name":"Dify","officialUrl":"https://dify.ai/","evidenceUrls":["https://dify.ai/pricing/dify-enterprise"],"reviewedAt":"2026-09-14","userValue":"Visual platform for building agents, RAG apps and AI workflows with self-hosting options.","decision":"accepted"},
-    {"name":"Activepieces","officialUrl":"https://www.activepieces.com/","evidenceUrls":["https://www.activepieces.com/solutions/open-source-developers"],"reviewedAt":"2026-09-14","userValue":"Open-source automation platform for flows, integrations and AI-agent workflows.","decision":"accepted"},
-    {"name":"Jan","officialUrl":"https://www.jan.ai/","evidenceUrls":["https://www.jan.ai/"],"reviewedAt":"2026-09-14","userValue":"Open-source local-first desktop AI assistant for running models under user control.","decision":"accepted"},
-    {"name":"AnythingLLM","officialUrl":"https://anythingllm.com/","evidenceUrls":["https://anythingllm.com/"],"reviewedAt":"2026-09-14","userValue":"Local-first workspace for document chat, agents and model integrations.","decision":"accepted"},
-    {"name":"LocalAI","officialUrl":"https://localai.io/","evidenceUrls":["https://localai.io/docs/index.html"],"reviewedAt":"2026-09-14","userValue":"Self-hosted local AI runtime exposing cloud-style APIs on user-controlled infrastructure.","decision":"accepted"}
-  ]
+    {
+      "name": "Activepieces",
+      "officialUrl": "https://www.activepieces.com/",
+      "evidenceUrls": [
+        "https://www.activepieces.com/solutions/open-source-developers"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "Open-source automation platform for flows, integrations and AI-agent workflows.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Adobe Firefly",
+      "officialUrl": "https://firefly.adobe.com/",
+      "evidenceUrls": [
+        "https://firefly.adobe.com/"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "Adobe's AI creative studio for image, video, audio and design workflows.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Anara",
+      "officialUrl": "https://anara.com/",
+      "evidenceUrls": [
+        "https://anara.com/updates/unriddle-is-now-anara-improved-citations-and-new-settings",
+        "https://anara.com/blog/the-beginning-of-a-new-story"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "Current identity of Unriddle, now focused on AI-assisted scientific research workflows.",
+      "decision": "accepted"
+    },
+    {
+      "name": "AnythingLLM",
+      "officialUrl": "https://anythingllm.com/",
+      "evidenceUrls": [
+        "https://anythingllm.com/"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "Local-first workspace for document chat, agents and model integrations.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Async",
+      "officialUrl": "https://async.com/",
+      "evidenceUrls": [
+        "https://async.com/blog/podcastle-is-now-async/"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "Current product identity of Podcastle, expanded beyond podcasting into a broader creative and voice platform.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Better Analyst",
+      "officialUrl": "https://betteranalyst.com/",
+      "evidenceUrls": [
+        "https://betteranalyst.com/formula-bot-is-now-better-analyst"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "AI data analysis workspace that replaces Formula Bot while preserving existing accounts and workflows.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Bloomreach Loomi",
+      "officialUrl": "https://www.bloomreach.com/en/products/loomi-ai",
+      "evidenceUrls": [
+        "https://www.bloomreach.com/en/products/loomi-ai"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "Agentic personalization platform powering Bloomreach marketing, search and customer-experience workflows.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Brand Studio",
+      "officialUrl": "https://brandstudio.com/",
+      "evidenceUrls": [
+        "https://kb.stability.ai/knowledge-base/brand-studio-faq"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "Stability AI's current creative product identity replacing DreamStudio.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Brex AI",
+      "officialUrl": "https://www.brex.com/",
+      "evidenceUrls": [
+        "https://www.brex.com/product-announcements/fall-release-2025",
+        "https://www.brex.com/journal/press/brex-launches-ai-native-accounting-api"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "AI-native finance automation inside Brex for expense, accounting and spend-management workflows.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Canva AI",
+      "officialUrl": "https://www.canva.com/ai-image-generator/",
+      "evidenceUrls": [
+        "https://www.canva.com/newsroom/news/magic-studio/"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "Accessible AI-assisted design and content creation inside Canva workflows.",
+      "decision": "accepted"
+    },
+    {
+      "name": "ChatGPT",
+      "officialUrl": "https://chatgpt.com/",
+      "evidenceUrls": [
+        "https://platform.openai.com/docs/models"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "General-purpose assistant for writing, analysis, brainstorming, files and multimodal work.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Claude",
+      "officialUrl": "https://claude.ai/",
+      "evidenceUrls": [
+        "https://www.anthropic.com/",
+        "https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/prompt-templates-and-variables"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "Strong assistant for long-context reasoning, writing, analysis and coding workflows.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Claude Code",
+      "officialUrl": "https://claude.com/product/claude-code",
+      "evidenceUrls": [
+        "https://claude.com/product/claude-code"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "Anthropic's coding agent for understanding codebases, editing files, running commands and developer workflows.",
+      "decision": "accepted"
+    },
+    {
+      "name": "CodeGeeX",
+      "officialUrl": "https://www.codegeex.cn/",
+      "evidenceUrls": [
+        "https://www.codegeex.cn/"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "AI coding assistant and model ecosystem for code generation, completion, explanation and translation.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Cursor",
+      "officialUrl": "https://www.cursor.com/",
+      "evidenceUrls": [
+        "https://cursor.com/docs"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "AI coding agent and editor for understanding, changing, debugging and reviewing codebases.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Devin Desktop",
+      "officialUrl": "https://devin.ai/desktop",
+      "evidenceUrls": [
+        "https://devin.ai/desktop"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "Current product identity of Windsurf; Devin states that Devin Desktop is the new name and preserves the IDE experience.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Dify",
+      "officialUrl": "https://dify.ai/",
+      "evidenceUrls": [
+        "https://dify.ai/pricing/dify-enterprise"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "Visual platform for building agents, RAG apps and AI workflows with self-hosting options.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Durable",
+      "officialUrl": "https://durable.com/",
+      "evidenceUrls": [
+        "https://durable.com/"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "Active AI business and website builder on Durable's current canonical domain.",
+      "decision": "accepted"
+    },
+    {
+      "name": "ElevenLabs",
+      "officialUrl": "https://elevenlabs.io/",
+      "evidenceUrls": [
+        "https://elevenlabs.io/docs/api-reference/introduction"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "Speech, voice and dubbing platform for narration and multilingual audio workflows.",
+      "decision": "accepted"
+    },
+    {
+      "name": "F5 AI Guardrails",
+      "officialUrl": "https://www.f5.com/products/ai-guardrails",
+      "evidenceUrls": [
+        "https://www.f5.com/company/blog/what-are-ai-guardrails"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "F5's runtime AI security product built from the acquired CalypsoAI technology.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Fathom",
+      "officialUrl": "https://www.fathom.ai/",
+      "evidenceUrls": [
+        "https://www.fathom.ai/"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "Active AI meeting assistant on Fathom's current canonical domain.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Fellow",
+      "officialUrl": "https://fellow.ai/",
+      "evidenceUrls": [
+        "https://fellow.ai/"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "Active AI meeting workspace on Fellow's current canonical domain.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Figma AI",
+      "officialUrl": "https://www.figma.com/",
+      "evidenceUrls": [
+        "https://help.figma.com/hc/en-us/articles/24039793359767-Get-started-with-Figma-AI"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "AI-assisted design, prototyping and product-design workflows inside Figma.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Fin",
+      "officialUrl": "https://fin.ai/",
+      "evidenceUrls": [
+        "https://fin.ai/about",
+        "https://fin.ai/customer-agent"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "Current product and company identity for the AI customer agent formerly known as Intercom Fin.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Gamma",
+      "officialUrl": "https://gamma.app/",
+      "evidenceUrls": [
+        "https://gamma.app/products/presentations"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "AI-assisted presentations and visual documents generated from outlines or prompts.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Gemini",
+      "officialUrl": "https://gemini.google.com/",
+      "evidenceUrls": [
+        "https://ai.google.dev/gemini-api/docs/get-started"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "Google-connected multimodal assistant for research, writing and productivity.",
+      "decision": "accepted"
+    },
+    {
+      "name": "GitHub Copilot",
+      "officialUrl": "https://github.com/features/copilot",
+      "evidenceUrls": [
+        "https://docs.github.com/en/copilot/get-started/quickstart-copilot-app"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "AI coding assistant and agent integrated into GitHub and developer workflows.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Grammarly",
+      "officialUrl": "https://www.grammarly.com/",
+      "evidenceUrls": [
+        "https://support.grammarly.com/hc/en-us/articles/14528857014285-Introducing-generative-AI-assistance"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "AI writing assistance for drafting, rewriting, tone and communication quality.",
+      "decision": "accepted"
+    },
+    {
+      "name": "GrowthBar",
+      "officialUrl": "https://www.seoptimer.com/growthbar/",
+      "evidenceUrls": [
+        "https://www.seoptimer.com/growthbar/"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "GrowthBar remains available under SEOptimer after acquisition; the catalog now points at the current first-party product page.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Guru",
+      "officialUrl": "https://www.getguru.com/",
+      "evidenceUrls": [
+        "https://www.getguru.com/",
+        "https://www.getguru.com/features/ai-agent-center"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "Active enterprise knowledge and AI search platform; the former /ai URL was stale.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Hebbia",
+      "officialUrl": "https://www.hebbia.com/",
+      "evidenceUrls": [
+        "https://www.hebbia.com/"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "Active AI knowledge-work platform on Hebbia's current canonical domain.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Help Scout AI",
+      "officialUrl": "https://docs.helpscout.com/article/1513-use-ai-assist",
+      "evidenceUrls": [
+        "https://docs.helpscout.com/article/1513-use-ai-assist"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "AI assistance built into Help Scout for rewriting, tone changes, grammar and translation in support workflows.",
+      "decision": "accepted"
+    },
+    {
+      "name": "HeyGen",
+      "officialUrl": "https://www.heygen.com/",
+      "evidenceUrls": [
+        "https://www.heygen.com/api-pricing"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "AI avatar video, voice and localization platform for presenter-style content.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Hootsuite Wisdom",
+      "officialUrl": "https://www.hootsuite.com/platform/ai",
+      "evidenceUrls": [
+        "https://www.hootsuite.com/platform/ai"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "Hootsuite's current AI assistant identity; the official site states Wisdom was formerly OwlyWriter AI.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Hugging Face",
+      "officialUrl": "https://huggingface.co/",
+      "evidenceUrls": [
+        "https://huggingface.co/docs/inference-endpoints/api_reference"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "Major hub for models, datasets, demos and inference workflows.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Jacquard",
+      "officialUrl": "https://www.jacquard.com/",
+      "evidenceUrls": [
+        "https://www.jacquard.com/content/uploads/2025/05/2024-ESG-Report-for-Jacquard-Group-Limited-7-March-2025-Final.pdf",
+        "https://support.jacquard.com/"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "Current identity of Phrasee's enterprise generative-AI marketing platform.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Jan",
+      "officialUrl": "https://www.jan.ai/",
+      "evidenceUrls": [
+        "https://www.jan.ai/"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "Open-source local-first desktop AI assistant for running models under user control.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Kling AI",
+      "officialUrl": "https://kling.ai/",
+      "evidenceUrls": [
+        "https://kling.ai/"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "Active generative video product on Kling AI's current canonical domain.",
+      "decision": "accepted"
+    },
+    {
+      "name": "LangChain",
+      "officialUrl": "https://www.langchain.com/",
+      "evidenceUrls": [
+        "https://www.langchain.com/langchain",
+        "https://reference.langchain.com/"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "Open-source framework for building agents and LLM applications across models and tools.",
+      "decision": "accepted"
+    },
+    {
+      "name": "LocalAI",
+      "officialUrl": "https://localai.io/",
+      "evidenceUrls": [
+        "https://localai.io/docs/index.html"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "Self-hosted local AI runtime exposing cloud-style APIs on user-controlled infrastructure.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Logically",
+      "officialUrl": "https://logically.app/",
+      "evidenceUrls": [
+        "https://help.logically.app/en/articles/8478714-everything-you-need-to-know-to-get-started-using-logically-user-guide-with-videos",
+        "https://logically.app/"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "Research and writing workspace that combines AI assistance with references, annotations and citations.",
+      "decision": "accepted"
+    },
+    {
+      "name": "LTX Studio",
+      "officialUrl": "https://ltx.io/studio",
+      "evidenceUrls": [
+        "https://ltx.io/studio/platform/ai-video-generator"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "Active AI video creation studio on LTX's current first-party product domain.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Magnific",
+      "officialUrl": "https://www.magnific.com/",
+      "evidenceUrls": [
+        "https://www.magnific.com/"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "Active AI image enhancement product on Magnific's current canonical domain.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Make",
+      "officialUrl": "https://www.make.com/",
+      "evidenceUrls": [
+        "https://www.make.com/en/ai-agents"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "Visual automation and AI-agent platform for multi-app business workflows.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Midjourney",
+      "officialUrl": "https://www.midjourney.com/",
+      "evidenceUrls": [
+        "https://docs.midjourney.com/hc/en-us/articles/33329261836941-Getting-Started-Guide"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "High-quality image and video generation for creative visual work.",
+      "decision": "accepted"
+    },
+    {
+      "name": "MindsHub",
+      "officialUrl": "https://mindshub.ai/",
+      "evidenceUrls": [
+        "https://mindshub.ai/blog/mindsdb-is-now-mindshub",
+        "https://docs.mindshub.ai/"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "Current product surface of the MindsDB ecosystem for open-source AI agents and model access.",
+      "decision": "accepted"
+    },
+    {
+      "name": "monday AI",
+      "officialUrl": "https://monday.com/",
+      "evidenceUrls": [
+        "https://monday.com/",
+        "https://support.monday.com/hc/en-us/articles/115005305649-Get-started-with-monday-AI-work-platform"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "monday.com is now positioned as an AI work platform with AI assistants, workflows and app-building capabilities; the old /ai URL was stale.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Munch Studio",
+      "officialUrl": "https://www.munchstudio.com/",
+      "evidenceUrls": [
+        "https://www.munchstudio.com/"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "Active AI social media marketing platform under the Munch Studio identity.",
+      "decision": "accepted"
+    },
+    {
+      "name": "n8n",
+      "officialUrl": "https://n8n.io/",
+      "evidenceUrls": [
+        "https://support.n8n.io/section/n8n-self-hosted-faq-uly57w0tlb2uq2l0yn1byx9o"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "Workflow automation platform with self-hosting for connecting apps, APIs and AI steps.",
+      "decision": "accepted"
+    },
+    {
+      "name": "NotebookLM",
+      "officialUrl": "https://notebook.google/",
+      "evidenceUrls": [
+        "https://notebook.google/"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "Google's active NotebookLM product on its current canonical notebook.google domain.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Notion AI",
+      "officialUrl": "https://www.notion.com/product/ai",
+      "evidenceUrls": [
+        "https://www.notion.com/product/ai"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "Active Notion AI product page on Notion's current canonical domain.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Ollama",
+      "officialUrl": "https://ollama.com/",
+      "evidenceUrls": [
+        "https://docs.ollama.com/",
+        "https://docs.ollama.com/api/introduction"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "Local-first model runtime for running supported AI models on user-controlled hardware.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Open WebUI",
+      "officialUrl": "https://openwebui.com/",
+      "evidenceUrls": [
+        "https://docs.openwebui.com/"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "Self-hostable web interface for local and remote AI models.",
+      "decision": "accepted"
+    },
+    {
+      "name": "OpenAI Codex",
+      "officialUrl": "https://openai.com/codex/",
+      "evidenceUrls": [
+        "https://openai.com/codex/",
+        "https://help.openai.com/en/collections/14937394-codex"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "OpenAI's active coding agent for writing, reviewing and shipping code, now presented as Codex in ChatGPT.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Perplexity",
+      "officialUrl": "https://www.perplexity.ai/",
+      "evidenceUrls": [
+        "https://www.perplexity.ai/help-center/en/articles/10352155-what-is-perplexity"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "Web research and answer engine with source citations for checking claims quickly.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Playground AI",
+      "officialUrl": "https://playgroundai.com/",
+      "evidenceUrls": [
+        "https://playgroundai.com/",
+        "https://playgroundai.com/design/whats-new"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "Active AI design and image creation product with current 2026 product updates.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Plus AI",
+      "officialUrl": "https://plusai.com/google-slides-ai",
+      "evidenceUrls": [
+        "https://plusai.com/google-slides-ai"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "Active AI presentation assistant on Plus AI's current canonical product domain.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Prisma AIRS",
+      "officialUrl": "https://www.paloaltonetworks.com/prisma/prisma-ai-runtime-security/ai-runtime-security",
+      "evidenceUrls": [
+        "https://www.paloaltonetworks.com/prisma/prisma-ai-runtime-security/ai-runtime-security"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "Palo Alto Networks' current AI security platform integrating Protect AI technology.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Recall",
+      "officialUrl": "https://www.recall.it/",
+      "evidenceUrls": [
+        "https://www.recall.it/"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "Active personal knowledge and summarization product on Recall's current canonical domain.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Regard",
+      "officialUrl": "https://regard.com/",
+      "evidenceUrls": [
+        "https://regard.com/",
+        "https://regard.com/solutions/clinical-notes"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "Active clinical AI diagnosis and documentation platform on Regard's current canonical domain.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Relume",
+      "officialUrl": "https://www.relume.ai/",
+      "evidenceUrls": [
+        "https://www.relume.ai/"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "Active AI website design and publishing platform on Relume's current canonical domain.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Replit",
+      "officialUrl": "https://replit.com/",
+      "evidenceUrls": [
+        "https://replit.com/products/agent"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "AI app-building workspace that can generate, run and publish software from one environment.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Riverside",
+      "officialUrl": "https://riverside.com/",
+      "evidenceUrls": [
+        "https://riverside.com/"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "Active recording and AI editing platform on Riverside's current canonical domain.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Robin AI",
+      "officialUrl": "https://robinai.com/",
+      "evidenceUrls": [
+        "https://www.robinai.com/terms"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "Active legal AI platform for drafting, reviewing and analyzing contracts and legal data.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Runway",
+      "officialUrl": "https://runway.com/",
+      "evidenceUrls": [
+        "https://runway.com/"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "Active generative video and creative AI platform on Runway's current canonical domain.",
+      "decision": "accepted"
+    },
+    {
+      "name": "SE Ranking Content Editor",
+      "officialUrl": "https://seranking.com/content-editor.html",
+      "evidenceUrls": [
+        "https://seranking.com/content-editor.html"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "Active AI-based content creation and optimization editor; the prior content-marketing URL was stale.",
+      "decision": "accepted"
+    },
+    {
+      "name": "SentinelOne Purple AI",
+      "officialUrl": "https://www.sentinelone.com/platform/purple/",
+      "evidenceUrls": [
+        "https://www.sentinelone.com/platform/purple/",
+        "https://www.sentinelone.com/press/sentinelone-opens-purple-ai-agentic-investigation-to-all-customers-bringing-frontier-ai-directly-into-the-soc/"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "Agentic security analyst inside SentinelOne for investigating threats and assisting SOC response.",
+      "decision": "accepted"
+    },
+    {
+      "name": "SocialBee AI",
+      "officialUrl": "https://socialbee.com/",
+      "evidenceUrls": [
+        "https://socialbee.com/",
+        "https://help.socialbee.com/hc/en-us/articles/29979145921815-How-Do-I-Use-the-AI-Post-Generator"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "AI-assisted social media planning, caption/image generation and channel-specific post customization.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Spellbook",
+      "officialUrl": "https://spellbook.com/",
+      "evidenceUrls": [
+        "https://spellbook.com/",
+        "https://spellbook.com/legal/privacy-policy"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "Active AI legal drafting and contract platform on Spellbook's current canonical domain.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Sprout Social AI",
+      "officialUrl": "https://sproutsocial.com/ai/",
+      "evidenceUrls": [
+        "https://sproutsocial.com/ai/",
+        "https://support.sproutsocial.com/hc/en-us/articles/44011491367565-March-2026"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "AI social intelligence and workflow automation inside Sprout Social, including the Trellis agent.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Squarespace Blueprint AI",
+      "officialUrl": "https://www.squarespace.com/design-intelligence",
+      "evidenceUrls": [
+        "https://www.squarespace.com/design-intelligence"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "Squarespace's AI-assisted website starting point and design-intelligence workflow for building branded sites.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Stack AI",
+      "officialUrl": "https://www.stackai.com/",
+      "evidenceUrls": [
+        "https://www.stackai.com/"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "Active enterprise AI workflow platform on Stack AI's current canonical domain.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Telex",
+      "officialUrl": "https://telex.automattic.ai/",
+      "evidenceUrls": [
+        "https://automattic.com/2024/12/09/automattic-welcomes-wpai/",
+        "https://telex.automattic.ai/from-codewp"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "AI-assisted WordPress code generation from the team and technology behind CodeWP, now under Automattic.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Tezi",
+      "officialUrl": "https://app.tezi.ai/",
+      "evidenceUrls": [
+        "https://app.tezi.ai/",
+        "https://help.tezi.ai/for-candidates/5MJQyfNxL9dYJifaLgmzoS/candidate-faqs/5MJQyfNxLc6KYdkJcb47d5"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "Active AI recruiting platform; the app entry point and current first-party help documentation confirm Tezi and its Max recruiting agent remain active.",
+      "decision": "accepted"
+    },
+    {
+      "name": "The Brief",
+      "officialUrl": "https://www.thebrief.ai/",
+      "evidenceUrls": [
+        "https://www.thebrief.ai/blog/creatopy-is-now-the-brief/"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "AI marketing platform that evolved from Creatopy into a broader campaign lifecycle product.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Turbo AI",
+      "officialUrl": "https://www.turbo.ai/",
+      "evidenceUrls": [
+        "https://www.turbo.ai/turbolearn-ai",
+        "https://www.turbo.ai/"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "Current identity of Turbolearn AI with the same accounts and study workflows under the Turbo AI name.",
+      "decision": "accepted"
+    },
+    {
+      "name": "UPDF AI",
+      "officialUrl": "https://updf.com/ai-tools/",
+      "evidenceUrls": [
+        "https://updf.com/ai-tools/",
+        "https://updf.com/whats-new/"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "Active AI PDF toolkit for document chat, summarization, translation, semantic search and PDF workflow automation.",
+      "decision": "accepted"
+    },
+    {
+      "name": "v0",
+      "officialUrl": "https://v0.app/",
+      "evidenceUrls": [
+        "https://v0.app/"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "Active AI web interface and app builder on v0's current canonical domain.",
+      "decision": "accepted"
+    },
+    {
+      "name": "VEED AI",
+      "officialUrl": "https://www.veed.io/tools/ai-video",
+      "evidenceUrls": [
+        "https://www.veed.io/tools/ai-video",
+        "https://changelog.veed.io/"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "AI video creation and editing toolkit with generation, avatars, voice, subtitles and production workflows.",
+      "decision": "accepted"
+    },
+    {
+      "name": "WellSaid Labs",
+      "officialUrl": "https://www.wellsaid.io/",
+      "evidenceUrls": [
+        "https://www.wellsaid.io/"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "Active AI voice platform on WellSaid's current canonical domain.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Workable AI",
+      "officialUrl": "https://www.workable.com/workable-ai",
+      "evidenceUrls": [
+        "https://www.workable.com/workable-ai",
+        "https://resources.workable.com/workable-agent-ga"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "AI recruiting agent inside Workable for sourcing, screening, outreach and top-of-funnel hiring workflows.",
+      "decision": "accepted"
+    },
+    {
+      "name": "WriterZen",
+      "officialUrl": "https://writerzen.net/",
+      "evidenceUrls": [
+        "https://writerzen.net/"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "Active SEO research, clustering and AI-assisted content platform; the prior shutdown flag was a false positive from page text, not a product shutdown notice.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Zapier",
+      "officialUrl": "https://zapier.com/",
+      "evidenceUrls": [
+        "https://help.zapier.com/hc/en-us/articles/37518970271245-What-is-Zapier"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "AI-powered automation platform for connecting apps, data and business processes.",
+      "decision": "accepted"
+    },
+    {
+      "name": "Zenity",
+      "officialUrl": "https://zenity.io/",
+      "evidenceUrls": [
+        "https://zenity.io/",
+        "https://zenity.io/platform",
+        "https://zenity.io/blog/ai-security-decision-point"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "Active AI-agent security and governance platform; the audit timeout was a transient bot/network access failure rather than product unavailability.",
+      "decision": "accepted"
+    },
+    {
+      "name": "3DFY.ai",
+      "officialUrl": "https://3dfy.ai/",
+      "evidenceUrls": [
+        "https://3dfy.ai/",
+        "https://tooldirectory.ai/tools/create-3d-models-with-3dfy-ai"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "Removed from active discovery because the canonical product domain no longer resolves as a usable product and independent shutdown evidence corroborates the lapsed service.",
+      "decision": "rejected",
+      "reason": "Removed from active discovery because the canonical product domain no longer resolves as a usable product and independent shutdown evidence corroborates the lapsed service."
+    },
+    {
+      "name": "Booth AI",
+      "officialUrl": "https://www.booth.ai/",
+      "evidenceUrls": [
+        "https://booth.ai/"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "Removed because the former product domain is parked/for sale rather than serving an active AI product.",
+      "decision": "rejected",
+      "reason": "Removed because the former product domain is parked/for sale rather than serving an active AI product."
+    },
+    {
+      "name": "Coral AI",
+      "officialUrl": "https://www.getcoralai.com/",
+      "evidenceUrls": [
+        "https://getcoralai.com/"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "Removed from the trusted active catalog because the maintained canonical source is currently not reliably reachable and no first-party product source could be verified during this audit.",
+      "decision": "rejected",
+      "reason": "Removed from the trusted active catalog because the maintained canonical source is currently not reliably reachable and no first-party product source could be verified during this audit."
+    },
+    {
+      "name": "CSM AI",
+      "officialUrl": "https://www.csm.ai/",
+      "evidenceUrls": [
+        "https://csm.ai/",
+        "https://www.alpha3d.io/csm-alternative"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "Removed because the standalone Common Sense Machines product is no longer reachable after its 2026 acquisition; the catalog should not point users to a discontinued standalone service.",
+      "decision": "rejected",
+      "reason": "Removed because the standalone Common Sense Machines product is no longer reachable after its 2026 acquisition; the catalog should not point users to a discontinued standalone service."
+    },
+    {
+      "name": "Dora AI",
+      "officialUrl": "https://www.dora.run/ai",
+      "evidenceUrls": [
+        "https://www.dora.run/signup/ai/waitlist"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "Removed from active discovery because Dora's first-party shutdown page states that Dora shut down on May 1, 2026.",
+      "decision": "rejected",
+      "reason": "Removed from active discovery because Dora's first-party shutdown page states that Dora shut down on May 1, 2026."
+    },
+    {
+      "name": "Firebase Studio",
+      "officialUrl": "https://firebase.studio/",
+      "evidenceUrls": [
+        "https://firebase.google.com/docs/studio/get-started",
+        "https://firebase.google.com/docs/studio/migrating-project"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "Removed from new-tool discovery because Google has disabled new signup/workspace creation and is sunsetting Firebase Studio in favor of Google AI Studio and Antigravity.",
+      "decision": "rejected",
+      "reason": "Removed from new-tool discovery because Google has disabled new signup/workspace creation and is sunsetting Firebase Studio in favor of Google AI Studio and Antigravity."
+    },
+    {
+      "name": "Hour One",
+      "officialUrl": "https://hourone.ai/",
+      "evidenceUrls": [
+        "https://www.wix.com/press-room/home/post/wix-acquires-hour-one-to-expand-generative-ai-capabilities-and-accelerate-product-innovation",
+        "https://hourone.ai/"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "Removed from the active directory because Wix acquired Hour One and its team in 2025, while the maintained standalone product domain no longer provides a reliably reachable product entry point. This is an active-directory availability decision, not a claim that Hour One technology ceased to exist.",
+      "decision": "rejected",
+      "reason": "Removed from the active directory because Wix acquired Hour One and its team in 2025, while the maintained standalone product domain no longer provides a reliably reachable product entry point. This is an active-directory availability decision, not a claim that Hour One technology ceased to exist."
+    },
+    {
+      "name": "PlayHT",
+      "officialUrl": "https://play.ht/",
+      "evidenceUrls": [
+        "https://play.ht/"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "Removed because the maintained product domain no longer resolves as a usable service during the full source-health audit and a current first-party product surface could not be verified.",
+      "decision": "rejected",
+      "reason": "Removed because the maintained product domain no longer resolves as a usable service during the full source-health audit and a current first-party product surface could not be verified."
+    },
+    {
+      "name": "Relay.app",
+      "officialUrl": "https://www.relay.app/",
+      "evidenceUrls": [
+        "https://relay.app/"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "Removed because Relay.app officially announced shutdown for free users on 2026-08-15 and paying users on 2026-09-14.",
+      "decision": "rejected",
+      "reason": "Removed because Relay.app officially announced shutdown for free users on 2026-08-15 and paying users on 2026-09-14."
+    },
+    {
+      "name": "Replica Studios",
+      "officialUrl": "https://replicastudios.com/",
+      "evidenceUrls": [
+        "https://www.replicastudios.com/"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "Removed because the official site states that Replica Studios has signed off and is no longer an active product.",
+      "decision": "rejected",
+      "reason": "Removed because the official site states that Replica Studios has signed off and is no longer an active product."
+    },
+    {
+      "name": "Roo Code",
+      "officialUrl": "https://roocode.com/",
+      "evidenceUrls": [
+        "https://github.com/RooCodeInc/Roo-Code",
+        "https://github.com/RooCodeInc/Roo-Code/commits"
+      ],
+      "reviewedAt": "2026-09-14",
+      "userValue": "Removed because the official Roo Code repository is archived and states that the Roo Code extension was shut down on May 15, 2026. Roomote is treated as a different product rather than a silent rename.",
+      "decision": "rejected",
+      "reason": "Removed because the official Roo Code repository is archived and states that the Roo Code extension was shut down on May 15, 2026. Roomote is treated as a different product rather than a silent rename."
+    }
+  ],
+  "lastAuditFixesAt": "2026-09-14",
+  "lastAuditFixesSummary": {
+    "removed": 8,
+    "renamed": 16,
+    "reviewedOrCorrected": 29,
+    "unresolved": 1
+  },
+  "unresolvedAuditMappings": [
+    "Regard"
+  ],
+  "lastAuditRound2At": "2026-09-14",
+  "lastAuditRound2Summary": {
+    "removed": 3,
+    "updated": 28
+  }
 }
