@@ -184,6 +184,22 @@
       "url": "https://www.wellsaid.io/",
       "evidenceUrls": ["https://www.wellsaid.io/"],
       "userValue": "Active AI voice platform on WellSaid's current canonical domain."
+    },
+    {
+      "name": "WriterZen",
+      "url": "https://writerzen.net/",
+      "evidenceUrls": ["https://writerzen.net/"],
+      "userValue": "Active SEO research, clustering and AI-assisted content platform; the prior shutdown flag was a false positive from page text, not a product shutdown notice."
+    },
+    {
+      "name": "Zenity",
+      "url": "https://zenity.io/",
+      "evidenceUrls": [
+        "https://zenity.io/",
+        "https://zenity.io/platform",
+        "https://zenity.io/blog/ai-security-decision-point"
+      ],
+      "userValue": "Active AI-agent security and governance platform; the audit timeout was a transient bot/network access failure rather than product unavailability."
     }
   ]
 }
