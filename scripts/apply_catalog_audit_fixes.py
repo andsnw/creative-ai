@@ -47,6 +47,11 @@ def quality_upsert(records: list[dict], entry: dict) -> None:
     records.append(entry)
 
 
+def is_unresolved(item: dict) -> bool:
+    """Keep incomplete/manual-review mappings out of generated public catalog data."""
+    return item.get("status") == "unresolved" or item.get("userValue") == "PLACEHOLDER"
+
+
 def main() -> None:
     catalog = load("catalog")
     lifecycle = load("lifecycle")
@@ -60,6 +65,8 @@ def main() -> None:
     quality_records = quality.setdefault("tools", [])
     removed_names: set[str] = set()
     renamed: dict[str, str] = {}
+    corrected = 0
+    unresolved: list[str] = []
 
     def locate(name: str) -> int:
         for idx, row in enumerate(catalog):
@@ -94,6 +101,11 @@ def main() -> None:
 
     for item in fixes.get("replace", []):
         old = item["oldName"]
+        if is_unresolved(item):
+            unresolved.append(old)
+            print(f"UNRESOLVED audit mapping left unchanged: {old}")
+            continue
+
         idx = locate(old)
         row = deepcopy(catalog[idx])
         new = item.get("newName", old)
@@ -142,6 +154,7 @@ def main() -> None:
                 "decision": "accepted",
             },
         )
+        corrected += 1
 
     # Keep ordering stable except for renamed identities staying where their predecessors were.
     names = [row[0] for row in catalog]
@@ -154,8 +167,13 @@ def main() -> None:
     quality["lastAuditFixesSummary"] = {
         "removed": len(removed_names),
         "renamed": len(renamed),
-        "reviewedOrCorrected": len(fixes.get("replace", [])),
+        "reviewedOrCorrected": corrected,
+        "unresolved": len(unresolved),
     }
+    if unresolved:
+        quality["unresolvedAuditMappings"] = sorted(unresolved)
+    else:
+        quality.pop("unresolvedAuditMappings", None)
 
     dump("catalog", catalog)
     dump("lifecycle", lifecycle)
@@ -164,7 +182,10 @@ def main() -> None:
     dump("fit", fit)
     dump("quality", quality)
 
-    print(f"Applied audit fixes: removed={len(removed_names)} renamed={len(renamed)} corrected={len(fixes.get('replace', []))}")
+    print(
+        f"Applied audit fixes: removed={len(removed_names)} renamed={len(renamed)} "
+        f"corrected={corrected} unresolved={len(unresolved)}"
+    )
     print(f"Catalog now contains {len(catalog)} entries")
 
 
