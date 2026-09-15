@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T11:51:57.908087+00:00",
+  "updatedAt": "2026-09-15T17:05:53.907189+00:00",
   "items": [
     {
       "id": "tag:github.com,2008:Repository/658928958/v0.34.1-rc2",
@@ -902,20 +902,10 @@
       "why": "Useful for search and Q&A over documents or databases."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1246693",
-      "title": "Kilo Code for iOS and Android",
-      "url": "https://www.producthunt.com/products/kilocode",
-      "publishedAt": "2026-09-15T04:51:18-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1249781",
-      "title": "OpenAI Agents API",
-      "url": "https://www.producthunt.com/products/openai",
-      "publishedAt": "2026-09-15T04:51:18-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1194579",
+      "title": "Workshopy.io",
+      "url": "https://www.producthunt.com/products/workshopy-io",
+      "publishedAt": "2026-09-15T09:39:59-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -925,67 +915,17 @@
       "id": "tag:www.producthunt.com,2005:Post/1240697",
       "title": "siift",
       "url": "https://www.producthunt.com/products/siift",
-      "publishedAt": "2026-09-15T04:51:17-07:00",
+      "publishedAt": "2026-09-15T10:05:46-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1237367",
-      "title": "Voiskey",
-      "url": "https://www.producthunt.com/products/voiskey",
-      "publishedAt": "2026-09-15T04:51:11-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1250802",
-      "title": "PeekPaste",
-      "url": "https://www.producthunt.com/products/lucidbit",
-      "publishedAt": "2026-09-15T04:51:06-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1247098",
-      "title": "Grimo AI",
-      "url": "https://www.producthunt.com/products/grimo-ai",
-      "publishedAt": "2026-09-15T04:51:04-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1248914",
-      "title": "Axari",
-      "url": "https://www.producthunt.com/products/axari",
-      "publishedAt": "2026-09-15T04:50:36-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1250659",
-      "title": "FATHER",
-      "url": "https://www.producthunt.com/products/father-web-monitoring",
-      "publishedAt": "2026-09-15T04:49:06-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1240181",
-      "title": "Idlen",
-      "url": "https://www.producthunt.com/products/idlen",
-      "publishedAt": "2026-09-15T04:50:28-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1246693",
+      "title": "Kilo Code for iOS and Android",
+      "url": "https://www.producthunt.com/products/kilocode",
+      "publishedAt": "2026-09-15T10:05:31-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -995,7 +935,67 @@
       "id": "tag:www.producthunt.com,2005:Post/1115300",
       "title": "is.team",
       "url": "https://www.producthunt.com/products/is-team",
-      "publishedAt": "2026-09-15T04:45:07-07:00",
+      "publishedAt": "2026-09-15T09:52:14-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1247482",
+      "title": "Anthropologic",
+      "url": "https://www.producthunt.com/products/anthropologic",
+      "publishedAt": "2026-09-15T10:05:43-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1249707",
+      "title": "Narrative",
+      "url": "https://www.producthunt.com/products/narrative-3",
+      "publishedAt": "2026-09-15T10:02:20-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1237367",
+      "title": "Voiskey",
+      "url": "https://www.producthunt.com/products/voiskey",
+      "publishedAt": "2026-09-15T10:03:43-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1240181",
+      "title": "Idlen",
+      "url": "https://www.producthunt.com/products/idlen",
+      "publishedAt": "2026-09-15T09:41:12-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1248914",
+      "title": "Axari",
+      "url": "https://www.producthunt.com/products/axari",
+      "publishedAt": "2026-09-15T09:50:53-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1250562",
+      "title": "Kodro",
+      "url": "https://www.producthunt.com/products/kodro",
+      "publishedAt": "2026-09-15T09:54:34-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
