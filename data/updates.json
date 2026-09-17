@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-09-16T21:23:20.944764+00:00",
+  "updatedAt": "2026-09-17T04:59:25.887610+00:00",
   "items": [
     {
       "id": "tag:github.com,2008:Repository/658928958/v0.34.2-rc1",
-      "title": "v0.34.2-rc1: mlxrunner: lay out model by contract, checkpoint and construction",
+      "title": "v0.34.2",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.34.2-rc1",
-      "publishedAt": "2026-09-16T21:06:08Z",
+      "publishedAt": "2026-09-16T21:42:41Z",
       "source": "Ollama",
       "kind": "Local models",
       "purpose": "Run AI models locally and manage supported cloud models.",
@@ -13,9 +13,9 @@
     },
     {
       "id": "tag:github.com,2008:Repository/658928958/v0.34.2-rc0",
-      "title": "v0.34.2",
+      "title": "v0.34.2-rc0: llama.cpp: version bump b10969 (#18446)",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.34.2-rc0",
-      "publishedAt": "2026-09-15T21:21:07Z",
+      "publishedAt": "2026-09-15T20:13:31Z",
       "source": "Ollama",
       "kind": "Local models",
       "purpose": "Run AI models locally and manage supported cloud models.",
@@ -602,6 +602,16 @@
       "why": "Useful for prototyping RAG and chatbot workflows."
     },
     {
+      "id": "tag:github.com,2008:Repository/599320067/v1.13.0.dev15",
+      "title": "v1.13.0.dev15",
+      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.13.0.dev15",
+      "publishedAt": "2026-09-17T00:38:30Z",
+      "source": "Langflow",
+      "kind": "Visual AI builder",
+      "purpose": "Create AI flows visually and connect components.",
+      "why": "Useful for testing AI application ideas faster."
+    },
+    {
       "id": "tag:github.com,2008:Repository/599320067/v1.13.0.dev14",
       "title": "v1.13.0.dev14",
       "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.13.0.dev14",
@@ -686,16 +696,6 @@
       "title": "v1.13.0.dev7",
       "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.13.0.dev7",
       "publishedAt": "2026-09-09T00:39:15Z",
-      "source": "Langflow",
-      "kind": "Visual AI builder",
-      "purpose": "Create AI flows visually and connect components.",
-      "why": "Useful for testing AI application ideas faster."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/599320067/v1.13.0.dev6",
-      "title": "v1.13.0.dev6",
-      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.13.0.dev6",
-      "publishedAt": "2026-09-08T00:39:29Z",
       "source": "Langflow",
       "kind": "Visual AI builder",
       "purpose": "Create AI flows visually and connect components.",
@@ -902,90 +902,10 @@
       "why": "Useful for search and Q&A over documents or databases."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1251559",
-      "title": "Project Feed",
-      "url": "https://www.producthunt.com/products/project-feed",
-      "publishedAt": "2026-09-16T13:38:56-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1251643",
-      "title": "Gemini 3.8 & 3.8 Live Extended Thinking",
-      "url": "https://www.producthunt.com/products/gemini-3-8-3-8-live-extended-thinking",
-      "publishedAt": "2026-09-16T14:09:22-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1249776",
-      "title": "PeakHour 6",
-      "url": "https://www.producthunt.com/products/peak-hour",
-      "publishedAt": "2026-09-16T13:38:57-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
       "id": "tag:www.producthunt.com,2005:Post/1247729",
       "title": "Weave Router 2.0",
       "url": "https://www.producthunt.com/products/weave",
-      "publishedAt": "2026-09-16T14:19:28-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1244281",
-      "title": "CreatorHat",
-      "url": "https://www.producthunt.com/products/creatorhat",
-      "publishedAt": "2026-09-16T13:38:56-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1250703",
-      "title": "CAT ME app",
-      "url": "https://www.producthunt.com/products/cat-me-app",
-      "publishedAt": "2026-09-16T14:04:23-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1251397",
-      "title": "PhraseVault 3.0",
-      "url": "https://www.producthunt.com/products/phrasevault",
-      "publishedAt": "2026-09-16T13:38:56-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1251734",
-      "title": "flat.social",
-      "url": "https://www.producthunt.com/products/flat-social",
-      "publishedAt": "2026-09-16T14:18:19-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1251215",
-      "title": "Thread",
-      "url": "https://www.producthunt.com/products/thread-ai-journal-memory",
-      "publishedAt": "2026-09-16T13:47:19-07:00",
+      "publishedAt": "2026-09-16T21:53:20-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -995,7 +915,87 @@
       "id": "tag:www.producthunt.com,2005:Post/1251186",
       "title": "Appwrite 2.0",
       "url": "https://www.producthunt.com/products/appwrite",
-      "publishedAt": "2026-09-16T14:19:28-07:00",
+      "publishedAt": "2026-09-16T21:48:01-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1251550",
+      "title": "Expand Board for macOS",
+      "url": "https://www.producthunt.com/products/expand-board-for-macos",
+      "publishedAt": "2026-09-16T21:55:46-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1250703",
+      "title": "CAT ME app",
+      "url": "https://www.producthunt.com/products/cat-me-app",
+      "publishedAt": "2026-09-16T21:41:27-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1244321",
+      "title": "Toki Coordination",
+      "url": "https://www.producthunt.com/products/toki-ai",
+      "publishedAt": "2026-09-16T21:38:10-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1250484",
+      "title": "Twigg",
+      "url": "https://www.producthunt.com/products/twigg",
+      "publishedAt": "2026-09-16T21:31:52-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1251215",
+      "title": "Thread",
+      "url": "https://www.producthunt.com/products/thread-ai-journal-memory",
+      "publishedAt": "2026-09-16T21:48:14-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1251643",
+      "title": "Gemini 3.8 & 3.8 Live Extended Thinking",
+      "url": "https://www.producthunt.com/products/gemini-3-8-3-8-live-extended-thinking",
+      "publishedAt": "2026-09-16T21:42:55-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1251397",
+      "title": "PhraseVault 3.0",
+      "url": "https://www.producthunt.com/products/phrasevault",
+      "publishedAt": "2026-09-16T17:53:52-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1249776",
+      "title": "PeakHour 6",
+      "url": "https://www.producthunt.com/products/peak-hour",
+      "publishedAt": "2026-09-16T21:02:18-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
