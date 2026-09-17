@@ -1,6 +1,16 @@
 {
-  "updatedAt": "2026-09-17T11:49:54.542925+00:00",
+  "updatedAt": "2026-09-17T17:06:54.286253+00:00",
   "items": [
+    {
+      "id": "tag:github.com,2008:Repository/658928958/v0.34.2-rc2",
+      "title": "v0.34.2-rc2: mlxrunner: Release freed KV buffers during speculative decode",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.34.2-rc2",
+      "publishedAt": "2026-09-17T16:45:01Z",
+      "source": "Ollama",
+      "kind": "Local models",
+      "purpose": "Run AI models locally and manage supported cloud models.",
+      "why": "Useful for private local AI experimentation and open models."
+    },
     {
       "id": "tag:github.com,2008:Repository/658928958/v0.34.2-rc1",
       "title": "v0.34.2",
@@ -86,16 +96,6 @@
       "title": "v0.34.0-rc4",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.34.0-rc4",
       "publishedAt": "2026-09-09T17:20:48Z",
-      "source": "Ollama",
-      "kind": "Local models",
-      "purpose": "Run AI models locally and manage supported cloud models.",
-      "why": "Useful for private local AI experimentation and open models."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/658928958/v0.34.0-rc3",
-      "title": "v0.34.0-rc3",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.34.0-rc3",
-      "publishedAt": "2026-09-09T00:09:48Z",
       "source": "Ollama",
       "kind": "Local models",
       "purpose": "Run AI models locally and manage supported cloud models.",
@@ -902,10 +902,10 @@
       "why": "Useful for search and Q&A over documents or databases."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1252540",
-      "title": "Bitrise Remote Dev Environments",
-      "url": "https://www.producthunt.com/products/bitrise",
-      "publishedAt": "2026-09-17T04:49:13-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1240456",
+      "title": "Modaal for Android",
+      "url": "https://www.producthunt.com/products/modaal-ai-agent-for-ios-android-native",
+      "publishedAt": "2026-09-17T10:06:21-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -915,67 +915,7 @@
       "id": "tag:www.producthunt.com,2005:Post/1230612",
       "title": "CREEM 2.0",
       "url": "https://www.producthunt.com/products/creem",
-      "publishedAt": "2026-09-17T04:48:50-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1251830",
-      "title": "Text Agent Store",
-      "url": "https://www.producthunt.com/products/text-agent-store",
-      "publishedAt": "2026-09-17T04:48:50-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1252847",
-      "title": "TinyKPI",
-      "url": "https://www.producthunt.com/products/tinykpi",
-      "publishedAt": "2026-09-17T04:48:37-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1252831",
-      "title": "Higgsfield API",
-      "url": "https://www.producthunt.com/products/higgsfield",
-      "publishedAt": "2026-09-17T04:48:17-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1240456",
-      "title": "Modaal for Android",
-      "url": "https://www.producthunt.com/products/modaal-ai-agent-for-ios-android-native",
-      "publishedAt": "2026-09-17T04:48:17-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1251910",
-      "title": "Die With Me",
-      "url": "https://www.producthunt.com/products/die-with-me-2",
-      "publishedAt": "2026-09-17T04:39:58-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1252909",
-      "title": "Pitchfire for Startups",
-      "url": "https://www.producthunt.com/products/pitchfire-for-startups",
-      "publishedAt": "2026-09-17T04:38:37-07:00",
+      "publishedAt": "2026-09-17T10:05:58-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -985,17 +925,77 @@
       "id": "tag:www.producthunt.com,2005:Post/1251058",
       "title": "MacSentinel",
       "url": "https://www.producthunt.com/products/macsentinel",
-      "publishedAt": "2026-09-17T04:36:24-07:00",
+      "publishedAt": "2026-09-17T10:05:57-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1252175",
-      "title": "Opyt",
-      "url": "https://www.producthunt.com/products/opyt",
-      "publishedAt": "2026-09-17T04:36:18-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1252945",
+      "title": "Zella",
+      "url": "https://www.producthunt.com/products/zella",
+      "publishedAt": "2026-09-17T10:05:56-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1251910",
+      "title": "Die With Me",
+      "url": "https://www.producthunt.com/products/die-with-me-2",
+      "publishedAt": "2026-09-17T10:04:38-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1252792",
+      "title": "The Forge by Bob's Workshop",
+      "url": "https://www.producthunt.com/products/the-forge-by-bob-s-workshop",
+      "publishedAt": "2026-09-17T09:08:24-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1253056",
+      "title": "S-Roll",
+      "url": "https://www.producthunt.com/products/s-roll",
+      "publishedAt": "2026-09-17T10:03:54-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1252998",
+      "title": "Amy by Jellyfish",
+      "url": "https://www.producthunt.com/products/amy-by-jellyfish",
+      "publishedAt": "2026-09-17T09:58:11-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1252053",
+      "title": "Ever Beyond: Space Conquest",
+      "url": "https://www.producthunt.com/products/ever-beyond-space-conquest",
+      "publishedAt": "2026-09-17T07:51:56-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1252909",
+      "title": "Pitchfire for Startups",
+      "url": "https://www.producthunt.com/products/pitchfire-for-startups",
+      "publishedAt": "2026-09-17T10:06:10-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
