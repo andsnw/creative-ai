@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-19T11:08:49.915426+00:00",
+  "updatedAt": "2026-09-19T15:56:30.473353+00:00",
   "items": [
     {
       "id": "tag:github.com,2008:Repository/658928958/v0.34.3-rc1",
@@ -902,50 +902,10 @@
       "why": "Useful for search and Q&A over documents or databases."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1254713",
-      "title": "Steam Frame",
-      "url": "https://www.producthunt.com/products/steam-machine",
-      "publishedAt": "2026-09-19T04:08:24-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
       "id": "tag:www.producthunt.com,2005:Post/1252832",
       "title": "Bolt Forge",
       "url": "https://www.producthunt.com/products/bolt-new",
-      "publishedAt": "2026-09-19T04:06:26-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1253025",
-      "title": "VoiceCap",
-      "url": "https://www.producthunt.com/products/voicecap",
-      "publishedAt": "2026-09-19T04:07:54-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1251902",
-      "title": "Squirrel",
-      "url": "https://www.producthunt.com/products/squirrel-screen-time-savings",
-      "publishedAt": "2026-09-19T04:05:39-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1249894",
-      "title": "Doneit 3.2",
-      "url": "https://www.producthunt.com/products/doneit",
-      "publishedAt": "2026-09-19T04:07:46-07:00",
+      "publishedAt": "2026-09-19T08:55:53-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -955,7 +915,7 @@
       "id": "tag:www.producthunt.com,2005:Post/1162764",
       "title": "Mantra Timer",
       "url": "https://www.producthunt.com/products/transcendence",
-      "publishedAt": "2026-09-19T04:07:12-07:00",
+      "publishedAt": "2026-09-19T08:53:08-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -965,17 +925,7 @@
       "id": "tag:www.producthunt.com,2005:Post/1255234",
       "title": "Mise",
       "url": "https://www.producthunt.com/products/robot-recipes",
-      "publishedAt": "2026-09-19T04:04:08-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1250937",
-      "title": "Lull",
-      "url": "https://www.producthunt.com/products/lull-3",
-      "publishedAt": "2026-09-19T04:04:07-07:00",
+      "publishedAt": "2026-09-19T08:49:24-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -985,7 +935,7 @@
       "id": "tag:www.producthunt.com,2005:Post/1254739",
       "title": "Punch",
       "url": "https://www.producthunt.com/products/punch-4",
-      "publishedAt": "2026-09-19T04:04:25-07:00",
+      "publishedAt": "2026-09-19T08:49:23-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -995,7 +945,57 @@
       "id": "tag:www.producthunt.com,2005:Post/1254873",
       "title": "Basedash Models",
       "url": "https://www.producthunt.com/products/basedash",
-      "publishedAt": "2026-09-19T04:04:08-07:00",
+      "publishedAt": "2026-09-19T08:49:21-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1251902",
+      "title": "Squirrel",
+      "url": "https://www.producthunt.com/products/squirrel-screen-time-savings",
+      "publishedAt": "2026-09-19T08:49:21-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1250937",
+      "title": "Lull",
+      "url": "https://www.producthunt.com/products/lull-3",
+      "publishedAt": "2026-09-19T08:49:12-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1252432",
+      "title": "Ruby UTCP",
+      "url": "https://www.producthunt.com/products/utcp",
+      "publishedAt": "2026-09-19T08:49:20-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1253025",
+      "title": "VoiceCap",
+      "url": "https://www.producthunt.com/products/voicecap",
+      "publishedAt": "2026-09-19T08:51:02-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1249894",
+      "title": "Doneit 3.2",
+      "url": "https://www.producthunt.com/products/doneit",
+      "publishedAt": "2026-09-19T08:49:14-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
