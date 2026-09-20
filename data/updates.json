@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-20T11:33:08.272207+00:00",
+  "updatedAt": "2026-09-20T16:13:45.386584+00:00",
   "items": [
     {
       "id": "tag:github.com,2008:Repository/658928958/v0.34.3-rc1",
@@ -302,6 +302,16 @@
       "why": "Useful for anyone working with open models."
     },
     {
+      "id": "tag:github.com,2008:Repository/589831718/v0.37.0",
+      "title": "v0.37.0",
+      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.37.0",
+      "publishedAt": "2026-09-20T15:27:36Z",
+      "source": "ComfyUI",
+      "kind": "Image workflows",
+      "purpose": "Create controlled node-based image-generation workflows.",
+      "why": "Useful for advanced Stable Diffusion users."
+    },
+    {
       "id": "tag:github.com,2008:Repository/589831718/v0.36.0",
       "title": "v0.36.0",
       "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.36.0",
@@ -386,16 +396,6 @@
       "title": "v0.34.2",
       "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.34.2",
       "publishedAt": "2026-08-27T23:08:38Z",
-      "source": "ComfyUI",
-      "kind": "Image workflows",
-      "purpose": "Create controlled node-based image-generation workflows.",
-      "why": "Useful for advanced Stable Diffusion users."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/589831718/v0.34.1",
-      "title": "v0.34.1",
-      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.34.1",
-      "publishedAt": "2026-08-26T20:38:34Z",
       "source": "ComfyUI",
       "kind": "Image workflows",
       "purpose": "Create controlled node-based image-generation workflows.",
@@ -902,60 +902,20 @@
       "why": "Useful for search and Q&A over documents or databases."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1241715",
-      "title": "Mycel",
-      "url": "https://www.producthunt.com/products/mycel",
-      "publishedAt": "2026-09-20T04:29:55-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1242556",
-      "title": "Embedful",
-      "url": "https://www.producthunt.com/products/embedful",
-      "publishedAt": "2026-09-20T04:31:57-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1255292",
-      "title": "Answers by Context.dev",
-      "url": "https://www.producthunt.com/products/context-dev",
-      "publishedAt": "2026-09-20T04:31:53-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1250524",
-      "title": "Minicart",
-      "url": "https://www.producthunt.com/products/minicart",
-      "publishedAt": "2026-09-20T04:31:42-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1247786",
-      "title": "YABAI",
-      "url": "https://www.producthunt.com/products/yabai",
-      "publishedAt": "2026-09-20T04:31:26-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
       "id": "tag:www.producthunt.com,2005:Post/1250693",
       "title": "Scrapboard Cloud 4",
       "url": "https://www.producthunt.com/products/scrapboard-cloud-4",
-      "publishedAt": "2026-09-20T04:31:25-07:00",
+      "publishedAt": "2026-09-20T09:04:55-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1241585",
+      "title": "Termphin",
+      "url": "https://www.producthunt.com/products/termphin",
+      "publishedAt": "2026-09-20T09:11:16-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -965,7 +925,17 @@
       "id": "tag:www.producthunt.com,2005:Post/1248747",
       "title": "SmartPause",
       "url": "https://www.producthunt.com/products/smartpause-2",
-      "publishedAt": "2026-09-20T04:31:57-07:00",
+      "publishedAt": "2026-09-20T09:04:14-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1255292",
+      "title": "Answers by Context.dev",
+      "url": "https://www.producthunt.com/products/context-dev",
+      "publishedAt": "2026-09-20T09:11:16-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -975,7 +945,7 @@
       "id": "tag:www.producthunt.com,2005:Post/1255756",
       "title": "Epismo OS",
       "url": "https://www.producthunt.com/products/epismo",
-      "publishedAt": "2026-09-20T04:31:57-07:00",
+      "publishedAt": "2026-09-20T09:11:20-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -985,17 +955,47 @@
       "id": "tag:www.producthunt.com,2005:Post/1247275",
       "title": "ManyPI",
       "url": "https://www.producthunt.com/products/manypi",
-      "publishedAt": "2026-09-20T04:31:08-07:00",
+      "publishedAt": "2026-09-20T09:11:16-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1255249",
-      "title": "Launchie 1.6.1",
-      "url": "https://www.producthunt.com/products/launchie",
-      "publishedAt": "2026-09-20T04:17:43-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1253620",
+      "title": "Morsa Signals",
+      "url": "https://www.producthunt.com/products/morsa-signals",
+      "publishedAt": "2026-09-20T09:11:16-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1250524",
+      "title": "Minicart",
+      "url": "https://www.producthunt.com/products/minicart",
+      "publishedAt": "2026-09-20T09:10:35-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1249800",
+      "title": "Harbor",
+      "url": "https://www.producthunt.com/products/harbor-2",
+      "publishedAt": "2026-09-20T09:10:37-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1247786",
+      "title": "YABAI",
+      "url": "https://www.producthunt.com/products/yabai",
+      "publishedAt": "2026-09-20T09:03:08-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
