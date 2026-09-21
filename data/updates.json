@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-21T12:58:01.629640+00:00",
+  "updatedAt": "2026-09-21T22:02:07.089969+00:00",
   "items": [
     {
       "id": "tag:github.com,2008:Repository/658928958/v0.34.3-rc1",
@@ -102,6 +102,26 @@
       "why": "Useful for private local AI experimentation and open models."
     },
     {
+      "id": "tag:github.com,2008:Repository/552661142/langchain-openai==1.6.3",
+      "title": "langchain-openai==1.6.3",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.6.3",
+      "publishedAt": "2026-09-21T18:32:46Z",
+      "source": "LangChain",
+      "kind": "AI development",
+      "purpose": "Build assistants, agents and RAG applications.",
+      "why": "Useful for developers building AI products."
+    },
+    {
+      "id": "tag:github.com,2008:Repository/552661142/langchain-core==1.6.4",
+      "title": "langchain-core==1.6.4",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.4",
+      "publishedAt": "2026-09-21T15:51:24Z",
+      "source": "LangChain",
+      "kind": "AI development",
+      "purpose": "Build assistants, agents and RAG applications.",
+      "why": "Useful for developers building AI products."
+    },
+    {
       "id": "tag:github.com,2008:Repository/552661142/langchain-typesafe==0.0.1a3",
       "title": "langchain-typesafe==0.0.1a3",
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-typesafe%3D%3D0.0.1a3",
@@ -176,26 +196,6 @@
       "title": "langchain-openai==1.6.2",
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.6.2",
       "publishedAt": "2026-09-09T21:22:02Z",
-      "source": "LangChain",
-      "kind": "AI development",
-      "purpose": "Build assistants, agents and RAG applications.",
-      "why": "Useful for developers building AI products."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/552661142/langchain-openai==1.6.1",
-      "title": "langchain-openai==1.6.1",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.6.1",
-      "publishedAt": "2026-09-08T14:20:42Z",
-      "source": "LangChain",
-      "kind": "AI development",
-      "purpose": "Build assistants, agents and RAG applications.",
-      "why": "Useful for developers building AI products."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/552661142/langchain-core==1.6.2",
-      "title": "langchain-core==1.6.2",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.2",
-      "publishedAt": "2026-09-04T21:29:44Z",
       "source": "LangChain",
       "kind": "AI development",
       "purpose": "Build assistants, agents and RAG applications.",
@@ -402,6 +402,16 @@
       "why": "Useful for advanced Stable Diffusion users."
     },
     {
+      "id": "tag:github.com,2008:Repository/701547123/v0.11.4",
+      "title": "v0.11.4",
+      "url": "https://github.com/open-webui/open-webui/releases/tag/v0.11.4",
+      "publishedAt": "2026-09-21T19:25:21Z",
+      "source": "Open WebUI",
+      "kind": "Local AI UI",
+      "purpose": "Use local or remote AI models in a browser interface.",
+      "why": "Useful for people who use Ollama or self-hosted models."
+    },
+    {
       "id": "tag:github.com,2008:Repository/701547123/v0.11.3",
       "title": "v0.11.3",
       "url": "https://github.com/open-webui/open-webui/releases/tag/v0.11.3",
@@ -486,16 +496,6 @@
       "title": "v0.9.5",
       "url": "https://github.com/open-webui/open-webui/releases/tag/v0.9.5",
       "publishedAt": "2026-05-10T18:14:07Z",
-      "source": "Open WebUI",
-      "kind": "Local AI UI",
-      "purpose": "Use local or remote AI models in a browser interface.",
-      "why": "Useful for people who use Ollama or self-hosted models."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/701547123/v0.9.4",
-      "title": "v0.9.4",
-      "url": "https://github.com/open-webui/open-webui/releases/tag/v0.9.4",
-      "publishedAt": "2026-05-09T07:50:17Z",
       "source": "Open WebUI",
       "kind": "Local AI UI",
       "purpose": "Use local or remote AI models in a browser interface.",
@@ -612,6 +612,16 @@
       "why": "Useful for testing AI application ideas faster."
     },
     {
+      "id": "tag:github.com,2008:Repository/599320067/v1.12.3",
+      "title": "v1.12.3",
+      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.12.3",
+      "publishedAt": "2026-09-21T21:37:16Z",
+      "source": "Langflow",
+      "kind": "Visual AI builder",
+      "purpose": "Create AI flows visually and connect components.",
+      "why": "Useful for testing AI application ideas faster."
+    },
+    {
       "id": "tag:github.com,2008:Repository/599320067/v1.13.0.dev18",
       "title": "v1.13.0.dev18",
       "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.13.0.dev18",
@@ -692,20 +702,20 @@
       "why": "Useful for testing AI application ideas faster."
     },
     {
-      "id": "tag:github.com,2008:Repository/599320067/v1.13.0.dev11",
-      "title": "v1.13.0.dev11",
-      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.13.0.dev11",
-      "publishedAt": "2026-09-13T00:43:20Z",
-      "source": "Langflow",
-      "kind": "Visual AI builder",
-      "purpose": "Create AI flows visually and connect components.",
-      "why": "Useful for testing AI application ideas faster."
-    },
-    {
       "id": "tag:github.com,2008:Repository/193215554/stable",
       "title": "stable",
       "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
-      "publishedAt": "2026-09-21T07:42:37Z",
+      "publishedAt": "2026-09-21T14:08:39Z",
+      "source": "n8n",
+      "kind": "Automation",
+      "purpose": "Connect apps, APIs and AI in automated workflows.",
+      "why": "Useful for repeatable content and business automation."
+    },
+    {
+      "id": "tag:github.com,2008:Repository/193215554/n8n@2.40.5",
+      "title": "n8n@2.40.5",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.40.5",
+      "publishedAt": "2026-09-21T14:12:45Z",
       "source": "n8n",
       "kind": "Automation",
       "purpose": "Connect apps, APIs and AI in automated workflows.",
@@ -716,6 +726,16 @@
       "title": "n8n@2.40.4",
       "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.40.4",
       "publishedAt": "2026-09-21T07:36:30Z",
+      "source": "n8n",
+      "kind": "Automation",
+      "purpose": "Connect apps, APIs and AI in automated workflows.",
+      "why": "Useful for repeatable content and business automation."
+    },
+    {
+      "id": "tag:github.com,2008:Repository/193215554/n8n@2.39.10",
+      "title": "n8n@2.39.10",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.39.10",
+      "publishedAt": "2026-09-21T14:12:03Z",
       "source": "n8n",
       "kind": "Automation",
       "purpose": "Connect apps, APIs and AI in automated workflows.",
@@ -735,7 +755,7 @@
       "id": "tag:github.com,2008:Repository/193215554/beta",
       "title": "beta",
       "url": "https://github.com/n8n-io/n8n/releases/tag/beta",
-      "publishedAt": "2026-09-21T07:33:22Z",
+      "publishedAt": "2026-09-21T14:05:48Z",
       "source": "n8n",
       "kind": "Automation",
       "purpose": "Connect apps, APIs and AI in automated workflows.",
@@ -782,24 +802,14 @@
       "why": "Useful for repeatable content and business automation."
     },
     {
-      "id": "tag:github.com,2008:Repository/193215554/n8n@2.39.7",
-      "title": "n8n@2.39.7",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.39.7",
-      "publishedAt": "2026-09-17T07:49:13Z",
-      "source": "n8n",
-      "kind": "Automation",
-      "purpose": "Connect apps, APIs and AI in automated workflows.",
-      "why": "Useful for repeatable content and business automation."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/193215554/n8n@1.123.81",
-      "title": "n8n@1.123.81",
-      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.81",
-      "publishedAt": "2026-09-17T08:01:07Z",
-      "source": "n8n",
-      "kind": "Automation",
-      "purpose": "Connect apps, APIs and AI in automated workflows.",
-      "why": "Useful for repeatable content and business automation."
+      "id": "tag:github.com,2008:Repository/560704231/v0.14.25",
+      "title": "v0.14.25",
+      "url": "https://github.com/run-llama/llama_index/releases/tag/v0.14.25",
+      "publishedAt": "2026-09-21T16:22:27Z",
+      "source": "LlamaIndex",
+      "kind": "AI development",
+      "purpose": "Connect data to LLM applications.",
+      "why": "Useful for search and Q&A over documents or databases."
     },
     {
       "id": "tag:github.com,2008:Repository/560704231/v0.14.24",
@@ -892,30 +902,10 @@
       "why": "Useful for search and Q&A over documents or databases."
     },
     {
-      "id": "tag:github.com,2008:Repository/560704231/v0.14.14",
-      "title": "v0.14.14",
-      "url": "https://github.com/run-llama/llama_index/releases/tag/v0.14.14",
-      "publishedAt": "2026-02-10T23:08:46Z",
-      "source": "LlamaIndex",
-      "kind": "AI development",
-      "purpose": "Connect data to LLM applications.",
-      "why": "Useful for search and Q&A over documents or databases."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1256682",
-      "title": "Jev",
-      "url": "https://www.producthunt.com/products/jev-2",
-      "publishedAt": "2026-09-21T05:57:59-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1247082",
-      "title": "Superset Mobile",
-      "url": "https://www.producthunt.com/products/superset-5",
-      "publishedAt": "2026-09-21T05:57:58-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1251157",
+      "title": "Arcjet",
+      "url": "https://www.producthunt.com/products/arcjet",
+      "publishedAt": "2026-09-21T14:40:09-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -925,37 +915,17 @@
       "id": "tag:www.producthunt.com,2005:Post/1255660",
       "title": "Sai",
       "url": "https://www.producthunt.com/products/simular",
-      "publishedAt": "2026-09-21T05:57:57-07:00",
+      "publishedAt": "2026-09-21T14:54:19-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1254914",
-      "title": "Gradio Workflow",
-      "url": "https://www.producthunt.com/products/gradio",
-      "publishedAt": "2026-09-21T05:56:16-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1253187",
-      "title": "Sell to State",
-      "url": "https://www.producthunt.com/products/sell-to-state",
-      "publishedAt": "2026-09-21T05:56:42-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1253812",
-      "title": "PostSider",
-      "url": "https://www.producthunt.com/products/postsider",
-      "publishedAt": "2026-09-21T05:56:16-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1256713",
+      "title": "OmniDICOM",
+      "url": "https://www.producthunt.com/products/omnidicom",
+      "publishedAt": "2026-09-21T12:41:38-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -965,37 +935,67 @@
       "id": "tag:www.producthunt.com,2005:Post/1256085",
       "title": "Flicka",
       "url": "https://www.producthunt.com/products/flicka",
-      "publishedAt": "2026-09-21T05:57:51-07:00",
+      "publishedAt": "2026-09-21T13:58:33-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1252511",
-      "title": "Refoid",
-      "url": "https://www.producthunt.com/products/refoid-decline-unreasonable-refunds",
-      "publishedAt": "2026-09-21T05:11:42-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1253812",
+      "title": "PostSider",
+      "url": "https://www.producthunt.com/products/postsider",
+      "publishedAt": "2026-09-21T15:01:21-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1246118",
-      "title": "Hyrax AI",
-      "url": "https://www.producthunt.com/products/tristan-benozer",
-      "publishedAt": "2026-09-21T05:44:05-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1256103",
+      "title": "AppGrowthKit",
+      "url": "https://www.producthunt.com/products/appgrowthkit",
+      "publishedAt": "2026-09-21T13:40:15-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1251157",
-      "title": "Arcjet",
-      "url": "https://www.producthunt.com/products/arcjet",
-      "publishedAt": "2026-09-21T05:57:57-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1253187",
+      "title": "Sell to State",
+      "url": "https://www.producthunt.com/products/sell-to-state",
+      "publishedAt": "2026-09-21T14:59:08-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1256419",
+      "title": "slop-grader",
+      "url": "https://www.producthunt.com/products/slop-grader",
+      "publishedAt": "2026-09-21T15:01:21-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1255937",
+      "title": "CC",
+      "url": "https://www.producthunt.com/products/google-labs",
+      "publishedAt": "2026-09-21T14:58:44-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1256721",
+      "title": "Google Flow for iOS & Android",
+      "url": "https://www.producthunt.com/products/google",
+      "publishedAt": "2026-09-21T14:00:35-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
