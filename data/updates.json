@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-21T22:02:07.089969+00:00",
+  "updatedAt": "2026-09-22T05:07:07.482923+00:00",
   "items": [
     {
       "id": "tag:github.com,2008:Repository/658928958/v0.34.3-rc1",
@@ -102,6 +102,36 @@
       "why": "Useful for private local AI experimentation and open models."
     },
     {
+      "id": "tag:github.com,2008:Repository/552661142/langchain-openrouter==0.2.9",
+      "title": "langchain-openrouter==0.2.9",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openrouter%3D%3D0.2.9",
+      "publishedAt": "2026-09-22T04:16:13Z",
+      "source": "LangChain",
+      "kind": "AI development",
+      "purpose": "Build assistants, agents and RAG applications.",
+      "why": "Useful for developers building AI products."
+    },
+    {
+      "id": "tag:github.com,2008:Repository/552661142/langchain-fireworks==1.6.2",
+      "title": "langchain-fireworks==1.6.2",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.6.2",
+      "publishedAt": "2026-09-22T04:44:05Z",
+      "source": "LangChain",
+      "kind": "AI development",
+      "purpose": "Build assistants, agents and RAG applications.",
+      "why": "Useful for developers building AI products."
+    },
+    {
+      "id": "tag:github.com,2008:Repository/552661142/langchain-deepseek==1.1.1",
+      "title": "langchain-deepseek==1.1.1",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-deepseek%3D%3D1.1.1",
+      "publishedAt": "2026-09-22T04:30:12Z",
+      "source": "LangChain",
+      "kind": "AI development",
+      "purpose": "Build assistants, agents and RAG applications.",
+      "why": "Useful for developers building AI products."
+    },
+    {
       "id": "tag:github.com,2008:Repository/552661142/langchain-openai==1.6.3",
       "title": "langchain-openai==1.6.3",
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.6.3",
@@ -166,36 +196,6 @@
       "title": "langchain==1.4.1",
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.1",
       "publishedAt": "2026-09-16T17:07:04Z",
-      "source": "LangChain",
-      "kind": "AI development",
-      "purpose": "Build assistants, agents and RAG applications.",
-      "why": "Useful for developers building AI products."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/552661142/langchain-core==1.6.3",
-      "title": "langchain-core==1.6.3",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.3",
-      "publishedAt": "2026-09-11T17:38:04Z",
-      "source": "LangChain",
-      "kind": "AI development",
-      "purpose": "Build assistants, agents and RAG applications.",
-      "why": "Useful for developers building AI products."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/552661142/langchain-anthropic==1.7.2",
-      "title": "langchain-anthropic==1.7.2",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.2",
-      "publishedAt": "2026-09-10T19:13:12Z",
-      "source": "LangChain",
-      "kind": "AI development",
-      "purpose": "Build assistants, agents and RAG applications.",
-      "why": "Useful for developers building AI products."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/552661142/langchain-openai==1.6.2",
-      "title": "langchain-openai==1.6.2",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.6.2",
-      "publishedAt": "2026-09-09T21:22:02Z",
       "source": "LangChain",
       "kind": "AI development",
       "purpose": "Build assistants, agents and RAG applications.",
@@ -602,6 +602,16 @@
       "why": "Useful for prototyping RAG and chatbot workflows."
     },
     {
+      "id": "tag:github.com,2008:Repository/599320067/v1.13.0.dev20",
+      "title": "v1.13.0.dev20",
+      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.13.0.dev20",
+      "publishedAt": "2026-09-22T00:39:00Z",
+      "source": "Langflow",
+      "kind": "Visual AI builder",
+      "purpose": "Create AI flows visually and connect components.",
+      "why": "Useful for testing AI application ideas faster."
+    },
+    {
       "id": "tag:github.com,2008:Repository/599320067/v1.13.0.dev19",
       "title": "v1.13.0.dev19",
       "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.13.0.dev19",
@@ -615,7 +625,7 @@
       "id": "tag:github.com,2008:Repository/599320067/v1.12.3",
       "title": "v1.12.3",
       "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.12.3",
-      "publishedAt": "2026-09-21T21:37:16Z",
+      "publishedAt": "2026-09-21T23:02:07Z",
       "source": "Langflow",
       "kind": "Visual AI builder",
       "purpose": "Create AI flows visually and connect components.",
@@ -686,16 +696,6 @@
       "title": "1.12.2",
       "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.12.2",
       "publishedAt": "2026-09-16T00:53:29Z",
-      "source": "Langflow",
-      "kind": "Visual AI builder",
-      "purpose": "Create AI flows visually and connect components.",
-      "why": "Useful for testing AI application ideas faster."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/599320067/v1.13.0.dev12",
-      "title": "v1.13.0.dev12",
-      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.13.0.dev12",
-      "publishedAt": "2026-09-14T00:42:43Z",
       "source": "Langflow",
       "kind": "Visual AI builder",
       "purpose": "Create AI flows visually and connect components.",
@@ -902,60 +902,10 @@
       "why": "Useful for search and Q&A over documents or databases."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1251157",
-      "title": "Arcjet",
-      "url": "https://www.producthunt.com/products/arcjet",
-      "publishedAt": "2026-09-21T14:40:09-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1255660",
-      "title": "Sai",
-      "url": "https://www.producthunt.com/products/simular",
-      "publishedAt": "2026-09-21T14:54:19-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1256713",
-      "title": "OmniDICOM",
-      "url": "https://www.producthunt.com/products/omnidicom",
-      "publishedAt": "2026-09-21T12:41:38-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1256085",
-      "title": "Flicka",
-      "url": "https://www.producthunt.com/products/flicka",
-      "publishedAt": "2026-09-21T13:58:33-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1253812",
-      "title": "PostSider",
-      "url": "https://www.producthunt.com/products/postsider",
-      "publishedAt": "2026-09-21T15:01:21-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1256103",
-      "title": "AppGrowthKit",
-      "url": "https://www.producthunt.com/products/appgrowthkit",
-      "publishedAt": "2026-09-21T13:40:15-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1256682",
+      "title": "Jev",
+      "url": "https://www.producthunt.com/products/jev-2",
+      "publishedAt": "2026-09-21T22:05:41-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -965,27 +915,37 @@
       "id": "tag:www.producthunt.com,2005:Post/1253187",
       "title": "Sell to State",
       "url": "https://www.producthunt.com/products/sell-to-state",
-      "publishedAt": "2026-09-21T14:59:08-07:00",
+      "publishedAt": "2026-09-21T22:04:55-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1256419",
-      "title": "slop-grader",
-      "url": "https://www.producthunt.com/products/slop-grader",
-      "publishedAt": "2026-09-21T15:01:21-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1256676",
+      "title": "NiubiGEO",
+      "url": "https://www.producthunt.com/products/niubigeo",
+      "publishedAt": "2026-09-21T22:05:03-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1255937",
-      "title": "CC",
-      "url": "https://www.producthunt.com/products/google-labs",
-      "publishedAt": "2026-09-21T14:58:44-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1251157",
+      "title": "Arcjet",
+      "url": "https://www.producthunt.com/products/arcjet",
+      "publishedAt": "2026-09-21T22:05:01-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1254914",
+      "title": "Gradio Workflow",
+      "url": "https://www.producthunt.com/products/gradio",
+      "publishedAt": "2026-09-21T22:05:01-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -995,7 +955,47 @@
       "id": "tag:www.producthunt.com,2005:Post/1256721",
       "title": "Google Flow for iOS & Android",
       "url": "https://www.producthunt.com/products/google",
-      "publishedAt": "2026-09-21T14:00:35-07:00",
+      "publishedAt": "2026-09-21T22:05:01-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1256567",
+      "title": "Jevtown",
+      "url": "https://www.producthunt.com/products/jevtown",
+      "publishedAt": "2026-09-21T22:05:00-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1247207",
+      "title": "Turfs",
+      "url": "https://www.producthunt.com/products/turfs-fences-on-the-mac-desktop",
+      "publishedAt": "2026-09-21T22:04:57-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1252057",
+      "title": "AI Creative Insights by Decode",
+      "url": "https://www.producthunt.com/products/decode-by-entropik",
+      "publishedAt": "2026-09-21T22:04:56-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1247082",
+      "title": "Superset Mobile",
+      "url": "https://www.producthunt.com/products/superset-5",
+      "publishedAt": "2026-09-21T22:04:16-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
