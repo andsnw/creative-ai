@@ -1,6 +1,16 @@
 {
-  "updatedAt": "2026-09-22T21:25:04.874295+00:00",
+  "updatedAt": "2026-09-23T04:51:57.005922+00:00",
   "items": [
+    {
+      "id": "tag:github.com,2008:Repository/658928958/v0.34.4-rc0",
+      "title": "v0.34.4",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.34.4-rc0",
+      "publishedAt": "2026-09-23T02:24:43Z",
+      "source": "Ollama",
+      "kind": "Local models",
+      "purpose": "Run AI models locally and manage supported cloud models.",
+      "why": "Useful for private local AI experimentation and open models."
+    },
     {
       "id": "tag:github.com,2008:Repository/658928958/v0.34.3",
       "title": "v0.34.3",
@@ -92,20 +102,20 @@
       "why": "Useful for private local AI experimentation and open models."
     },
     {
-      "id": "tag:github.com,2008:Repository/658928958/v0.34.1-rc2",
-      "title": "v0.34.1-rc2: API: Deprecate typical_p (#18448)",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.34.1-rc2",
-      "publishedAt": "2026-09-15T04:24:26Z",
-      "source": "Ollama",
-      "kind": "Local models",
-      "purpose": "Run AI models locally and manage supported cloud models.",
-      "why": "Useful for private local AI experimentation and open models."
-    },
-    {
       "id": "tag:github.com,2008:Repository/552661142/langchain-openrouter==0.2.9",
       "title": "langchain-openrouter==0.2.9",
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openrouter%3D%3D0.2.9",
       "publishedAt": "2026-09-22T04:16:13Z",
+      "source": "LangChain",
+      "kind": "AI development",
+      "purpose": "Build assistants, agents and RAG applications.",
+      "why": "Useful for developers building AI products."
+    },
+    {
+      "id": "tag:github.com,2008:Repository/552661142/langchain-openai==1.6.4",
+      "title": "langchain-openai==1.6.4",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.6.4",
+      "publishedAt": "2026-09-22T22:37:11Z",
       "source": "LangChain",
       "kind": "AI development",
       "purpose": "Build assistants, agents and RAG applications.",
@@ -126,6 +136,16 @@
       "title": "langchain-deepseek==1.1.1",
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-deepseek%3D%3D1.1.1",
       "publishedAt": "2026-09-22T04:30:12Z",
+      "source": "LangChain",
+      "kind": "AI development",
+      "purpose": "Build assistants, agents and RAG applications.",
+      "why": "Useful for developers building AI products."
+    },
+    {
+      "id": "tag:github.com,2008:Repository/552661142/langchain-anthropic==1.7.3",
+      "title": "langchain-anthropic==1.7.3",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.3",
+      "publishedAt": "2026-09-22T22:08:15Z",
       "source": "LangChain",
       "kind": "AI development",
       "purpose": "Build assistants, agents and RAG applications.",
@@ -176,26 +196,6 @@
       "title": "langchain-typesafe==0.0.1a2",
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-typesafe%3D%3D0.0.1a2",
       "publishedAt": "2026-09-17T22:24:59Z",
-      "source": "LangChain",
-      "kind": "AI development",
-      "purpose": "Build assistants, agents and RAG applications.",
-      "why": "Useful for developers building AI products."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/552661142/langchain-typesafe==0.0.1a1",
-      "title": "langchain-typesafe==0.0.1a1",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-typesafe%3D%3D0.0.1a1",
-      "publishedAt": "2026-09-17T18:07:14Z",
-      "source": "LangChain",
-      "kind": "AI development",
-      "purpose": "Build assistants, agents and RAG applications.",
-      "why": "Useful for developers building AI products."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/552661142/langchain==1.4.1",
-      "title": "langchain==1.4.1",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.1",
-      "publishedAt": "2026-09-16T17:07:04Z",
       "source": "LangChain",
       "kind": "AI development",
       "purpose": "Build assistants, agents and RAG applications.",
@@ -602,6 +602,16 @@
       "why": "Useful for prototyping RAG and chatbot workflows."
     },
     {
+      "id": "tag:github.com,2008:Repository/599320067/v1.13.0.dev21",
+      "title": "v1.13.0.dev21",
+      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.13.0.dev21",
+      "publishedAt": "2026-09-23T03:39:57Z",
+      "source": "Langflow",
+      "kind": "Visual AI builder",
+      "purpose": "Create AI flows visually and connect components.",
+      "why": "Useful for testing AI application ideas faster."
+    },
+    {
       "id": "tag:github.com,2008:Repository/599320067/v1.13.0.dev20",
       "title": "v1.13.0.dev20",
       "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.13.0.dev20",
@@ -686,16 +696,6 @@
       "title": "v1.13.0.dev13",
       "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.13.0.dev13",
       "publishedAt": "2026-09-15T00:40:27Z",
-      "source": "Langflow",
-      "kind": "Visual AI builder",
-      "purpose": "Create AI flows visually and connect components.",
-      "why": "Useful for testing AI application ideas faster."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/599320067/v1.12.2",
-      "title": "1.12.2",
-      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.12.2",
-      "publishedAt": "2026-09-16T00:53:29Z",
       "source": "Langflow",
       "kind": "Visual AI builder",
       "purpose": "Create AI flows visually and connect components.",
@@ -905,87 +905,7 @@
       "id": "tag:www.producthunt.com,2005:Post/1246175",
       "title": "Anomalo",
       "url": "https://www.producthunt.com/products/anomalo",
-      "publishedAt": "2026-09-22T14:24:18-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1256824",
-      "title": "Jev Wrapped",
-      "url": "https://www.producthunt.com/products/jev-wrapped",
-      "publishedAt": "2026-09-22T14:17:17-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1250257",
-      "title": "Pulsetic RUM",
-      "url": "https://www.producthunt.com/products/pulsetic",
-      "publishedAt": "2026-09-22T13:28:41-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1255875",
-      "title": "gg-friggin-ez",
-      "url": "https://www.producthunt.com/products/gg-friggin-ez",
-      "publishedAt": "2026-09-22T14:08:10-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1189198",
-      "title": "WeWeb MCP",
-      "url": "https://www.producthunt.com/products/weweb-io",
-      "publishedAt": "2026-09-22T13:51:25-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1239946",
-      "title": "Edyt",
-      "url": "https://www.producthunt.com/products/edyt",
-      "publishedAt": "2026-09-22T14:22:45-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1257464",
-      "title": "Grok 4.7",
-      "url": "https://www.producthunt.com/products/grok-4-7-8",
-      "publishedAt": "2026-09-22T14:08:10-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1252191",
-      "title": "thestory.run",
-      "url": "https://www.producthunt.com/products/thestory-run",
-      "publishedAt": "2026-09-22T14:20:21-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1255169",
-      "title": "PixelCrew",
-      "url": "https://www.producthunt.com/products/pixelcrew",
-      "publishedAt": "2026-09-22T14:20:37-07:00",
+      "publishedAt": "2026-09-22T21:51:20-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -995,7 +915,87 @@
       "id": "tag:www.producthunt.com,2005:Post/1250875",
       "title": "SereneDB",
       "url": "https://www.producthunt.com/products/serenedb-krummelanke",
-      "publishedAt": "2026-09-22T14:22:35-07:00",
+      "publishedAt": "2026-09-22T21:50:52-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1255169",
+      "title": "PixelCrew",
+      "url": "https://www.producthunt.com/products/pixelcrew",
+      "publishedAt": "2026-09-22T21:49:27-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1252191",
+      "title": "thestory.run",
+      "url": "https://www.producthunt.com/products/thestory-run",
+      "publishedAt": "2026-09-22T21:51:08-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1252189",
+      "title": "Clueso MCP",
+      "url": "https://www.producthunt.com/products/clueso",
+      "publishedAt": "2026-09-22T21:49:54-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1239946",
+      "title": "Edyt",
+      "url": "https://www.producthunt.com/products/edyt",
+      "publishedAt": "2026-09-22T21:36:25-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1253740",
+      "title": "Prowler Cloud",
+      "url": "https://www.producthunt.com/products/prowler",
+      "publishedAt": "2026-09-22T21:20:15-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1255183",
+      "title": "VideoFlow Studio",
+      "url": "https://www.producthunt.com/products/videoflow-studio",
+      "publishedAt": "2026-09-22T21:02:13-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1251832",
+      "title": "ReallyFree",
+      "url": "https://www.producthunt.com/products/know-what-s-really-free-before-you-click",
+      "publishedAt": "2026-09-22T21:26:57-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1238328",
+      "title": "OneStream Live 2.0",
+      "url": "https://www.producthunt.com/products/onestream",
+      "publishedAt": "2026-09-22T20:59:42-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
