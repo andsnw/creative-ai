@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-23T11:47:36.219393+00:00",
+  "updatedAt": "2026-09-23T17:11:13.520816+00:00",
   "items": [
     {
       "id": "tag:github.com,2008:Repository/658928958/v0.34.4-rc0",
@@ -102,6 +102,16 @@
       "why": "Useful for private local AI experimentation and open models."
     },
     {
+      "id": "tag:github.com,2008:Repository/552661142/langchain-openai==1.6.5",
+      "title": "langchain-openai==1.6.5",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.6.5",
+      "publishedAt": "2026-09-23T15:31:54Z",
+      "source": "LangChain",
+      "kind": "AI development",
+      "purpose": "Build assistants, agents and RAG applications.",
+      "why": "Useful for developers building AI products."
+    },
+    {
       "id": "tag:github.com,2008:Repository/552661142/langchain-openrouter==0.2.9",
       "title": "langchain-openrouter==0.2.9",
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openrouter%3D%3D0.2.9",
@@ -186,16 +196,6 @@
       "title": "langchain==1.4.2",
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.2",
       "publishedAt": "2026-09-18T17:31:27Z",
-      "source": "LangChain",
-      "kind": "AI development",
-      "purpose": "Build assistants, agents and RAG applications.",
-      "why": "Useful for developers building AI products."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/552661142/langchain-typesafe==0.0.1a2",
-      "title": "langchain-typesafe==0.0.1a2",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-typesafe%3D%3D0.0.1a2",
-      "publishedAt": "2026-09-17T22:24:59Z",
       "source": "LangChain",
       "kind": "AI development",
       "purpose": "Build assistants, agents and RAG applications.",
@@ -905,57 +905,7 @@
       "id": "tag:www.producthunt.com,2005:Post/1258292",
       "title": "Dub Program Marketplace",
       "url": "https://www.producthunt.com/products/dub",
-      "publishedAt": "2026-09-23T04:18:36-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1256789",
-      "title": "Solid",
-      "url": "https://www.producthunt.com/products/solid-3",
-      "publishedAt": "2026-09-23T04:47:04-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1251757",
-      "title": "GBrain",
-      "url": "https://www.producthunt.com/products/gbrain",
-      "publishedAt": "2026-09-23T04:17:48-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1258428",
-      "title": "Alexandria by Firecrawl",
-      "url": "https://www.producthunt.com/products/extract-by-firecrawl",
-      "publishedAt": "2026-09-23T04:35:34-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1257763",
-      "title": "Lightmeter",
-      "url": "https://www.producthunt.com/products/lightmeter-2",
-      "publishedAt": "2026-09-23T04:46:24-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1257670",
-      "title": "ToneBird",
-      "url": "https://www.producthunt.com/products/tonebird",
-      "publishedAt": "2026-09-23T04:44:32-07:00",
+      "publishedAt": "2026-09-23T10:06:50-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -965,27 +915,7 @@
       "id": "tag:www.producthunt.com,2005:Post/1258400",
       "title": "Claude Opus 5.5",
       "url": "https://www.producthunt.com/products/claude-fable-5-1",
-      "publishedAt": "2026-09-23T04:45:00-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1146521",
-      "title": "Pactto",
-      "url": "https://www.producthunt.com/products/pactto-replay",
-      "publishedAt": "2026-09-23T04:46:50-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1233043",
-      "title": "Naise AI",
-      "url": "https://www.producthunt.com/products/naise-ai",
-      "publishedAt": "2026-09-23T04:46:46-07:00",
+      "publishedAt": "2026-09-23T10:06:29-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -995,7 +925,77 @@
       "id": "tag:www.producthunt.com,2005:Post/1257163",
       "title": "CodeSpotlight",
       "url": "https://www.producthunt.com/products/codespotlight",
-      "publishedAt": "2026-09-23T04:37:30-07:00",
+      "publishedAt": "2026-09-23T10:06:50-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1257418",
+      "title": "Linguo Translate",
+      "url": "https://www.producthunt.com/products/linguo-translate-for-macos",
+      "publishedAt": "2026-09-23T10:06:50-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1258428",
+      "title": "Alexandria by Firecrawl",
+      "url": "https://www.producthunt.com/products/extract-by-firecrawl",
+      "publishedAt": "2026-09-23T10:08:53-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1257763",
+      "title": "Lightmeter",
+      "url": "https://www.producthunt.com/products/lightmeter-2",
+      "publishedAt": "2026-09-23T10:10:03-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1233043",
+      "title": "Naise AI",
+      "url": "https://www.producthunt.com/products/naise-ai",
+      "publishedAt": "2026-09-23T10:04:52-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1251757",
+      "title": "GBrain",
+      "url": "https://www.producthunt.com/products/gbrain",
+      "publishedAt": "2026-09-23T10:10:03-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1251133",
+      "title": "AgentScore",
+      "url": "https://www.producthunt.com/products/latitude-4",
+      "publishedAt": "2026-09-23T10:06:50-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1256789",
+      "title": "Solid",
+      "url": "https://www.producthunt.com/products/solid-3",
+      "publishedAt": "2026-09-23T10:07:38-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
