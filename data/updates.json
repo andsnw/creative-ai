@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-24T11:55:37.204380+00:00",
+  "updatedAt": "2026-09-24T17:17:36.728083+00:00",
   "items": [
     {
       "id": "tag:github.com,2008:Repository/658928958/v0.34.4",
@@ -902,80 +902,20 @@
       "why": "Useful for search and Q&A over documents or databases."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1259576",
-      "title": "LockLines",
-      "url": "https://www.producthunt.com/products/locklines",
-      "publishedAt": "2026-09-24T04:54:28-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1258838",
+      "title": "Storytailor®",
+      "url": "https://www.producthunt.com/products/storytailor",
+      "publishedAt": "2026-09-24T10:15:19-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1249022",
-      "title": "Scholé Learn by Building",
-      "url": "https://www.producthunt.com/products/schole-2",
-      "publishedAt": "2026-09-24T04:55:13-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1258336",
-      "title": "Opaline",
-      "url": "https://www.producthunt.com/products/rudel",
-      "publishedAt": "2026-09-24T04:55:13-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1258060",
-      "title": "CtrlOps 1.0",
-      "url": "https://www.producthunt.com/products/ctrlops",
-      "publishedAt": "2026-09-24T04:55:13-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1255017",
-      "title": "minimi 2.0",
-      "url": "https://www.producthunt.com/products/shram",
-      "publishedAt": "2026-09-24T04:55:02-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1258796",
-      "title": "jev-seo",
-      "url": "https://www.producthunt.com/products/jev-seo",
-      "publishedAt": "2026-09-24T04:55:02-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1243676",
-      "title": "Hookest",
-      "url": "https://www.producthunt.com/products/hookest",
-      "publishedAt": "2026-09-24T04:54:55-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1259609",
-      "title": "Floot MCP",
-      "url": "https://www.producthunt.com/products/floot",
-      "publishedAt": "2026-09-24T04:54:42-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1259530",
+      "title": "Gemini 3.8 text-to-speech models",
+      "url": "https://www.producthunt.com/products/gemini-3-8-text-to-speech-models",
+      "publishedAt": "2026-09-24T10:08:03-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -985,17 +925,77 @@
       "id": "tag:www.producthunt.com,2005:Post/1259583",
       "title": "Parall",
       "url": "https://www.producthunt.com/products/parall",
-      "publishedAt": "2026-09-24T04:54:28-07:00",
+      "publishedAt": "2026-09-24T10:11:12-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1251426",
-      "title": "Opencontroller by lyzr",
-      "url": "https://www.producthunt.com/products/opencontroller-by-lyzr",
-      "publishedAt": "2026-09-24T04:54:29-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1259609",
+      "title": "Floot MCP",
+      "url": "https://www.producthunt.com/products/floot",
+      "publishedAt": "2026-09-24T10:17:01-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1258336",
+      "title": "Opaline",
+      "url": "https://www.producthunt.com/products/rudel",
+      "publishedAt": "2026-09-24T10:08:03-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1258796",
+      "title": "jev-seo",
+      "url": "https://www.producthunt.com/products/jev-seo",
+      "publishedAt": "2026-09-24T10:14:54-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1259083",
+      "title": "IntellAgents.io",
+      "url": "https://www.producthunt.com/products/intellagents-io",
+      "publishedAt": "2026-09-24T10:11:12-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1259179",
+      "title": "Subscrr",
+      "url": "https://www.producthunt.com/products/subscrrr",
+      "publishedAt": "2026-09-24T10:08:04-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1256846",
+      "title": "ChoreDivider",
+      "url": "https://www.producthunt.com/products/choredivider",
+      "publishedAt": "2026-09-24T10:17:26-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1244890",
+      "title": "Autonomous Product Delivery",
+      "url": "https://www.producthunt.com/products/autonomyai",
+      "publishedAt": "2026-09-24T10:14:17-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
