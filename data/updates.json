@@ -1,11 +1,31 @@
 {
-  "updatedAt": "2026-09-23T21:34:39.613281+00:00",
+  "updatedAt": "2026-09-24T05:00:07.811210+00:00",
   "items": [
     {
-      "id": "tag:github.com,2008:Repository/658928958/v0.34.4-rc0",
+      "id": "tag:github.com,2008:Repository/658928958/v0.34.4",
       "title": "v0.34.4",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.34.4",
+      "publishedAt": "2026-09-24T04:45:43Z",
+      "source": "Ollama",
+      "kind": "Local models",
+      "purpose": "Run AI models locally and manage supported cloud models.",
+      "why": "Useful for private local AI experimentation and open models."
+    },
+    {
+      "id": "tag:github.com,2008:Repository/658928958/v0.34.4-rc1",
+      "title": "v0.34.4-rc1: mlxrunner: Update XGrammar to 0.2.7 for structured outputs",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.34.4-rc1",
+      "publishedAt": "2026-09-23T23:36:46Z",
+      "source": "Ollama",
+      "kind": "Local models",
+      "purpose": "Run AI models locally and manage supported cloud models.",
+      "why": "Useful for private local AI experimentation and open models."
+    },
+    {
+      "id": "tag:github.com,2008:Repository/658928958/v0.34.4-rc0",
+      "title": "v0.34.4-rc0: mlx: speed up Qwen 3.8 prompt processing (#18550)",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.34.4-rc0",
-      "publishedAt": "2026-09-23T02:24:43Z",
+      "publishedAt": "2026-09-23T00:53:23Z",
       "source": "Ollama",
       "kind": "Local models",
       "purpose": "Run AI models locally and manage supported cloud models.",
@@ -76,26 +96,6 @@
       "title": "v0.34.2-rc1: mlxrunner: lay out model by contract, checkpoint and construction",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.34.2-rc1",
       "publishedAt": "2026-09-16T21:06:08Z",
-      "source": "Ollama",
-      "kind": "Local models",
-      "purpose": "Run AI models locally and manage supported cloud models.",
-      "why": "Useful for private local AI experimentation and open models."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/658928958/v0.34.2-rc0",
-      "title": "v0.34.2-rc0: llama.cpp: version bump b10969 (#18446)",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.34.2-rc0",
-      "publishedAt": "2026-09-15T20:13:31Z",
-      "source": "Ollama",
-      "kind": "Local models",
-      "purpose": "Run AI models locally and manage supported cloud models.",
-      "why": "Useful for private local AI experimentation and open models."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/658928958/v0.34.1",
-      "title": "v0.34.1",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.34.1",
-      "publishedAt": "2026-09-15T20:10:42Z",
       "source": "Ollama",
       "kind": "Local models",
       "purpose": "Run AI models locally and manage supported cloud models.",
@@ -602,6 +602,16 @@
       "why": "Useful for prototyping RAG and chatbot workflows."
     },
     {
+      "id": "tag:github.com,2008:Repository/599320067/v1.13.0.dev22",
+      "title": "v1.13.0.dev22",
+      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.13.0.dev22",
+      "publishedAt": "2026-09-24T00:38:38Z",
+      "source": "Langflow",
+      "kind": "Visual AI builder",
+      "purpose": "Create AI flows visually and connect components.",
+      "why": "Useful for testing AI application ideas faster."
+    },
+    {
       "id": "tag:github.com,2008:Repository/599320067/v1.13.0.dev21",
       "title": "v1.13.0.dev21",
       "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.13.0.dev21",
@@ -686,16 +696,6 @@
       "title": "v1.13.0.dev14",
       "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.13.0.dev14",
       "publishedAt": "2026-09-16T03:20:36Z",
-      "source": "Langflow",
-      "kind": "Visual AI builder",
-      "purpose": "Create AI flows visually and connect components.",
-      "why": "Useful for testing AI application ideas faster."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/599320067/v1.13.0.dev13",
-      "title": "v1.13.0.dev13",
-      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.13.0.dev13",
-      "publishedAt": "2026-09-15T00:40:27Z",
       "source": "Langflow",
       "kind": "Visual AI builder",
       "purpose": "Create AI flows visually and connect components.",
@@ -902,40 +902,10 @@
       "why": "Useful for search and Q&A over documents or databases."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1212061",
-      "title": "RankControl",
-      "url": "https://www.producthunt.com/products/rankcontrol",
-      "publishedAt": "2026-09-23T13:03:11-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1258470",
-      "title": "Speechka",
-      "url": "https://www.producthunt.com/products/speechka",
-      "publishedAt": "2026-09-23T14:33:23-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1257418",
-      "title": "Linguo Translate",
-      "url": "https://www.producthunt.com/products/linguo-translate-for-macos",
-      "publishedAt": "2026-09-23T14:33:19-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1256789",
-      "title": "Solid",
-      "url": "https://www.producthunt.com/products/solid-3",
-      "publishedAt": "2026-09-23T14:32:09-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1233043",
+      "title": "Naise AI",
+      "url": "https://www.producthunt.com/products/naise-ai",
+      "publishedAt": "2026-09-23T21:58:50-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -945,7 +915,17 @@
       "id": "tag:www.producthunt.com,2005:Post/1258400",
       "title": "Claude Opus 5.5",
       "url": "https://www.producthunt.com/products/claude-fable-5-1",
-      "publishedAt": "2026-09-23T14:28:27-07:00",
+      "publishedAt": "2026-09-23T21:58:47-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1256789",
+      "title": "Solid",
+      "url": "https://www.producthunt.com/products/solid-3",
+      "publishedAt": "2026-09-23T21:56:35-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -955,37 +935,7 @@
       "id": "tag:www.producthunt.com,2005:Post/1258428",
       "title": "Alexandria by Firecrawl",
       "url": "https://www.producthunt.com/products/extract-by-firecrawl",
-      "publishedAt": "2026-09-23T14:15:33-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1233043",
-      "title": "Naise AI",
-      "url": "https://www.producthunt.com/products/naise-ai",
-      "publishedAt": "2026-09-23T14:27:14-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1258208",
-      "title": "Koreshield",
-      "url": "https://www.producthunt.com/products/koreshield",
-      "publishedAt": "2026-09-23T12:02:46-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1258501",
-      "title": "Jev State",
-      "url": "https://www.producthunt.com/products/jev-state",
-      "publishedAt": "2026-09-23T13:47:30-07:00",
+      "publishedAt": "2026-09-23T21:37:24-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -995,7 +945,57 @@
       "id": "tag:www.producthunt.com,2005:Post/1251757",
       "title": "GBrain",
       "url": "https://www.producthunt.com/products/gbrain",
-      "publishedAt": "2026-09-23T14:14:06-07:00",
+      "publishedAt": "2026-09-23T21:37:31-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1146521",
+      "title": "Pactto",
+      "url": "https://www.producthunt.com/products/pactto-replay",
+      "publishedAt": "2026-09-23T21:51:36-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1212061",
+      "title": "RankControl",
+      "url": "https://www.producthunt.com/products/rankcontrol",
+      "publishedAt": "2026-09-23T21:37:29-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1257163",
+      "title": "CodeSpotlight",
+      "url": "https://www.producthunt.com/products/codespotlight",
+      "publishedAt": "2026-09-23T21:37:39-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1258208",
+      "title": "Koreshield",
+      "url": "https://www.producthunt.com/products/koreshield",
+      "publishedAt": "2026-09-23T21:38:12-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1258292",
+      "title": "Dub Program Marketplace",
+      "url": "https://www.producthunt.com/products/dub",
+      "publishedAt": "2026-09-23T21:37:27-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
