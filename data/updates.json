@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-09-25T11:57:40.472971+00:00",
+  "updatedAt": "2026-09-25T17:17:57.388598+00:00",
   "items": [
     {
       "id": "tag:github.com,2008:Repository/658928958/v0.40.0-rc0",
       "title": "v0.40.0",
       "url": "https://github.com/ollama/ollama/releases/tag/v0.40.0-rc0",
-      "publishedAt": "2026-09-25T03:31:52Z",
+      "publishedAt": "2026-09-25T15:22:00Z",
       "source": "Ollama",
       "kind": "Local models",
       "purpose": "Run AI models locally and manage supported cloud models.",
@@ -102,6 +102,16 @@
       "why": "Useful for private local AI experimentation and open models."
     },
     {
+      "id": "tag:github.com,2008:Repository/552661142/langchain-fireworks==1.6.3",
+      "title": "langchain-fireworks==1.6.3",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.6.3",
+      "publishedAt": "2026-09-25T12:57:40Z",
+      "source": "LangChain",
+      "kind": "AI development",
+      "purpose": "Build assistants, agents and RAG applications.",
+      "why": "Useful for developers building AI products."
+    },
+    {
       "id": "tag:github.com,2008:Repository/552661142/langchain-core==1.6.5",
       "title": "langchain-core==1.6.5",
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.5",
@@ -186,16 +196,6 @@
       "title": "langchain-anthropic==1.7.3",
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.3",
       "publishedAt": "2026-09-22T22:08:15Z",
-      "source": "LangChain",
-      "kind": "AI development",
-      "purpose": "Build assistants, agents and RAG applications.",
-      "why": "Useful for developers building AI products."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/552661142/langchain-openai==1.6.3",
-      "title": "langchain-openai==1.6.3",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.6.3",
-      "publishedAt": "2026-09-21T18:32:46Z",
       "source": "LangChain",
       "kind": "AI development",
       "purpose": "Build assistants, agents and RAG applications.",
@@ -902,80 +902,10 @@
       "why": "Useful for search and Q&A over documents or databases."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1260045",
-      "title": "Pinky Promise",
-      "url": "https://www.producthunt.com/products/pinky-promise",
-      "publishedAt": "2026-09-25T04:03:39-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1259013",
-      "title": "PixVerse R2",
-      "url": "https://www.producthunt.com/products/pixverse-r2",
-      "publishedAt": "2026-09-25T04:56:33-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1260751",
-      "title": "10xJoy",
-      "url": "https://www.producthunt.com/products/10xjoy",
-      "publishedAt": "2026-09-25T04:52:32-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1259740",
-      "title": "Quiver GTM",
-      "url": "https://www.producthunt.com/products/quiver-gtm",
-      "publishedAt": "2026-09-25T04:56:23-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1260048",
-      "title": "DemoScreen",
-      "url": "https://www.producthunt.com/products/demoscreen",
-      "publishedAt": "2026-09-25T04:00:34-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1256549",
-      "title": "OmniNotch",
-      "url": "https://www.producthunt.com/products/omninotch",
-      "publishedAt": "2026-09-25T04:18:14-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1260549",
-      "title": "Basedash MCP write",
-      "url": "https://www.producthunt.com/products/basedash",
-      "publishedAt": "2026-09-25T04:33:39-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1253413",
-      "title": "Promptic",
-      "url": "https://www.producthunt.com/products/promptic-3",
-      "publishedAt": "2026-09-25T04:56:06-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1259518",
+      "title": "Bleetz Network",
+      "url": "https://www.producthunt.com/products/bleetz-network",
+      "publishedAt": "2026-09-25T10:16:55-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -985,17 +915,87 @@
       "id": "tag:www.producthunt.com,2005:Post/1259775",
       "title": "Meta VR Glasses",
       "url": "https://www.producthunt.com/products/meta-vr-glasses",
-      "publishedAt": "2026-09-25T04:52:24-07:00",
+      "publishedAt": "2026-09-25T10:16:44-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1244657",
-      "title": "FinalFrame",
-      "url": "https://www.producthunt.com/products/finalframe",
-      "publishedAt": "2026-09-25T04:54:46-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1260751",
+      "title": "10xJoy",
+      "url": "https://www.producthunt.com/products/10xjoy",
+      "publishedAt": "2026-09-25T10:16:24-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1257317",
+      "title": "Fit Receipt",
+      "url": "https://www.producthunt.com/products/fit-receipt",
+      "publishedAt": "2026-09-25T10:15:47-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1259740",
+      "title": "Quiver GTM",
+      "url": "https://www.producthunt.com/products/quiver-gtm",
+      "publishedAt": "2026-09-25T10:15:26-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1260062",
+      "title": "COOLDOWN",
+      "url": "https://www.producthunt.com/products/cooldown-5",
+      "publishedAt": "2026-09-25T10:07:40-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1258791",
+      "title": "LaterOn v2: The agentic email plaftform",
+      "url": "https://www.producthunt.com/products/lateron-email",
+      "publishedAt": "2026-09-25T09:03:25-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1260000",
+      "title": "GitHub statistics · Velocity Radar",
+      "url": "https://www.producthunt.com/products/github-statistics-velocity-radar",
+      "publishedAt": "2026-09-25T10:14:58-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1258050",
+      "title": "TourKit",
+      "url": "https://www.producthunt.com/products/tourkit",
+      "publishedAt": "2026-09-25T10:07:40-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1260345",
+      "title": "Cutsio",
+      "url": "https://www.producthunt.com/products/cutsio",
+      "publishedAt": "2026-09-25T09:03:25-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
