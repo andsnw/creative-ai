@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-25T17:17:57.388598+00:00",
+  "updatedAt": "2026-09-25T21:39:26.471181+00:00",
   "items": [
     {
       "id": "tag:github.com,2008:Repository/658928958/v0.40.0-rc0",
@@ -302,6 +302,16 @@
       "why": "Useful for anyone working with open models."
     },
     {
+      "id": "tag:github.com,2008:Repository/589831718/v0.37.3",
+      "title": "v0.37.3",
+      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.37.3",
+      "publishedAt": "2026-09-25T20:20:03Z",
+      "source": "ComfyUI",
+      "kind": "Image workflows",
+      "purpose": "Create controlled node-based image-generation workflows.",
+      "why": "Useful for advanced Stable Diffusion users."
+    },
+    {
       "id": "tag:github.com,2008:Repository/589831718/v0.37.2",
       "title": "v0.37.2",
       "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.37.2",
@@ -386,16 +396,6 @@
       "title": "v0.34.5",
       "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.34.5",
       "publishedAt": "2026-09-05T02:40:10Z",
-      "source": "ComfyUI",
-      "kind": "Image workflows",
-      "purpose": "Create controlled node-based image-generation workflows.",
-      "why": "Useful for advanced Stable Diffusion users."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/589831718/v0.34.4",
-      "title": "v0.34.4",
-      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.34.4",
-      "publishedAt": "2026-09-04T21:07:26Z",
       "source": "ComfyUI",
       "kind": "Image workflows",
       "purpose": "Create controlled node-based image-generation workflows.",
@@ -902,40 +902,20 @@
       "why": "Useful for search and Q&A over documents or databases."
     },
     {
+      "id": "tag:www.producthunt.com,2005:Post/1255351",
+      "title": "14 gentle mornings by Small WIns",
+      "url": "https://www.producthunt.com/products/14-gentle-mornings-by-small-wins",
+      "publishedAt": "2026-09-25T14:36:12-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
       "id": "tag:www.producthunt.com,2005:Post/1259518",
       "title": "Bleetz Network",
       "url": "https://www.producthunt.com/products/bleetz-network",
-      "publishedAt": "2026-09-25T10:16:55-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1259775",
-      "title": "Meta VR Glasses",
-      "url": "https://www.producthunt.com/products/meta-vr-glasses",
-      "publishedAt": "2026-09-25T10:16:44-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1260751",
-      "title": "10xJoy",
-      "url": "https://www.producthunt.com/products/10xjoy",
-      "publishedAt": "2026-09-25T10:16:24-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1257317",
-      "title": "Fit Receipt",
-      "url": "https://www.producthunt.com/products/fit-receipt",
-      "publishedAt": "2026-09-25T10:15:47-07:00",
+      "publishedAt": "2026-09-25T14:38:21-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -945,37 +925,27 @@
       "id": "tag:www.producthunt.com,2005:Post/1259740",
       "title": "Quiver GTM",
       "url": "https://www.producthunt.com/products/quiver-gtm",
-      "publishedAt": "2026-09-25T10:15:26-07:00",
+      "publishedAt": "2026-09-25T14:29:52-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1260062",
-      "title": "COOLDOWN",
-      "url": "https://www.producthunt.com/products/cooldown-5",
-      "publishedAt": "2026-09-25T10:07:40-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1254835",
+      "title": "Howseen AI",
+      "url": "https://www.producthunt.com/products/howseen-ai",
+      "publishedAt": "2026-09-25T14:37:03-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1258791",
-      "title": "LaterOn v2: The agentic email plaftform",
-      "url": "https://www.producthunt.com/products/lateron-email",
-      "publishedAt": "2026-09-25T09:03:25-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1260000",
-      "title": "GitHub statistics · Velocity Radar",
-      "url": "https://www.producthunt.com/products/github-statistics-velocity-radar",
-      "publishedAt": "2026-09-25T10:14:58-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1259013",
+      "title": "PixVerse R2",
+      "url": "https://www.producthunt.com/products/pixverse-r2",
+      "publishedAt": "2026-09-25T14:33:15-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -985,17 +955,47 @@
       "id": "tag:www.producthunt.com,2005:Post/1258050",
       "title": "TourKit",
       "url": "https://www.producthunt.com/products/tourkit",
-      "publishedAt": "2026-09-25T10:07:40-07:00",
+      "publishedAt": "2026-09-25T14:36:13-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1260345",
-      "title": "Cutsio",
-      "url": "https://www.producthunt.com/products/cutsio",
-      "publishedAt": "2026-09-25T09:03:25-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1244710",
+      "title": "MIDIpad",
+      "url": "https://www.producthunt.com/products/midipad",
+      "publishedAt": "2026-09-25T14:36:13-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1260000",
+      "title": "GitHub statistics · Velocity Radar",
+      "url": "https://www.producthunt.com/products/github-statistics-velocity-radar",
+      "publishedAt": "2026-09-25T14:36:13-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1255343",
+      "title": "NexusAXI",
+      "url": "https://www.producthunt.com/products/nexusaxi",
+      "publishedAt": "2026-09-25T14:36:13-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1260045",
+      "title": "Pinky Promise",
+      "url": "https://www.producthunt.com/products/pinky-promise",
+      "publishedAt": "2026-09-25T14:36:13-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
