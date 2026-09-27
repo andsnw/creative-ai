@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-26T21:16:01.296807+00:00",
+  "updatedAt": "2026-09-27T05:25:20.894223+00:00",
   "items": [
     {
       "id": "tag:github.com,2008:Repository/658928958/v0.40.0-rc0",
@@ -602,6 +602,16 @@
       "why": "Useful for prototyping RAG and chatbot workflows."
     },
     {
+      "id": "tag:github.com,2008:Repository/599320067/v1.13.0.dev25",
+      "title": "v1.13.0.dev25",
+      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.13.0.dev25",
+      "publishedAt": "2026-09-27T00:45:03Z",
+      "source": "Langflow",
+      "kind": "Visual AI builder",
+      "purpose": "Create AI flows visually and connect components.",
+      "why": "Useful for testing AI application ideas faster."
+    },
+    {
       "id": "tag:github.com,2008:Repository/599320067/v1.13.0.dev24",
       "title": "v1.13.0.dev24",
       "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.13.0.dev24",
@@ -686,16 +696,6 @@
       "title": "v1.13.0.dev17",
       "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.13.0.dev17",
       "publishedAt": "2026-09-19T00:38:27Z",
-      "source": "Langflow",
-      "kind": "Visual AI builder",
-      "purpose": "Create AI flows visually and connect components.",
-      "why": "Useful for testing AI application ideas faster."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/599320067/v1.13.0.dev16",
-      "title": "v1.13.0.dev16",
-      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.13.0.dev16",
-      "publishedAt": "2026-09-18T00:38:41Z",
       "source": "Langflow",
       "kind": "Visual AI builder",
       "purpose": "Create AI flows visually and connect components.",
@@ -902,40 +902,10 @@
       "why": "Useful for search and Q&A over documents or databases."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1258888",
-      "title": "Lisen",
-      "url": "https://www.producthunt.com/products/lisen",
-      "publishedAt": "2026-09-26T13:24:06-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1254383",
-      "title": "Chit",
-      "url": "https://www.producthunt.com/products/chit-2",
-      "publishedAt": "2026-09-26T14:15:03-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1258326",
-      "title": "Hemory",
-      "url": "https://www.producthunt.com/products/hemory",
-      "publishedAt": "2026-09-26T14:15:00-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1257315",
-      "title": "Fewer",
-      "url": "https://www.producthunt.com/products/fewer",
-      "publishedAt": "2026-09-26T14:14:36-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1261392",
+      "title": "MakerMap",
+      "url": "https://www.producthunt.com/products/makermap",
+      "publishedAt": "2026-09-26T22:02:57-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -945,37 +915,7 @@
       "id": "tag:www.producthunt.com,2005:Post/1243953",
       "title": "Paragraph Notes",
       "url": "https://www.producthunt.com/products/paragraph-notes",
-      "publishedAt": "2026-09-26T14:14:36-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1260932",
-      "title": "GoodSocials",
-      "url": "https://www.producthunt.com/products/goodsocials",
-      "publishedAt": "2026-09-26T14:14:36-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1237651",
-      "title": "Eclatira",
-      "url": "https://www.producthunt.com/products/eclatira",
-      "publishedAt": "2026-09-26T14:01:52-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1261392",
-      "title": "MakerMap",
-      "url": "https://www.producthunt.com/products/makermap",
-      "publishedAt": "2026-09-26T13:51:35-07:00",
+      "publishedAt": "2026-09-26T22:14:42-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -985,7 +925,47 @@
       "id": "tag:www.producthunt.com,2005:Post/1240702",
       "title": "Psst",
       "url": "https://www.producthunt.com/products/psst-3",
-      "publishedAt": "2026-09-26T13:22:27-07:00",
+      "publishedAt": "2026-09-26T22:15:54-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1257315",
+      "title": "Fewer",
+      "url": "https://www.producthunt.com/products/fewer",
+      "publishedAt": "2026-09-26T20:46:38-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1254635",
+      "title": "SOUND",
+      "url": "https://www.producthunt.com/products/sound",
+      "publishedAt": "2026-09-26T22:24:17-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1260932",
+      "title": "GoodSocials",
+      "url": "https://www.producthunt.com/products/goodsocials",
+      "publishedAt": "2026-09-26T22:24:38-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1237651",
+      "title": "Eclatira",
+      "url": "https://www.producthunt.com/products/eclatira",
+      "publishedAt": "2026-09-26T22:23:02-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -995,7 +975,27 @@
       "id": "tag:www.producthunt.com,2005:Post/1255125",
       "title": "Kleanly",
       "url": "https://www.producthunt.com/products/kleanly",
-      "publishedAt": "2026-09-26T13:21:12-07:00",
+      "publishedAt": "2026-09-26T22:15:49-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1258888",
+      "title": "Lisen",
+      "url": "https://www.producthunt.com/products/lisen",
+      "publishedAt": "2026-09-26T20:46:38-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1254383",
+      "title": "Chit",
+      "url": "https://www.producthunt.com/products/chit-2",
+      "publishedAt": "2026-09-26T22:23:03-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
