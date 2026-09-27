@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-27T12:11:13.217686+00:00",
+  "updatedAt": "2026-09-27T17:02:32.610717+00:00",
   "items": [
     {
       "id": "tag:github.com,2008:Repository/658928958/v0.40.0-rc0",
@@ -902,50 +902,10 @@
       "why": "Useful for search and Q&A over documents or databases."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1238671",
-      "title": "Humalike x GTA RP",
-      "url": "https://www.producthunt.com/products/humalike-2",
-      "publishedAt": "2026-09-27T05:08:21-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1257863",
-      "title": "Superhuman Go",
-      "url": "https://www.producthunt.com/products/superhuman-go",
-      "publishedAt": "2026-09-27T05:03:02-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
       "id": "tag:www.producthunt.com,2005:Post/1249438",
       "title": "KiwiDesk",
       "url": "https://www.producthunt.com/products/kiwidesk",
-      "publishedAt": "2026-09-27T05:03:03-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1256758",
-      "title": "Clicks Communicator",
-      "url": "https://www.producthunt.com/products/clicks",
-      "publishedAt": "2026-09-27T05:03:03-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1203994",
-      "title": "Cuey",
-      "url": "https://www.producthunt.com/products/cuey-2",
-      "publishedAt": "2026-09-27T05:07:04-07:00",
+      "publishedAt": "2026-09-27T09:55:33-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -955,7 +915,37 @@
       "id": "tag:www.producthunt.com,2005:Post/1255507",
       "title": "Harmony",
       "url": "https://www.producthunt.com/products/harmony-it",
-      "publishedAt": "2026-09-27T05:10:06-07:00",
+      "publishedAt": "2026-09-27T09:52:58-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1257863",
+      "title": "Superhuman Go",
+      "url": "https://www.producthunt.com/products/superhuman-go",
+      "publishedAt": "2026-09-27T10:02:09-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1203994",
+      "title": "Cuey",
+      "url": "https://www.producthunt.com/products/cuey-2",
+      "publishedAt": "2026-09-27T09:54:17-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1238671",
+      "title": "Humalike x GTA RP",
+      "url": "https://www.producthunt.com/products/humalike-2",
+      "publishedAt": "2026-09-27T10:01:33-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -965,17 +955,17 @@
       "id": "tag:www.producthunt.com,2005:Post/1258630",
       "title": "GPT-6 Sol & Luna",
       "url": "https://www.producthunt.com/products/openai",
-      "publishedAt": "2026-09-27T05:09:48-07:00",
+      "publishedAt": "2026-09-27T10:02:04-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1258888",
-      "title": "Lisen",
-      "url": "https://www.producthunt.com/products/lisen",
-      "publishedAt": "2026-09-27T04:45:21-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1256758",
+      "title": "Clicks Communicator",
+      "url": "https://www.producthunt.com/products/clicks",
+      "publishedAt": "2026-09-27T09:51:01-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -985,7 +975,7 @@
       "id": "tag:www.producthunt.com,2005:Post/1255125",
       "title": "Kleanly",
       "url": "https://www.producthunt.com/products/kleanly",
-      "publishedAt": "2026-09-27T04:45:21-07:00",
+      "publishedAt": "2026-09-27T08:46:43-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -995,7 +985,17 @@
       "id": "tag:www.producthunt.com,2005:Post/1240702",
       "title": "Psst",
       "url": "https://www.producthunt.com/products/psst-3",
-      "publishedAt": "2026-09-27T05:03:03-07:00",
+      "publishedAt": "2026-09-27T08:46:43-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1257315",
+      "title": "Fewer",
+      "url": "https://www.producthunt.com/products/fewer",
+      "publishedAt": "2026-09-27T09:49:20-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
