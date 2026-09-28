@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-27T21:25:42.269627+00:00",
+  "updatedAt": "2026-09-28T05:32:30.532452+00:00",
   "items": [
     {
       "id": "tag:github.com,2008:Repository/658928958/v0.40.0-rc0",
@@ -602,6 +602,16 @@
       "why": "Useful for prototyping RAG and chatbot workflows."
     },
     {
+      "id": "tag:github.com,2008:Repository/599320067/v1.13.0.dev26",
+      "title": "v1.13.0.dev26",
+      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.13.0.dev26",
+      "publishedAt": "2026-09-28T00:45:14Z",
+      "source": "Langflow",
+      "kind": "Visual AI builder",
+      "purpose": "Create AI flows visually and connect components.",
+      "why": "Useful for testing AI application ideas faster."
+    },
+    {
       "id": "tag:github.com,2008:Repository/599320067/v1.13.0.dev25",
       "title": "v1.13.0.dev25",
       "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.13.0.dev25",
@@ -686,16 +696,6 @@
       "title": "v1.13.0.dev18",
       "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.13.0.dev18",
       "publishedAt": "2026-09-20T00:44:13Z",
-      "source": "Langflow",
-      "kind": "Visual AI builder",
-      "purpose": "Create AI flows visually and connect components.",
-      "why": "Useful for testing AI application ideas faster."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/599320067/v1.13.0.dev17",
-      "title": "v1.13.0.dev17",
-      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.13.0.dev17",
-      "publishedAt": "2026-09-19T00:38:27Z",
       "source": "Langflow",
       "kind": "Visual AI builder",
       "purpose": "Create AI flows visually and connect components.",
@@ -905,37 +905,7 @@
       "id": "tag:www.producthunt.com,2005:Post/1256758",
       "title": "Clicks Communicator",
       "url": "https://www.producthunt.com/products/clicks",
-      "publishedAt": "2026-09-27T14:22:44-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1257863",
-      "title": "Superhuman Go",
-      "url": "https://www.producthunt.com/products/superhuman-go",
-      "publishedAt": "2026-09-27T14:14:43-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1238671",
-      "title": "Humalike x GTA RP",
-      "url": "https://www.producthunt.com/products/humalike-2",
-      "publishedAt": "2026-09-27T14:19:07-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1255507",
-      "title": "Harmony",
-      "url": "https://www.producthunt.com/products/harmony-it",
-      "publishedAt": "2026-09-27T13:36:05-07:00",
+      "publishedAt": "2026-09-27T22:24:15-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -945,7 +915,7 @@
       "id": "tag:www.producthunt.com,2005:Post/1203994",
       "title": "Cuey",
       "url": "https://www.producthunt.com/products/cuey-2",
-      "publishedAt": "2026-09-27T14:14:43-07:00",
+      "publishedAt": "2026-09-27T22:30:54-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -955,7 +925,7 @@
       "id": "tag:www.producthunt.com,2005:Post/1249438",
       "title": "KiwiDesk",
       "url": "https://www.producthunt.com/products/kiwidesk",
-      "publishedAt": "2026-09-27T14:07:06-07:00",
+      "publishedAt": "2026-09-27T22:31:46-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -965,7 +935,57 @@
       "id": "tag:www.producthunt.com,2005:Post/1258630",
       "title": "GPT-6 Sol & Luna",
       "url": "https://www.producthunt.com/products/openai",
-      "publishedAt": "2026-09-27T14:22:14-07:00",
+      "publishedAt": "2026-09-27T22:31:02-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1257863",
+      "title": "Superhuman Go",
+      "url": "https://www.producthunt.com/products/superhuman-go",
+      "publishedAt": "2026-09-27T22:29:54-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1238671",
+      "title": "Humalike x GTA RP",
+      "url": "https://www.producthunt.com/products/humalike-2",
+      "publishedAt": "2026-09-27T22:31:02-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1255507",
+      "title": "Harmony",
+      "url": "https://www.producthunt.com/products/harmony-it",
+      "publishedAt": "2026-09-27T22:26:09-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1258326",
+      "title": "Hemory",
+      "url": "https://www.producthunt.com/products/hemory",
+      "publishedAt": "2026-09-27T22:20:36-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1240702",
+      "title": "Psst",
+      "url": "https://www.producthunt.com/products/psst-3",
+      "publishedAt": "2026-09-27T21:56:31-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -975,27 +995,7 @@
       "id": "tag:www.producthunt.com,2005:Post/1254383",
       "title": "Chit",
       "url": "https://www.producthunt.com/products/chit-2",
-      "publishedAt": "2026-09-27T14:08:20-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1237651",
-      "title": "Eclatira",
-      "url": "https://www.producthunt.com/products/eclatira",
-      "publishedAt": "2026-09-27T13:17:14-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1258888",
-      "title": "Lisen",
-      "url": "https://www.producthunt.com/products/lisen",
-      "publishedAt": "2026-09-27T10:42:25-07:00",
+      "publishedAt": "2026-09-27T21:56:26-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
