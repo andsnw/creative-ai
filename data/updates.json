@@ -1,6 +1,26 @@
 {
-  "updatedAt": "2026-09-28T14:07:37.026279+00:00",
+  "updatedAt": "2026-09-28T23:21:14.175444+00:00",
   "items": [
+    {
+      "id": "tag:github.com,2008:Repository/658928958/v0.35.0-rc1",
+      "title": "v0.35.0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.35.0-rc1",
+      "publishedAt": "2026-09-28T21:23:22Z",
+      "source": "Ollama",
+      "kind": "Local models",
+      "purpose": "Run AI models locally and manage supported cloud models.",
+      "why": "Useful for private local AI experimentation and open models."
+    },
+    {
+      "id": "tag:github.com,2008:Repository/658928958/v0.35.0-rc0",
+      "title": "v0.35.0-rc0",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.35.0-rc0",
+      "publishedAt": "2026-09-28T20:21:01Z",
+      "source": "Ollama",
+      "kind": "Local models",
+      "purpose": "Run AI models locally and manage supported cloud models.",
+      "why": "Useful for private local AI experimentation and open models."
+    },
     {
       "id": "tag:github.com,2008:Repository/658928958/v0.40.0-rc0",
       "title": "v0.40.0",
@@ -82,24 +102,24 @@
       "why": "Useful for private local AI experimentation and open models."
     },
     {
-      "id": "tag:github.com,2008:Repository/658928958/v0.34.2-rc3",
-      "title": "v0.34.2-rc3",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.34.2-rc3",
-      "publishedAt": "2026-09-17T18:49:24Z",
-      "source": "Ollama",
-      "kind": "Local models",
-      "purpose": "Run AI models locally and manage supported cloud models.",
-      "why": "Useful for private local AI experimentation and open models."
+      "id": "tag:github.com,2008:Repository/552661142/langchain-fireworks==1.7.0",
+      "title": "langchain-fireworks==1.7.0",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.7.0",
+      "publishedAt": "2026-09-28T20:46:52Z",
+      "source": "LangChain",
+      "kind": "AI development",
+      "purpose": "Build assistants, agents and RAG applications.",
+      "why": "Useful for developers building AI products."
     },
     {
-      "id": "tag:github.com,2008:Repository/658928958/v0.34.2-rc2",
-      "title": "v0.34.2-rc2: mlxrunner: Release freed KV buffers during speculative decode",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.34.2-rc2",
-      "publishedAt": "2026-09-17T16:45:01Z",
-      "source": "Ollama",
-      "kind": "Local models",
-      "purpose": "Run AI models locally and manage supported cloud models.",
-      "why": "Useful for private local AI experimentation and open models."
+      "id": "tag:github.com,2008:Repository/552661142/langchain==1.4.3",
+      "title": "langchain==1.4.3",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.3",
+      "publishedAt": "2026-09-28T20:17:45Z",
+      "source": "LangChain",
+      "kind": "AI development",
+      "purpose": "Build assistants, agents and RAG applications.",
+      "why": "Useful for developers building AI products."
     },
     {
       "id": "tag:github.com,2008:Repository/552661142/langchain-fireworks==1.6.3",
@@ -176,26 +196,6 @@
       "title": "langchain-fireworks==1.6.2",
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.6.2",
       "publishedAt": "2026-09-22T04:44:05Z",
-      "source": "LangChain",
-      "kind": "AI development",
-      "purpose": "Build assistants, agents and RAG applications.",
-      "why": "Useful for developers building AI products."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/552661142/langchain-deepseek==1.1.1",
-      "title": "langchain-deepseek==1.1.1",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-deepseek%3D%3D1.1.1",
-      "publishedAt": "2026-09-22T04:30:12Z",
-      "source": "LangChain",
-      "kind": "AI development",
-      "purpose": "Build assistants, agents and RAG applications.",
-      "why": "Useful for developers building AI products."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/552661142/langchain-anthropic==1.7.3",
-      "title": "langchain-anthropic==1.7.3",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.3",
-      "publishedAt": "2026-09-22T22:08:15Z",
       "source": "LangChain",
       "kind": "AI development",
       "purpose": "Build assistants, agents and RAG applications.",
@@ -612,6 +612,16 @@
       "why": "Useful for testing AI application ideas faster."
     },
     {
+      "id": "tag:github.com,2008:Repository/599320067/v1.12.4",
+      "title": "v1.12.4",
+      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.12.4",
+      "publishedAt": "2026-09-28T18:57:19Z",
+      "source": "Langflow",
+      "kind": "Visual AI builder",
+      "purpose": "Create AI flows visually and connect components.",
+      "why": "Useful for testing AI application ideas faster."
+    },
+    {
       "id": "tag:github.com,2008:Repository/599320067/v1.13.0.dev25",
       "title": "v1.13.0.dev25",
       "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.13.0.dev25",
@@ -686,16 +696,6 @@
       "title": "v1.13.0.dev19",
       "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.13.0.dev19",
       "publishedAt": "2026-09-21T00:42:19Z",
-      "source": "Langflow",
-      "kind": "Visual AI builder",
-      "purpose": "Create AI flows visually and connect components.",
-      "why": "Useful for testing AI application ideas faster."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/599320067/v1.13.0.dev18",
-      "title": "v1.13.0.dev18",
-      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.13.0.dev18",
-      "publishedAt": "2026-09-20T00:44:13Z",
       "source": "Langflow",
       "kind": "Visual AI builder",
       "purpose": "Create AI flows visually and connect components.",
@@ -902,50 +902,20 @@
       "why": "Useful for search and Q&A over documents or databases."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1261326",
-      "title": "Vitals ",
-      "url": "https://www.producthunt.com/products/vitals-3",
-      "publishedAt": "2026-09-28T07:07:22-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1262593",
+      "title": "Lattice",
+      "url": "https://www.producthunt.com/products/lattice-11",
+      "publishedAt": "2026-09-28T16:07:47-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1248418",
-      "title": "SaleSmartly",
-      "url": "https://www.producthunt.com/products/salesmartly",
-      "publishedAt": "2026-09-28T07:07:16-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1263022",
-      "title": "Dina 4.5",
-      "url": "https://www.producthunt.com/products/dina",
-      "publishedAt": "2026-09-28T07:02:52-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1254665",
-      "title": "MCP Connectors by Databox",
-      "url": "https://www.producthunt.com/products/databox",
-      "publishedAt": "2026-09-28T07:07:02-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1261279",
-      "title": "Microsoft Copilot",
-      "url": "https://www.producthunt.com/products/the-new-microsoft-copilot",
-      "publishedAt": "2026-09-28T07:04:54-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1261662",
+      "title": "vantage.ai",
+      "url": "https://www.producthunt.com/products/vantage-ai-2",
+      "publishedAt": "2026-09-28T16:01:30-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -955,37 +925,7 @@
       "id": "tag:www.producthunt.com,2005:Post/1251721",
       "title": "Statable Analytics",
       "url": "https://www.producthunt.com/products/statable-analytics",
-      "publishedAt": "2026-09-28T07:02:06-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1253533",
-      "title": "VibeDefend by CybeDefend",
-      "url": "https://www.producthunt.com/products/cybedefend",
-      "publishedAt": "2026-09-28T07:02:52-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1262668",
-      "title": "PIP",
-      "url": "https://www.producthunt.com/products/pip-9",
-      "publishedAt": "2026-09-28T06:35:34-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1262216",
-      "title": "Ryu Journal",
-      "url": "https://www.producthunt.com/products/ryu-journal",
-      "publishedAt": "2026-09-28T07:01:17-07:00",
+      "publishedAt": "2026-09-28T16:21:10-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -995,7 +935,67 @@
       "id": "tag:www.producthunt.com,2005:Post/1263042",
       "title": "MuM",
       "url": "https://www.producthunt.com/products/mum-multi-project-markdown",
-      "publishedAt": "2026-09-28T07:02:52-07:00",
+      "publishedAt": "2026-09-28T15:52:31-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1262216",
+      "title": "Ryu Journal",
+      "url": "https://www.producthunt.com/products/ryu-journal",
+      "publishedAt": "2026-09-28T16:01:31-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1263022",
+      "title": "Dina 4.5",
+      "url": "https://www.producthunt.com/products/dina",
+      "publishedAt": "2026-09-28T15:25:50-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1260728",
+      "title": "Okara",
+      "url": "https://www.producthunt.com/products/okara-2",
+      "publishedAt": "2026-09-28T15:04:46-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1261279",
+      "title": "Microsoft Copilot",
+      "url": "https://www.producthunt.com/products/microsoft-copilot",
+      "publishedAt": "2026-09-28T15:04:46-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1260687",
+      "title": "Stash",
+      "url": "https://www.producthunt.com/products/stash-24",
+      "publishedAt": "2026-09-28T16:14:39-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1261326",
+      "title": "Vitals ",
+      "url": "https://www.producthunt.com/products/vitals-3",
+      "publishedAt": "2026-09-28T16:05:23-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
