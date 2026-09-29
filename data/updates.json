@@ -1,6 +1,16 @@
 {
-  "updatedAt": "2026-09-29T13:02:35.095847+00:00",
+  "updatedAt": "2026-09-29T22:22:04.629466+00:00",
   "items": [
+    {
+      "id": "tag:github.com,2008:Repository/658928958/v0.35.1-rc0",
+      "title": "v0.35.1",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.35.1-rc0",
+      "publishedAt": "2026-09-29T20:14:22Z",
+      "source": "Ollama",
+      "kind": "Local models",
+      "purpose": "Run AI models locally and manage supported cloud models.",
+      "why": "Useful for private local AI experimentation and open models."
+    },
     {
       "id": "tag:github.com,2008:Repository/658928958/v0.35.0",
       "title": "v0.35.0",
@@ -92,14 +102,24 @@
       "why": "Useful for private local AI experimentation and open models."
     },
     {
-      "id": "tag:github.com,2008:Repository/658928958/v0.34.3-rc0",
-      "title": "v0.34.3-rc0",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.34.3-rc0",
-      "publishedAt": "2026-09-18T21:10:53Z",
-      "source": "Ollama",
-      "kind": "Local models",
-      "purpose": "Run AI models locally and manage supported cloud models.",
-      "why": "Useful for private local AI experimentation and open models."
+      "id": "tag:github.com,2008:Repository/552661142/langchain-core==1.6.6",
+      "title": "langchain-core==1.6.6",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.6",
+      "publishedAt": "2026-09-29T14:53:13Z",
+      "source": "LangChain",
+      "kind": "AI development",
+      "purpose": "Build assistants, agents and RAG applications.",
+      "why": "Useful for developers building AI products."
+    },
+    {
+      "id": "tag:github.com,2008:Repository/552661142/langchain-anthropic==1.7.5",
+      "title": "langchain-anthropic==1.7.5",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.5",
+      "publishedAt": "2026-09-29T15:22:22Z",
+      "source": "LangChain",
+      "kind": "AI development",
+      "purpose": "Build assistants, agents and RAG applications.",
+      "why": "Useful for developers building AI products."
     },
     {
       "id": "tag:github.com,2008:Repository/552661142/langchain-fireworks==1.7.0",
@@ -176,26 +196,6 @@
       "title": "langchain-openrouter==0.2.9",
       "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openrouter%3D%3D0.2.9",
       "publishedAt": "2026-09-22T04:16:13Z",
-      "source": "LangChain",
-      "kind": "AI development",
-      "purpose": "Build assistants, agents and RAG applications.",
-      "why": "Useful for developers building AI products."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/552661142/langchain-openai==1.6.4",
-      "title": "langchain-openai==1.6.4",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.6.4",
-      "publishedAt": "2026-09-22T22:37:11Z",
-      "source": "LangChain",
-      "kind": "AI development",
-      "purpose": "Build assistants, agents and RAG applications.",
-      "why": "Useful for developers building AI products."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/552661142/langchain-fireworks==1.6.2",
-      "title": "langchain-fireworks==1.6.2",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.6.2",
-      "publishedAt": "2026-09-22T04:44:05Z",
       "source": "LangChain",
       "kind": "AI development",
       "purpose": "Build assistants, agents and RAG applications.",
@@ -302,6 +302,16 @@
       "why": "Useful for anyone working with open models."
     },
     {
+      "id": "tag:github.com,2008:Repository/589831718/v0.38.0",
+      "title": "v0.38.0",
+      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.38.0",
+      "publishedAt": "2026-09-29T21:46:45Z",
+      "source": "ComfyUI",
+      "kind": "Image workflows",
+      "purpose": "Create controlled node-based image-generation workflows.",
+      "why": "Useful for advanced Stable Diffusion users."
+    },
+    {
       "id": "tag:github.com,2008:Repository/589831718/v0.37.4",
       "title": "v0.37.4",
       "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.37.4",
@@ -386,16 +396,6 @@
       "title": "v0.35.0",
       "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.35.0",
       "publishedAt": "2026-09-09T19:55:08Z",
-      "source": "ComfyUI",
-      "kind": "Image workflows",
-      "purpose": "Create controlled node-based image-generation workflows.",
-      "why": "Useful for advanced Stable Diffusion users."
-    },
-    {
-      "id": "tag:github.com,2008:Repository/589831718/v0.34.6",
-      "title": "v0.34.6",
-      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.34.6",
-      "publishedAt": "2026-09-07T19:24:58Z",
       "source": "ComfyUI",
       "kind": "Image workflows",
       "purpose": "Create controlled node-based image-generation workflows.",
@@ -612,20 +612,20 @@
       "why": "Useful for testing AI application ideas faster."
     },
     {
-      "id": "tag:github.com,2008:Repository/599320067/v1.13.0.dev26",
-      "title": "v1.13.0.dev26",
-      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.13.0.dev26",
-      "publishedAt": "2026-09-28T00:45:14Z",
+      "id": "tag:github.com,2008:Repository/599320067/v1.12.4",
+      "title": "1.12.4",
+      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.12.4",
+      "publishedAt": "2026-09-29T20:14:36Z",
       "source": "Langflow",
       "kind": "Visual AI builder",
       "purpose": "Create AI flows visually and connect components.",
       "why": "Useful for testing AI application ideas faster."
     },
     {
-      "id": "tag:github.com,2008:Repository/599320067/v1.12.4",
-      "title": "v1.12.4",
-      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.12.4",
-      "publishedAt": "2026-09-28T18:57:19Z",
+      "id": "tag:github.com,2008:Repository/599320067/v1.13.0.dev26",
+      "title": "v1.13.0.dev26",
+      "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.13.0.dev26",
+      "publishedAt": "2026-09-28T00:45:14Z",
       "source": "Langflow",
       "kind": "Visual AI builder",
       "purpose": "Create AI flows visually and connect components.",
@@ -902,70 +902,20 @@
       "why": "Useful for search and Q&A over documents or databases."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1261365",
-      "title": "ZenABM - Create LinkedIn Ads with AI",
-      "url": "https://www.producthunt.com/products/zena-by-zenabm-linkedin-ads-ai-chatbot",
-      "publishedAt": "2026-09-29T06:00:50-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1252633",
-      "title": "iFixAi",
-      "url": "https://www.producthunt.com/products/ifixai",
-      "publishedAt": "2026-09-29T06:00:58-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1255956",
-      "title": "LUCI Desktop",
-      "url": "https://www.producthunt.com/products/luci-desktop",
-      "publishedAt": "2026-09-29T06:01:28-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
       "id": "tag:www.producthunt.com,2005:Post/1257320",
       "title": "Hopscotch AI",
       "url": "https://www.producthunt.com/products/hopscotch-7",
-      "publishedAt": "2026-09-29T05:57:22-07:00",
+      "publishedAt": "2026-09-29T15:21:20-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1263749",
-      "title": "Claude Sonnet 5.5",
-      "url": "https://www.producthunt.com/products/claude",
-      "publishedAt": "2026-09-29T05:57:11-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1252358",
-      "title": "Engine Room Media",
-      "url": "https://www.producthunt.com/products/engine-room-media",
-      "publishedAt": "2026-09-29T05:58:11-07:00",
-      "source": "Product Hunt",
-      "kind": "Discovery",
-      "purpose": "Discover newly launched products.",
-      "why": "Useful for spotting new tools; verify important claims on the official product page."
-    },
-    {
-      "id": "tag:www.producthunt.com,2005:Post/1263586",
-      "title": "Gladys Assistant 5",
-      "url": "https://www.producthunt.com/products/gladys-assistant",
-      "publishedAt": "2026-09-29T05:57:18-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1263282",
+      "title": "Codex Remote",
+      "url": "https://www.producthunt.com/products/codex-remote",
+      "publishedAt": "2026-09-29T15:20:59-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
@@ -975,27 +925,77 @@
       "id": "tag:www.producthunt.com,2005:Post/1263543",
       "title": "Would you pay?",
       "url": "https://www.producthunt.com/products/would-you-pay",
-      "publishedAt": "2026-09-29T06:00:44-07:00",
+      "publishedAt": "2026-09-29T15:11:53-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1224901",
-      "title": "Imejis.io",
-      "url": "https://www.producthunt.com/products/imejis-io",
-      "publishedAt": "2026-09-29T06:00:07-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1252633",
+      "title": "iFixAi",
+      "url": "https://www.producthunt.com/products/ifixai",
+      "publishedAt": "2026-09-29T15:20:52-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
       "why": "Useful for spotting new tools; verify important claims on the official product page."
     },
     {
-      "id": "tag:www.producthunt.com,2005:Post/1263406",
-      "title": "Clink",
-      "url": "https://www.producthunt.com/products/clink-custom-keyboards",
-      "publishedAt": "2026-09-29T05:58:55-07:00",
+      "id": "tag:www.producthunt.com,2005:Post/1263749",
+      "title": "Claude Sonnet 5.5",
+      "url": "https://www.producthunt.com/products/claude",
+      "publishedAt": "2026-09-29T15:20:46-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1255956",
+      "title": "LUCI Desktop",
+      "url": "https://www.producthunt.com/products/luci-desktop",
+      "publishedAt": "2026-09-29T15:17:48-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1240198",
+      "title": "Flotnote",
+      "url": "https://www.producthunt.com/products/flotnote",
+      "publishedAt": "2026-09-29T15:16:21-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1257198",
+      "title": "Ricly",
+      "url": "https://www.producthunt.com/products/ricly",
+      "publishedAt": "2026-09-29T15:16:18-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1261903",
+      "title": "GroupShelf",
+      "url": "https://www.producthunt.com/products/groupshelf",
+      "publishedAt": "2026-09-29T15:16:20-07:00",
+      "source": "Product Hunt",
+      "kind": "Discovery",
+      "purpose": "Discover newly launched products.",
+      "why": "Useful for spotting new tools; verify important claims on the official product page."
+    },
+    {
+      "id": "tag:www.producthunt.com,2005:Post/1255815",
+      "title": "ooon.ai",
+      "url": "https://www.producthunt.com/products/ooon-ai",
+      "publishedAt": "2026-09-29T15:16:23-07:00",
       "source": "Product Hunt",
       "kind": "Discovery",
       "purpose": "Discover newly launched products.",
